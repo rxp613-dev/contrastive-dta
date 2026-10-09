@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-09-08",
+  "n_10_batch": {
+    "directory_pattern": "KIBA_alpha050_lr0.0001_seed*",
+    "true_alpha": 0.05,
+    "beta": 0.05,
+    "weight_decay": 0.0001,
+    "augmentation": "noise",
+    "n_seeds": 10,
+    "seeds": [
+      7,
+      13,
+      42,
+      101,
+      123,
+      555,
+      999,
+      2024,
+      2026,
+      3407
+    ],
+    "mean_test_mse": 0.35788488388061523,
+    "std_test_mse": 0.034458276065942095,
+    "improvement_vs_e0": "+13.97%",
+    "status": "EXCLUDED",
+    "rationale": "Uses beta=0.05 which contradicts Finding 1 (InfoNCE alone is sufficient)"
+  },
+  "authoritative_scan": {
+    "directory_pattern": "GIN_KIBA_alpha*_seed*",
+    "model": "GIN",
+    "beta": 0.0,
+    "weight_decay": 0.0001,
+    "augmentation": "noise",
+    "n_seeds_per_alpha": 5,
+    "seeds": [
+      7,
+      42,
+      123,
+      2024,
+      3407
+    ],
+    "alpha_values": [
+      0.001,
+      0.005,
+      0.01,
+      0.03,
+      0.05,
+      0.1
+    ],
+    "e0_baseline": {
+      "directory_pattern": "KIBA_E0_lr0.0001_seed*",
+      "use_contrastive": false,
+      "n_seeds": 5,
+      "mean_test_mse": 0.41600403785705564,
+      "std_test_mse": 0.02597741158171373
+    },
+    "scan_results": {
+      "0.001": {
+        "mean": 0.5632897019386292,
+        "std": 0.06990674228192781,
+        "n": 5
+      },
+      "0.005": {
+        "mean": 0.558522629737854,
+        "std": 0.05259035085562573,
+        "n": 5
+      },
+      "0.01": {
+        "mean": 0.5182562351226807,
+        "std": 0.09391730231947541,
+        "n": 5
+      },
+      "0.03": {
+        "mean": 0.5139294624328613,
+        "std": 0.1378048563209337,
+        "n": 5
+      },
+      "0.05": {
+        "mean": 0.46383780241012573,
+        "std": 0.1127366403648281,
+        "n": 5
+      },
+      "0.1": {
+        "mean": 0.34213446974754336,
+        "std": 0.166235789207789,
+        "n": 5
+      }
+    },
+    "table16_consistency": "VERIFIED"
+  },
+  "conclusions": [
+    "n=10\u6279\u6b21(KIBA_alpha050_lr0.0001)\u4f7f\u7528beta=0.05,\u4e0eFinding 1\u77db\u76fe,\u88c1\u51b3\u6392\u9664",
+    "\u5f53\u524dTable 16\u57fa\u4e8eGIN_KIBA_alpha*\u626b\u63cf(GIN, beta=0.0, n=5),\u4e0eFinding 1\u4e00\u81f4",
+    "Table 16\u6570\u503c\u4e0e\u5b9e\u9645\u76ee\u5f55\u6570\u636e100%\u4e00\u81f4(\u5df2\u9a8c\u8bc1)",
+    "\u65e7\u7248\u672c\u58f0\u79f0\u7684+13.97% improvement at alpha=0.50 (n=10)\u5b8c\u5168\u65e0\u6548",
+    "\u76ee\u5f55\u547d\u540d\u6df7\u4e71\u662f\u672c\u9879\u76ee\u53cd\u590d\u51fa\u73b0alpha\u9519\u8bef\u7684\u91cd\u8981\u6839\u6e90"
+  ]
+}

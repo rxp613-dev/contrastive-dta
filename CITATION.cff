@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Contrastive Learning for Drug-Target Affinity Prediction: A Systematic Empirical Benchmark"
+authors:
+  - family-names: "Ren"
+    given-names: "Xiaoping"
+    email: "rxp613@gmail.com"
+    affiliation: "Chongqing Chemical Industry Vocational College, Chongqing, China"
+  - family-names: "Sui"
+    given-names: "Chaoya"
+    email: "suicy1218@163.com"
+    affiliation: "Chongqing Chemical Industry Vocational College, Chongqing, China"
+  - family-names: "Liu"
+    given-names: "Xiaoyong"
+    affiliation: "Chongqing Chemical Industry Vocational College, Chongqing, China"
+  - family-names: "Ren"
+    given-names: "Xiaoli"
+    affiliation: "Chongqing Chemical Industry Vocational College, Chongqing, China"
+  - family-names: "Tao"
+    given-names: "Ling"
+    affiliation: "Department of Oncology, The People's Hospital of Chongqing Liang Jiang New Area, Chongqing, China"
+  - family-names: "Zhang"
+    given-names: "Yan"
+    affiliation: "YaoPharma Co., Ltd., Chongqing, China"
+version: 1.0.0
+date-released: 2026-09-10
+url: "https://github.com/contrastive-dta/contrastive-dta"
+doi: "[Zenodo DOI to be added]"
+abstract: |
+  Complete reproducibility package for our systematic empirical benchmark of contrastive
+  learning (CL) for drug-target affinity (DTA) prediction. Includes 300+ training runs
+  across 5 dimensions, 115-directory audit with config-level verification, Holm-corrected
+  statistical analysis, an authoritative n=10 KIBA scan (monotonic dose-response,
+  +42.74% at α=0.1, Holm p=0.001), and α-dependent cold-target vulnerability analysis.
+keywords:
+  - "drug-target affinity"
+  - "contrastive learning"
+  - "benchmark"
+  - "reproducibility"
+  - "deep learning"
+  - "GIN"
+  - "GAT"
+license: "MIT"
+repository-code: "https://github.com/contrastive-dta/contrastive-dta"

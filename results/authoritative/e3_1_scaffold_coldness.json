@@ -1,0 +1,23 @@
+{
+  "script": "scripts/e3_1_scaffold_coldness.py",
+  "split_dir": "/home/rxp/dta2/data/cold_start_scaffold",
+  "val": {
+    "n_drugs": 7,
+    "max_tanimoto_median": 0.20952380952380953,
+    "max_tanimoto_mean": 0.2536084871622494,
+    "max_tanimoto_min": 0.17567567567567569,
+    "max_tanimoto_max": 0.40540540540540543,
+    "frac_below_03": 0.7142857142857143,
+    "frac_below_04": 0.8571428571428571
+  },
+  "test": {
+    "n_drugs": 14,
+    "max_tanimoto_median": 0.3062346588119784,
+    "max_tanimoto_mean": 0.3346000022106326,
+    "max_tanimoto_min": 0.1834862385321101,
+    "max_tanimoto_max": 0.6923076923076923,
+    "frac_below_03": 0.5,
+    "frac_below_04": 0.7142857142857143
+  },
+  "acceptance_median_below_0.3": false
+}
