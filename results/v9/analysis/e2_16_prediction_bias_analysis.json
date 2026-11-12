@@ -1,0 +1,73 @@
+{
+  "overall": {
+    "n_molecules": 1827,
+    "mean_error": -1.6642764473222418,
+    "median_error": -1.7403159427642825,
+    "std_error": 1.2353397744438444,
+    "mae": 1.8111545071604478
+  },
+  "compression_effect": {
+    "slope": 0.18021566076089146,
+    "intercept": 4.025812101038588,
+    "r_squared": 0.09270342507479104,
+    "p_value": 1.7045715943598905e-40,
+    "confirmed": true
+  },
+  "activity_bins": {
+    "<6.0": {
+      "n": 446,
+      "mean_error": -0.27369576349386715,
+      "std_error": 1.0376609028526675,
+      "median_error": -0.3566768741607671,
+      "mae": 0.8236368934776751,
+      "spearman_rho": 0.08000087673649856,
+      "frac_overestimated": 0.3452914798206278
+    },
+    "6.0-6.5": {
+      "n": 197,
+      "mean_error": -1.1383768206078388,
+      "std_error": 0.7085662711589119,
+      "median_error": -1.1357171821594232,
+      "mae": 1.1922311760084279,
+      "spearman_rho": -0.024832506758808617,
+      "frac_overestimated": 0.04060913705583756
+    },
+    "6.5-7.0": {
+      "n": 235,
+      "mean_error": -1.48932331470733,
+      "std_error": 0.6757978885230675,
+      "median_error": -1.4247546195983887,
+      "mae": 1.5146172423261277,
+      "spearman_rho": -0.03938359224111405,
+      "frac_overestimated": 0.02127659574468085
+    },
+    "7.0-7.5": {
+      "n": 282,
+      "mean_error": -1.9102978480792212,
+      "std_error": 0.6854080959722583,
+      "median_error": -1.8496079730987551,
+      "mae": 1.9334151897362784,
+      "spearman_rho": 0.0210753843423748,
+      "frac_overestimated": 0.0070921985815602835
+    },
+    "\u22657.5": {
+      "n": 667,
+      "mean_error": -2.707060799048222,
+      "std_error": 0.6752638054198116,
+      "median_error": -2.7012948989868164,
+      "mae": 2.707060799048222,
+      "spearman_rho": 0.2845062319910198,
+      "frac_overestimated": 0.0
+    }
+  },
+  "scaffold_analysis": {
+    "n_scaffolds_total": 512,
+    "n_scaffolds_filtered": 127,
+    "n_overestimated": 2,
+    "n_underestimated": 110,
+    "n_accurate": 15,
+    "mean_scaffold_error": -1.717303104671374,
+    "std_scaffold_error": 1.0928171503832707,
+    "mean_scaffold_mae": 1.8371016108501124
+  }
+}

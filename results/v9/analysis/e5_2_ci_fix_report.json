@@ -1,0 +1,325 @@
+{
+  "script": "scripts/e5_2_canonical_ci_fix.py",
+  "date": "2026-10-09",
+  "updated": [
+    {
+      "name": "E0",
+      "old_mean": "0.551611",
+      "new_mean": "0.884584",
+      "new_std": "0.003287"
+    },
+    {
+      "name": "E1",
+      "old_mean": "0.555230",
+      "new_mean": "0.887107",
+      "new_std": "0.002458"
+    },
+    {
+      "name": "E2",
+      "old_mean": "0.559119",
+      "new_mean": "0.889819",
+      "new_std": "0.002355"
+    },
+    {
+      "name": "E3",
+      "old_mean": "0.557759",
+      "new_mean": "0.888870",
+      "new_std": "0.003407"
+    },
+    {
+      "name": "E4",
+      "old_mean": "0.560051",
+      "new_mean": "0.890468",
+      "new_std": "0.002708"
+    },
+    {
+      "name": "E5",
+      "old_mean": "0.557998",
+      "new_mean": "0.889037",
+      "new_std": "0.002069"
+    },
+    {
+      "name": "E6",
+      "old_mean": "0.553127",
+      "new_mean": "0.885641",
+      "new_std": "0.003406"
+    },
+    {
+      "name": "E7_alpha001",
+      "old_mean": "0.779810",
+      "new_mean": "0.890167",
+      "new_std": "0.003982"
+    },
+    {
+      "name": "E7_alpha001_old",
+      "old_mean": "0.563306",
+      "new_mean": "0.892737",
+      "new_std": "0.003667"
+    },
+    {
+      "name": "E7_alpha005",
+      "old_mean": "0.780585",
+      "new_mean": "0.891248",
+      "new_std": "0.003328"
+    },
+    {
+      "name": "E7_alpha005_old",
+      "old_mean": "0.559269",
+      "new_mean": "0.889924",
+      "new_std": "0.001379"
+    },
+    {
+      "name": "E7_alpha050",
+      "old_mean": "0.544903",
+      "new_mean": "0.879907",
+      "new_std": "0.003151"
+    },
+    {
+      "name": "E8_alpha0",
+      "old_mean": "0.776345",
+      "new_mean": "0.885338",
+      "new_std": "0.002090"
+    },
+    {
+      "name": "E8_alpha00000",
+      "old_mean": "0.774982",
+      "new_mean": "0.883436",
+      "new_std": "0.002795"
+    },
+    {
+      "name": "E8_alpha0001",
+      "old_mean": "0.776541",
+      "new_mean": "0.885611",
+      "new_std": "0.003175"
+    },
+    {
+      "name": "E8_alpha0003",
+      "old_mean": "0.776970",
+      "new_mean": "0.886209",
+      "new_std": "0.001832"
+    },
+    {
+      "name": "E8_alpha00100",
+      "old_mean": "0.779732",
+      "new_mean": "0.890060",
+      "new_std": "0.002364"
+    },
+    {
+      "name": "E8_alpha00300",
+      "old_mean": "0.780195",
+      "new_mean": "0.890706",
+      "new_std": "0.003966"
+    },
+    {
+      "name": "E8_alpha0050",
+      "old_mean": "0.779317",
+      "new_mean": "0.889481",
+      "new_std": "0.002264"
+    },
+    {
+      "name": "E8_alpha0100",
+      "old_mean": "0.778328",
+      "new_mean": "0.888102",
+      "new_std": "0.002156"
+    },
+    {
+      "name": "E8_alpha0300",
+      "old_mean": "0.773646",
+      "new_mean": "0.881574",
+      "new_std": "0.003159"
+    },
+    {
+      "name": "GAT_E0",
+      "old_mean": "0.758439",
+      "new_mean": "0.860366",
+      "new_std": "0.005201"
+    },
+    {
+      "name": "GAT_E7_alpha0",
+      "old_mean": "0.778322",
+      "new_mean": "0.888094",
+      "new_std": "0.001892"
+    },
+    {
+      "name": "GAT_E7_alpha001",
+      "old_mean": "0.749749",
+      "new_mean": "0.848251",
+      "new_std": "0.006545"
+    },
+    {
+      "name": "GAT_E7_alpha003",
+      "old_mean": "0.777207",
+      "new_mean": "0.886539",
+      "new_std": "0.002344"
+    },
+    {
+      "name": "GAT_E7_alpha10",
+      "old_mean": "0.779956",
+      "new_mean": "0.890372",
+      "new_std": "0.004814"
+    },
+    {
+      "name": "GAT_E7_alpha30",
+      "old_mean": "0.780104",
+      "new_mean": "0.890578",
+      "new_std": "0.002950"
+    },
+    {
+      "name": "GAT_E7_alpha50",
+      "old_mean": "0.780098",
+      "new_mean": "0.890569",
+      "new_std": "0.001825"
+    },
+    {
+      "name": "GAT_InfoNCE",
+      "old_mean": "0.751647",
+      "new_mean": "0.850897",
+      "new_std": "0.006178"
+    },
+    {
+      "name": "GIN_KIBA_alpha001",
+      "old_mean": "0.697585",
+      "new_mean": "0.703313",
+      "new_std": "0.016719"
+    },
+    {
+      "name": "GIN_KIBA_alpha005",
+      "old_mean": "0.703654",
+      "new_mean": "0.709558",
+      "new_std": "0.040144"
+    },
+    {
+      "name": "GIN_KIBA_alpha10",
+      "old_mean": "0.708249",
+      "new_mean": "0.714287",
+      "new_std": "0.045686"
+    },
+    {
+      "name": "GIN_KIBA_alpha100",
+      "old_mean": "0.774757",
+      "new_mean": "0.782722",
+      "new_std": "0.070884"
+    },
+    {
+      "name": "GIN_KIBA_alpha30",
+      "old_mean": "0.709050",
+      "new_mean": "0.715110",
+      "new_std": "0.053159"
+    },
+    {
+      "name": "GIN_KIBA_alpha50",
+      "old_mean": "0.722567",
+      "new_mean": "0.729020",
+      "new_std": "0.048413"
+    },
+    {
+      "name": "KIBA_E0",
+      "old_mean": "0.696087",
+      "new_mean": "0.701772",
+      "new_std": "0.014698"
+    },
+    {
+      "name": "KIBA_E0_fixed100",
+      "old_mean": "0.702605",
+      "new_mean": "0.708479",
+      "new_std": "0.028099"
+    },
+    {
+      "name": "KIBA_E2",
+      "old_mean": "0.707601",
+      "new_mean": "0.713620",
+      "new_std": "0.049999"
+    },
+    {
+      "name": "KIBA_E2_lr1e4",
+      "old_mean": "0.752743",
+      "new_mean": "0.760071",
+      "new_std": "0.019330"
+    },
+    {
+      "name": "KIBA_E3",
+      "old_mean": "0.713914",
+      "new_mean": "0.720115",
+      "new_std": "0.049848"
+    },
+    {
+      "name": "KIBA_E3_lr1e4",
+      "old_mean": "0.747931",
+      "new_mean": "0.755119",
+      "new_std": "0.019086"
+    },
+    {
+      "name": "KIBA_E5",
+      "old_mean": "0.726965",
+      "new_mean": "0.733545",
+      "new_std": "0.047818"
+    },
+    {
+      "name": "KIBA_E5_lr1e4",
+      "old_mean": "0.752988",
+      "new_mean": "0.760323",
+      "new_std": "0.013423"
+    },
+    {
+      "name": "KIBA_E7_best",
+      "old_mean": "0.734027",
+      "new_mean": "0.740811",
+      "new_std": "0.053403"
+    },
+    {
+      "name": "KIBA_E7_fixed100",
+      "old_mean": "0.707668",
+      "new_mean": "0.713688",
+      "new_std": "0.053477"
+    },
+    {
+      "name": "X1_arbitration_a0100",
+      "old_mean": "0.779221",
+      "new_mean": "0.889345",
+      "new_std": "0.000730"
+    },
+    {
+      "name": "X1_arbitration_a0500",
+      "old_mean": "0.779215",
+      "new_mean": "0.889339",
+      "new_std": "0.004074"
+    }
+  ],
+  "unchanged": [
+    {
+      "name": "KIBA_E0_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha001_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha005_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha10_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha30_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha50_n10",
+      "reason": "n10行已为新口径"
+    },
+    {
+      "name": "GIN_KIBA_alpha100_n10",
+      "reason": "n10行已为新口径"
+    }
+  ],
+  "flagged": [],
+  "skipped": [
+    {
+      "name": "GIN_KIBA_alpha0_POLLUTED_EXCLUDE",
+      "reason": "已排除污染行"
+    }
+  ]
+}

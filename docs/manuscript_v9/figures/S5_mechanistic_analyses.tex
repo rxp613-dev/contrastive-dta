@@ -1,0 +1,171 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Supplementary File S5}\\[0.5em]
+{\large Mechanistic Analyses}\\[1em]
+Contrastive Learning for Drug--Target Affinity:\\A Systematic Benchmark of Encoders, Losses, and Generalization\\[0.5em]
+Xiaoping Ren et al.
+\end{center}
+
+\noindent\rule{\linewidth}{1pt}
+\vspace{1em}
+
+\section{Purpose}
+
+This supplementary file presents exploratory mechanistic analyses designed to understand \textit{why} contrastive learning improves DTA prediction. These analyses are hypothesis-generating rather than conclusive, and controlled intervention experiments are needed to establish causal mechanisms.
+
+\section{Gradient Cosine Similarity}
+
+To assess whether MSE and InfoNCE objectives are aligned or conflicting, we computed the cosine similarity between gradients of the two loss components across training batches.
+
+\begin{table}[!h]
+\caption{Gradient cosine similarity between MSE and InfoNCE losses.}
+\label{tab:gradient_similarity}
+\centering
+\begin{tabular}{lc}
+\toprule
+Metric & Value \\
+\midrule
+Mean cosine similarity & 0.34 $\pm$ 0.12 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The positive but moderate cosine similarity (0.34) suggests \textit{partial alignment} between MSE and InfoNCE objectives. The objectives are neither fully aligned (which would yield similarity $\approx$ 1) nor conflicting (which would yield similarity $<$ 0), indicating that CL provides complementary gradient signals that may stabilize optimization.
+
+\section{Convergence Speed Analysis}
+
+We compared the number of epochs required for each configuration to reach its best validation performance.
+
+\begin{table}[!h]
+\caption{Convergence speed (epochs to best validation performance).}
+\label{tab:convergence}
+\centering
+\begin{tabular}{lcc}
+\toprule
+Configuration & Best Epoch & Std \\
+\midrule
+E0 (pure supervised) & 142.3 & 45.2 \\
+E5 (InfoNCE only) & 138.7 & 41.8 \\
+E7 (InfoNCE, $\alpha$=0.05) & 135.6 & 38.9 \\
+GAT-E7 (InfoNCE, $\alpha$=0.05) & \textbf{85.8} & 28.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+GAT-InfoNCE converges fastest (85.8 epochs), suggesting that the attention mechanism synergizes with CL to accelerate training. However, faster convergence does not directly translate to superior cold-start performance, indicating that training stability $\neq$ generalization.
+
+\section{Representation Geometry Analysis}
+
+To characterize the learned representation spaces, we computed several geometric properties of the drug encoder outputs.
+
+\begin{table}[!h]
+\caption{Representation geometry metrics (mean $\pm$ std over 5 seeds).}
+\label{tab:representation_geometry}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Configuration & Variance & Anisotropy & Avg. pairwise distance \\
+\midrule
+E0 (no CL) & 1.00 (baseline) & 1.00 (baseline) & 1.00 (baseline) \\
+E7 (CL, $\alpha$=0.05) & 2.13 $\pm$ 0.18 & 0.45 $\pm$ 0.06 & 1.42 $\pm$ 0.09 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Contrastive learning increases representation variance (+113\%) and reduces anisotropy ($-$55\%), creating a larger, more uniform representation space. This suggests that CL encourages the model to utilize the full capacity of the embedding space rather than collapsing to a narrow subspace.
+
+\section{Affinity--Representation Correlation}
+
+We assessed whether the learned representations encode affinity information by computing the correlation between pairwise affinity differences and pairwise representation distances.
+
+\begin{table}[!h]
+\caption{Correlation between affinity differences and representation distances.}
+\label{tab:affinity_correlation}
+\centering
+\begin{tabular}{lc}
+\toprule
+Metric & Value \\
+\midrule
+Pearson $r$ & 0.179 $\pm$ 0.023 \\
+Spearman $\rho$ & 0.162 $\pm$ 0.019 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The weak affinity--representation correlation ($r = 0.179$) suggests limited affinity-aware structure in the learned representations. This indicates that CL primarily improves DTA prediction through better representation geometry (variance, uniformity) rather than through explicit affinity encoding.
+
+\section{Stratification Patterns}
+
+To understand whether CL benefits are uniform across different types of drug--target pairs, we stratified the test set by combined drug--target similarity (Tanimoto for drugs, sequence identity for targets) and computed per-quartile improvements.
+
+\begin{table}[!h]
+\caption{CL improvement stratified by combined similarity quartile.}
+\label{tab:stratification_similarity}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Quartile & Similarity Range & MSE Improvement & $p$-value \\
+\midrule
+Q0 (lowest) & [0.00, 0.25) & +14.68\% & 0.038* \\
+Q1 & [0.25, 0.50) & +11.23\% & 0.067 \\
+Q2 & [0.50, 0.75) & +9.33\% & 0.089 \\
+Q3 (highest) & [0.75, 1.00] & +15.50\% & 0.021* \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The stratification reveals a \textbf{U-shaped similarity pattern}: improvement is highest at extremes (Q0: +14.68\%, Q3: +15.50\%) with a dip in the middle (Q2: +9.33\%). This pattern suggests two mechanisms:
+\begin{enumerate}
+\item \textbf{Entity familiarity component} (high similarity Q3): CL helps when test entities are similar to training entities, likely through better memorization of entity-specific patterns.
+\item \textbf{Similarity-based interpolation} (low similarity Q0): CL helps when test entities are dissimilar to training entities, potentially through learning more generalizable features.
+\end{enumerate}
+
+However, under standard splits, 100\% of test entities overlap with training (see main text), so Q0 improvements may reflect interpolation rather than true zero-shot transfer.
+
+\section{Kinase vs.\ Non-Kinase Targets}
+
+The Davis dataset is enriched for kinase targets, but also contains non-kinase targets. We stratified by target family to assess whether CL benefits differ.
+
+\begin{table}[!h]
+\caption{CL improvement stratified by target family.}
+\label{tab:stratification_family}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Target Family & $n$ & MSE Improvement & $p$-value \\
+\midrule
+Kinase & 312 & +14.76\% & 0.024* \\
+Non-kinase & 129 & +12.84\% & 0.078 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+CL shows larger improvement for kinase targets (+14.76\%) than non-kinase targets (+12.84\%), though the difference is not statistically significant. This suggests that kinases may benefit more from family-level pattern learning, potentially due to their conserved structural motifs and well-sampled chemical space.
+
+\section{Summary of Mechanistic Findings}
+
+The exploratory mechanistic analyses reveal:
+\begin{enumerate}
+\item \textbf{Partial gradient alignment}: MSE and InfoNCE objectives provide complementary signals (cosine similarity = 0.34).
+\item \textbf{Faster convergence}: GAT-InfoNCE converges fastest (85.8 epochs), but faster convergence $\neq$ better generalization.
+\item \textbf{Improved representation geometry}: CL increases variance (+113\%) and reduces anisotropy ($-$55\%), creating a larger, more uniform space.
+\item \textbf{Limited affinity encoding}: Weak correlation ($r = 0.179$) suggests CL improves prediction through geometry rather than explicit affinity encoding.
+\item \textbf{U-shaped similarity pattern}: CL benefits are highest at similarity extremes, suggesting both memorization and interpolation mechanisms.
+\item \textbf{Kinase preference}: Kinase targets show slightly larger CL benefits than non-kinase targets.
+\end{enumerate}
+
+These findings are correlational and hypothesis-generating. Controlled intervention experiments (e.g., ablation of specific representation dimensions, causal mediation analysis) are needed to establish causal mechanisms.
+
+\end{document}

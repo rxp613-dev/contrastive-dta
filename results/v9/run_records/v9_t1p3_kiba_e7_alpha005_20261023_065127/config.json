@@ -1,0 +1,20 @@
+{
+  "config": {
+    "batch_size": 512,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "lr_patience": 30,
+    "early_stop_patience": 150,
+    "max_epochs": 500,
+    "alpha": 0.05,
+    "use_contrastive": true,
+    "device": "cuda"
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    456,
+    789
+  ]
+}

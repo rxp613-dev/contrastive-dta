@@ -1,0 +1,16 @@
+% Table 2 with 95% CI
+\begin{table}[h]
+\centering
+\caption{Main results on Davis dataset (GIN encoder). Values shown as mean $\pm$ 95\% CI.}
+\label{tab:main_results_ci}
+\begin{tabular}{lcc}
+\toprule
+Model & MSE & Concordance Index (CI) \\
+\midrule
+E0 (baseline) & 0.2513 $\pm$ 0.0161 & 0.7744 $\pm$ 0.0102 \\
+E1 (InfoNCE) & 0.2190 $\pm$ 0.0062 & 0.7881 $\pm$ 0.0081 \\
+E5 (Uniformity) & 0.2224 $\pm$ 0.0055 & 0.7853 $\pm$ 0.0072 \\
+E7 (full) & 0.2180 $\pm$ 0.0053 & 0.7895 $\pm$ 0.0068 \\
+\bottomrule
+\end{tabular}
+\end{table}

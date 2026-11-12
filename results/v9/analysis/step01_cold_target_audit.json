@@ -1,0 +1,31 @@
+{
+  "step": "0.1",
+  "title": "Cold-Target Data Inconsistency Audit",
+  "date": "2026-09-04",
+  "findings": {
+    "batch1_protocol_wrong": true,
+    "batch1_lr": 0.0001,
+    "batch1_batch_size": 256,
+    "batch1_beta": 0.05,
+    "batch1_gamma": 0.05,
+    "batch1_e0_mse": 0.4374,
+    "batch1_e7_mse": 0.5459,
+    "batch1_degradation": -24.81,
+    "batch2_protocol_correct": true,
+    "batch2_alpha0_mse": 0.4846,
+    "batch2_alpha005_mse": 0.5599,
+    "batch2_degradation": -15.5,
+    "batch3_protocol_correct": true,
+    "batch3_baseline_mse": 0.2638,
+    "batch3_has_no_cl_baseline": false,
+    "root_cause": "Batch 1 uses wrong lr/batch_size and beta/gamma",
+    "true_degradation": 15.5
+  },
+  "conclusion": "Paper claim -24.81% is inflated; true degradation ~15.5%",
+  "required_actions": [
+    "Re-run GAT cold-target E0/E7 with correct protocol",
+    "Update Table 10/11",
+    "Update Appendix B",
+    "Update all downstream references"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "threshold": 10,
+  "common_scaffolds": {
+    "n_molecules": 101,
+    "n_unique_scaffolds": 4,
+    "mean_scaffold_freq": 68.15841584158416,
+    "activity_rate": 0.8514851485148515,
+    "spearman_rho": -0.18044674909422087,
+    "spearman_p": 0.07095766975374367,
+    "ef_1pct": 0.0
+  },
+  "rare_scaffolds": {
+    "n_molecules": 1726,
+    "n_unique_scaffolds": 508,
+    "mean_scaffold_freq": 0.0,
+    "activity_rate": 0.7502896871378911,
+    "spearman_rho": 0.37046372602123995,
+    "spearman_p": 2.8119874636353614e-57,
+    "ef_1pct": 1.0192141721553485
+  },
+  "comparison": {
+    "delta_rho": -0.5509104751154608,
+    "delta_ef_1pct": -1.0192141721553485
+  }
+}

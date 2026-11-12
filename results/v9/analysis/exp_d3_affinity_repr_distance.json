@@ -1,0 +1,92 @@
+{
+  "method": "random sampling with 10000 pairs",
+  "n_pairs": 9998,
+  "E0": {
+    "drug": {
+      "cosine": {
+        "pearson_r": 0.11180390417575836,
+        "pearson_p": 3.5188365087345376e-29,
+        "spearman_rho": 0.11301840045389844,
+        "spearman_p": 8.740000028808413e-30
+      },
+      "euclidean": {
+        "pearson_r": 0.14349804818630219,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.17115707308495773,
+        "spearman_p": 1.3487312866379043e-66
+      }
+    },
+    "protein": {
+      "cosine": {
+        "pearson_r": 0.08519645780324936,
+        "pearson_p": 1.4229281665506615e-17,
+        "spearman_rho": 0.07602466569478178,
+        "spearman_p": 2.703609951636728e-14
+      },
+      "euclidean": {
+        "pearson_r": 0.1943521499633789,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.17926299871256302,
+        "spearman_p": 5.61078443222519e-73
+      }
+    },
+    "fused": {
+      "cosine": {
+        "pearson_r": 0.11940817534923553,
+        "pearson_p": 4.4683199830723884e-33,
+        "spearman_rho": 0.1209815289266506,
+        "spearman_p": 6.479114758635199e-34
+      },
+      "euclidean": {
+        "pearson_r": 0.15755268931388855,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.18244511997878632,
+        "spearman_p": 1.4407141637324603e-75
+      }
+    }
+  },
+  "E7": {
+    "drug": {
+      "cosine": {
+        "pearson_r": 0.0139878885820508,
+        "pearson_p": 0.16194990277290344,
+        "spearman_rho": 0.017638131334825093,
+        "spearman_p": 0.07780719797559554
+      },
+      "euclidean": {
+        "pearson_r": 0.08492320775985718,
+        "pearson_p": 1.8037232430812854e-17,
+        "spearman_rho": 0.09342208539978883,
+        "spearman_p": 7.929808643261147e-21
+      }
+    },
+    "protein": {
+      "cosine": {
+        "pearson_r": 0.015159054659307003,
+        "pearson_p": 0.129608616232872,
+        "spearman_rho": 0.017208632590673848,
+        "spearman_p": 0.08532281281046053
+      },
+      "euclidean": {
+        "pearson_r": 0.19619779288768768,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.18391823190716722,
+        "spearman_p": 8.769380145376441e-77
+      }
+    },
+    "fused": {
+      "cosine": {
+        "pearson_r": 0.014322075992822647,
+        "pearson_p": 0.15215659141540527,
+        "spearman_rho": 0.017381655921427687,
+        "spearman_p": 0.08222742420484327
+      },
+      "euclidean": {
+        "pearson_r": 0.09023074805736542,
+        "pearson_p": 1.5741471946613155e-19,
+        "spearman_rho": 0.0975981891649923,
+        "spearman_p": 1.3588846104466833e-22
+      }
+    }
+  }
+}

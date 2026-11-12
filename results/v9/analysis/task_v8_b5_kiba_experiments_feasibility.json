@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-21",
+  "task": "B5.2/B5.3 KIBA Supplementary Experiments Feasibility",
+  "B5.2_kiba_cold_start": {
+    "description": "Run cold-drug, cold-target, cold-both splits on KIBA dataset",
+    "computational_cost": {
+      "estimated_gpu_hours": "150-200 hours (3 splits × 5 seeds × 2 architectures × ~4-5 hours per run)",
+      "gpu_type": "RTX 3090 24GB",
+      "wall_time": "7-10 days on single GPU"
+    },
+    "data_requirements": {
+      "cold_drug_test_size": "Unknown - need to compute Bemis-Murcko scaffolds for KIBA drugs",
+      "cold_target_test_size": "Unknown - need to define cold-target split for 229 KIBA targets",
+      "cold_both_test_size": "Unknown - intersection of cold-drug and cold-target"
+    },
+    "technical_challenges": [
+      "KIBA dataset is 4x larger than Davis (118K vs 30K pairs)",
+      "Training instability observed in Davis may be worse on KIBA",
+      "No existing split definitions for KIBA cold-start",
+      "Need to implement cold-start split logic for KIBA",
+      "Statistical power concerns (n=5 seeds may be insufficient)"
+    ],
+    "scientific_value": {
+      "pros": [
+        "Directly addresses reviewer concern about generalization",
+        "Completes the 'Generalization' claim in title",
+        "Provides KIBA counterpart to Davis cold-start analysis"
+      ],
+      "cons": [
+        "KIBA already shows anomalous baseline (MSE=0.522 vs published 0.147)",
+        "Cold-start results may be confounded by baseline instability",
+        "Limited by same statistical power issues as Davis (n=5)"
+      ]
+    },
+    "feasibility": "LOW",
+    "recommendation": "NOT RECOMMENDED - High computational cost, limited scientific value given KIBA baseline anomaly. Better to acknowledge limitation and suggest as future work."
+  },
+  "B5.3_kiba_scaffold_split": {
+    "description": "Run Bemis-Murcko scaffold split on KIBA dataset",
+    "computational_cost": {
+      "estimated_gpu_hours": "50-70 hours (1 split × 5 seeds × 2 architectures × ~5-7 hours per run)",
+      "gpu_type": "RTX 3090 24GB",
+      "wall_time": "3-4 days on single GPU"
+    },
+    "data_requirements": {
+      "scaffold_split_definition": "Need to compute Bemis-Murcko scaffolds for 2111 KIBA drugs",
+      "train_val_test_split": "70/10/20 split with no scaffold overlap"
+    },
+    "technical_challenges": [
+      "KIBA has 2111 drugs vs Davis 68 drugs - more scaffolds to compute",
+      "Need to ensure sufficient drugs per scaffold for 70/10/20 split",
+      "RDKit scaffold computation for 2111 drugs is feasible but time-consuming",
+      "Risk of imbalanced split (some scaffolds may have very few drugs)"
+    ],
+    "scientific_value": {
+      "pros": [
+        "Addresses reviewer concern about scaffold generalization",
+        "Provides KIBA counterpart to Davis scaffold analysis",
+        "Tests if Davis scaffold degradation (-38.22%) is dataset-specific"
+      ],
+      "cons": [
+        "KIBA baseline anomaly may confound results",
+        "Limited by same statistical power issues (n=5)",
+        "Davis scaffold result was not significant (p=0.075)"
+      ]
+    },
+    "feasibility": "MEDIUM-LOW",
+    "recommendation": "NOT RECOMMENDED - Moderate computational cost but limited scientific value given KIBA baseline anomaly and non-significant Davis result. Better to acknowledge limitation."
+  },
+  "overall_assessment": {
+    "conclusion": "Neither B5.2 nor B5.3 is recommended",
+    "reasons": [
+      "KIBA baseline is 3.6x worse than published GraphDTA-GIN (MSE 0.522 vs 0.147)",
+      "Any cold-start/scaffold results on KIBA would be confounded by this anomaly",
+      "High computational cost (200-270 GPU hours total)",
+      "Limited scientific value given existing Davis results",
+      "Statistical power concerns (n=5 seeds)"
+    ],
+    "alternative_approach": "Add to Limitations section: 'Cold-start and scaffold split evaluations were performed only on Davis due to computational constraints and KIBA baseline instability. Future work should extend these analyses to KIBA with improved training protocols.'",
+    "estimated_time_if_proceeded": "10-14 days (including implementation, debugging, analysis)",
+    "estimated_cost_if_proceeded": "200-270 GPU hours on RTX 3090"
+  }
+}

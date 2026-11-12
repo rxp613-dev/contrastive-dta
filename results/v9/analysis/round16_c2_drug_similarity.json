@@ -1,0 +1,427 @@
+{
+  "n_test_drugs": 68,
+  "similarity_stats": {
+    "mean": 0.34895015182521943,
+    "median": 0.2972972972972973,
+    "std": 0.1553119368243325,
+    "min": 0.16470588235294117,
+    "max": 0.7466666666666667,
+    "quantiles": {
+      "q10": 0.1917044905842588,
+      "q25": 0.23076923076923078,
+      "q50": 0.2972972972972973,
+      "q75": 0.4098536369012419,
+      "q90": 0.5974025974025974
+    }
+  },
+  "details": [
+    {
+      "test_drug_id": 11364421,
+      "test_smiles": "CCC1C(=O)N(C2=CN=C(N=C2N1C3CCCC3)NC4=C(C=C(C=C4)C(=O)NC5CCN(CC5)C)OC)C",
+      "nearest_train_drug_id": 16038120,
+      "tanimoto_similarity": 0.3238095238095238
+    },
+    {
+      "test_drug_id": 11427553,
+      "test_smiles": "C1CN(CCN1)C(=O)C2=CC=C(C=C2)C=CC3=NNC4=CC=CC=C43",
+      "nearest_train_drug_id": 6450551,
+      "tanimoto_similarity": 0.2972972972972973
+    },
+    {
+      "test_drug_id": 11485656,
+      "test_smiles": "CC1=CC(=C(C=C1)F)NC(=O)NC2=CC=C(C=C2)C3=C4C(=CC=C3)NN=C4N",
+      "nearest_train_drug_id": 11409972,
+      "tanimoto_similarity": 0.21505376344086022
+    },
+    {
+      "test_drug_id": 10138260,
+      "test_smiles": "CC1=C(NC(=C1C(=O)NCC(CN2CCOCC2)O)C)C=C3C4=C(C=CC(=C4)F)NC3=O",
+      "nearest_train_drug_id": 5329102,
+      "tanimoto_similarity": 0.5974025974025974
+    },
+    {
+      "test_drug_id": 24779724,
+      "test_smiles": "CN1C=C(C=N1)C2=NN3C(=NN=C3SC4=CC5=C(C=C4)N=CC=C5)C=C2",
+      "nearest_train_drug_id": 6450551,
+      "tanimoto_similarity": 0.19767441860465115
+    },
+    {
+      "test_drug_id": 9915743,
+      "test_smiles": "CCOC1=C(C=C2C(=C1)N=CC(=C2NC3=CC(=C(C=C3)OCC4=CC=CC=N4)Cl)C#N)NC(=O)C=CCN(C)C",
+      "nearest_train_drug_id": 10184653,
+      "tanimoto_similarity": 0.4205607476635514
+    },
+    {
+      "test_drug_id": 25127112,
+      "test_smiles": "C1CCC(C1)C(CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3.OP(=O)(O)O",
+      "nearest_train_drug_id": 9926791,
+      "tanimoto_similarity": 0.3333333333333333
+    },
+    {
+      "test_drug_id": 9929127,
+      "test_smiles": "CC1=C(C=CC=N1)C(=O)NC2=C3C(=CC(=C2OC)Cl)C4=C(N3)C=NC=C4",
+      "nearest_train_drug_id": 11667893,
+      "tanimoto_similarity": 0.26744186046511625
+    },
+    {
+      "test_drug_id": 5291,
+      "test_smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+      "nearest_train_drug_id": 10074640,
+      "tanimoto_similarity": 0.7466666666666667
+    },
+    {
+      "test_drug_id": 447077,
+      "test_smiles": "CN1C2=NC(=NC=C2C=C(C1=O)C3=C(C=CC=C3Cl)Cl)NC4=CC(=CC=C4)SC",
+      "nearest_train_drug_id": 11712649,
+      "tanimoto_similarity": 0.2558139534883721
+    },
+    {
+      "test_drug_id": 126565,
+      "test_smiles": "CC12C(CC(O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)(CO)O",
+      "nearest_train_drug_id": 44259,
+      "tanimoto_similarity": 0.5584415584415584
+    },
+    {
+      "test_drug_id": 9884685,
+      "test_smiles": "C1COCCN1C2=NC(=NC3=C2OC4=C3C=CC=N4)C5=CC(=CC=C5)O",
+      "nearest_train_drug_id": 17755052,
+      "tanimoto_similarity": 0.26666666666666666
+    },
+    {
+      "test_drug_id": 11712649,
+      "test_smiles": "C1C2=CN=C(N=C2C3=C(C=C(C=C3)Cl)C(=N1)C4=C(C=CC=C4F)F)NC5=CC=C(C=C5)C(=O)O",
+      "nearest_train_drug_id": 447077,
+      "tanimoto_similarity": 0.2558139534883721
+    },
+    {
+      "test_drug_id": 3025986,
+      "test_smiles": "CC(C)(C)C1=CN=C(O1)CSC2=CN=C(S2)NC(=O)C3CCNCC3",
+      "nearest_train_drug_id": 11338033,
+      "tanimoto_similarity": 0.23076923076923078
+    },
+    {
+      "test_drug_id": 208908,
+      "test_smiles": "CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.31683168316831684
+    },
+    {
+      "test_drug_id": 16725726,
+      "test_smiles": "CCN1C2=C(C(=NC=C2OCC3CCCNC3)C#CC(C)(C)O)N=C1C4=NON=C4N",
+      "nearest_train_drug_id": 3025986,
+      "tanimoto_similarity": 0.18811881188118812
+    },
+    {
+      "test_drug_id": 176167,
+      "test_smiles": "CN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CN(C5=CC=CC=C54)C6CCN(CC6)CC7=CC=CC=N7",
+      "nearest_train_drug_id": 153999,
+      "tanimoto_similarity": 0.40540540540540543
+    },
+    {
+      "test_drug_id": 25243800,
+      "test_smiles": "CC(C)N1C2=C(C(=C3C=C4C=C(C=CC4=N3)O)N1)C(=NC=N2)N",
+      "nearest_train_drug_id": 10427712,
+      "tanimoto_similarity": 0.17647058823529413
+    },
+    {
+      "test_drug_id": 11667893,
+      "test_smiles": "CC1(CNC2=C1C=CC(=C2)NC(=O)C3=C(N=CC=C3)NCC4=CC=NC=C4)C",
+      "nearest_train_drug_id": 9929127,
+      "tanimoto_similarity": 0.26744186046511625
+    },
+    {
+      "test_drug_id": 51004351,
+      "test_smiles": "CC12C(C(CC(O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)N(C)C(=O)C9=CC=CC=C9)OC",
+      "nearest_train_drug_id": 44259,
+      "tanimoto_similarity": 0.6923076923076923
+    },
+    {
+      "test_drug_id": 44150621,
+      "test_smiles": "CC(C(=O)O)O.CN1CCN(CC1)C2=CC3=C(C=C2)NC(=C4C(=C5C(=NC4=O)C=CC=C5F)N)N3.O",
+      "nearest_train_drug_id": 16038120,
+      "tanimoto_similarity": 0.21100917431192662
+    },
+    {
+      "test_drug_id": 156422,
+      "test_smiles": "CC1=CC=C(C=C1)N2C(=CC(=N2)C(C)(C)C)NC(=O)NC3=CC=C(C4=CC=CC=C43)OCCN5CCOCC5",
+      "nearest_train_drug_id": 24889392,
+      "tanimoto_similarity": 0.3269230769230769
+    },
+    {
+      "test_drug_id": 3062316,
+      "test_smiles": "CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=NC(=NC(=C3)N4CCN(CC4)CCO)C",
+      "nearest_train_drug_id": 10074640,
+      "tanimoto_similarity": 0.297029702970297
+    },
+    {
+      "test_drug_id": 16007391,
+      "test_smiles": "CCN(CCCOC1=CC2=C(C=C1)C(=NC=N2)NC3=NNC(=C3)CC(=O)NC4=CC(=CC=C4)F)CCO",
+      "nearest_train_drug_id": 156414,
+      "tanimoto_similarity": 0.26785714285714285
+    },
+    {
+      "test_drug_id": 9933475,
+      "test_smiles": "CC1=CC2=C(N1)C=CC(=C2F)OC3=NC=NC4=CC(=C(C=C43)OC)OCCCN5CCCC5",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.43373493975903615
+    },
+    {
+      "test_drug_id": 16722836,
+      "test_smiles": "CC1=CN=C(N=C1NC2=CC(=CC=C2)S(=O)(=O)NC(C)(C)C)NC3=CC=C(C=C3)OCCN4CCCC4",
+      "nearest_train_drug_id": 24889392,
+      "tanimoto_similarity": 0.25925925925925924
+    },
+    {
+      "test_drug_id": 156414,
+      "test_smiles": "C=CC(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.6973684210526315
+    },
+    {
+      "test_drug_id": 151194,
+      "test_smiles": "C1=CC=C2C(=C1)C(=NN=C2NC3=CC=C(C=C3)Cl)CC4=CC=NC=C4",
+      "nearest_train_drug_id": 11667893,
+      "tanimoto_similarity": 0.22666666666666666
+    },
+    {
+      "test_drug_id": 3038525,
+      "test_smiles": "C1=CC(=C(C(=C1)Cl)C2=C3C=CC(=NN3C=NC2=O)SC4=C(C=C(C=C4)F)F)Cl",
+      "nearest_train_drug_id": 447077,
+      "tanimoto_similarity": 0.2222222222222222
+    },
+    {
+      "test_drug_id": 5329102,
+      "test_smiles": "CCN(CC)CCNC(=O)C1=C(NC(=C1C)C=C2C3=C(C=CC(=C3)F)NC2=O)C",
+      "nearest_train_drug_id": 10138260,
+      "tanimoto_similarity": 0.5974025974025974
+    },
+    {
+      "test_drug_id": 153999,
+      "test_smiles": "CN(C)CC1CCN2C=C(C3=CC=CC=C32)C4=C(C5=CN(CCO1)C6=CC=CC=C65)C(=O)NC4=O",
+      "nearest_train_drug_id": 176167,
+      "tanimoto_similarity": 0.40540540540540543
+    },
+    {
+      "test_drug_id": 176870,
+      "test_smiles": "COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.40789473684210525
+    },
+    {
+      "test_drug_id": 42642645,
+      "test_smiles": "COC1=CC2=C(C=CN=C2C=C1OCCCN3CCOCC3)OC4=C(C=C(C=C4)NC(=O)C5(CC5)C(=O)NC6=CC=C(C=C6)F)F",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.48314606741573035
+    },
+    {
+      "test_drug_id": 9926054,
+      "test_smiles": "CC1=CC2=C(C=C1)N=C(C3=NC=C(N23)C)NCCN.Cl",
+      "nearest_train_drug_id": 3081361,
+      "tanimoto_similarity": 0.16470588235294117
+    },
+    {
+      "test_drug_id": 11626560,
+      "test_smiles": "CC(C1=C(C=CC(=C1Cl)F)Cl)OC2=C(N=CC(=C2)C3=CN(N=C3)C4CCNCC4)N",
+      "nearest_train_drug_id": 11234052,
+      "tanimoto_similarity": 0.18556701030927836
+    },
+    {
+      "test_drug_id": 123631,
+      "test_smiles": "COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4",
+      "nearest_train_drug_id": 156414,
+      "tanimoto_similarity": 0.6973684210526315
+    },
+    {
+      "test_drug_id": 11984591,
+      "test_smiles": "CC1(C(=O)NC2=C(O1)C=CC(=N2)NC3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)C.C1=CC=C(C=C1)S(=O)(=O)O",
+      "nearest_train_drug_id": 16038120,
+      "tanimoto_similarity": 0.25225225225225223
+    },
+    {
+      "test_drug_id": 644241,
+      "test_smiles": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)N3C=C(N=C3)C)C(F)(F)F)NC4=NC=CC(=N4)C5=CN=CC=C5",
+      "nearest_train_drug_id": 5291,
+      "tanimoto_similarity": 0.5168539325842697
+    },
+    {
+      "test_drug_id": 24180719,
+      "test_smiles": "CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=NC=C(C=C23)Cl)F",
+      "nearest_train_drug_id": 6918454,
+      "tanimoto_similarity": 0.22093023255813954
+    },
+    {
+      "test_drug_id": 11338033,
+      "test_smiles": "C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl",
+      "nearest_train_drug_id": 3025986,
+      "tanimoto_similarity": 0.23076923076923078
+    },
+    {
+      "test_drug_id": 5328940,
+      "test_smiles": "CN1CCN(CC1)CCCOC2=C(C=C3C(=C2)N=CC(=C3NC4=CC(=C(C=C4Cl)Cl)OC)C#N)OC",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.42857142857142855
+    },
+    {
+      "test_drug_id": 11717001,
+      "test_smiles": "C1CC(=NO)C2=C1C=C(C=C2)C3=CN(N=C3C4=CC=NC=C4)CCO",
+      "nearest_train_drug_id": 10074640,
+      "tanimoto_similarity": 0.18947368421052632
+    },
+    {
+      "test_drug_id": 11409972,
+      "test_smiles": "CCN1CCN(CC1)CC2=C(C=C(C=C2)NC(=O)NC3=CC=C(C=C3)OC4=NC=NC(=C4)NC)C(F)(F)F",
+      "nearest_train_drug_id": 216239,
+      "tanimoto_similarity": 0.4
+    },
+    {
+      "test_drug_id": 10461815,
+      "test_smiles": "CC1=C(NC(=C1C(=O)N2CCCC2CN3CCCC3)C)C=C4C5=C(C=CC(=C5)S(=O)(=O)CC6=C(C=CC=C6Cl)Cl)NC4=O",
+      "nearest_train_drug_id": 10138260,
+      "tanimoto_similarity": 0.3786407766990291
+    },
+    {
+      "test_drug_id": 216239,
+      "test_smiles": "CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F",
+      "nearest_train_drug_id": 11409972,
+      "tanimoto_similarity": 0.4
+    },
+    {
+      "test_drug_id": 6918454,
+      "test_smiles": "C1CC1CONC(=O)C2=C(C(=C(C=C2)F)F)NC3=C(C=C(C=C3)I)Cl",
+      "nearest_train_drug_id": 10127622,
+      "tanimoto_similarity": 0.375
+    },
+    {
+      "test_drug_id": 11314340,
+      "test_smiles": "CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CC=CC=C4)N",
+      "nearest_train_drug_id": 208908,
+      "tanimoto_similarity": 0.1941747572815534
+    },
+    {
+      "test_drug_id": 5494449,
+      "test_smiles": "CC1=CC(=NN1)NC2=NC(=NC(=C2)N3CCN(CC3)C)SC4=CC=C(C=C4)NC(=O)C5CC5",
+      "nearest_train_drug_id": 3062316,
+      "tanimoto_similarity": 0.28865979381443296
+    },
+    {
+      "test_drug_id": 10113978,
+      "test_smiles": "CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N",
+      "nearest_train_drug_id": 5291,
+      "tanimoto_similarity": 0.25773195876288657
+    },
+    {
+      "test_drug_id": 4908365,
+      "test_smiles": "CN1CCN(CC1)C(=O)C2=CC3=C(N2)C=CC(=C3)Cl",
+      "nearest_train_drug_id": 5494449,
+      "tanimoto_similarity": 0.2125
+    },
+    {
+      "test_drug_id": 10184653,
+      "test_smiles": "CN(C)CC=CC(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)OC4CCOC4",
+      "nearest_train_drug_id": 156414,
+      "tanimoto_similarity": 0.5376344086021505
+    },
+    {
+      "test_drug_id": 16038120,
+      "test_smiles": "CC(C)S(=O)(=O)C1=CC=CC=C1NC2=NC(=NC=C2Cl)NC3=C(C=C(C=C3)N4CCC(CC4)N5CCN(CC5)C)OC",
+      "nearest_train_drug_id": 11364421,
+      "tanimoto_similarity": 0.3238095238095238
+    },
+    {
+      "test_drug_id": 3038522,
+      "test_smiles": "CC(C)OC1=CC=C(C=C1)NC(=O)N2CCN(CC2)C3=NC=NC4=CC(=C(C=C43)OC)OCCCN5CCCCC5",
+      "nearest_train_drug_id": 9933475,
+      "tanimoto_similarity": 0.4157303370786517
+    },
+    {
+      "test_drug_id": 11234052,
+      "test_smiles": "CC1=CC2=C(N1)C=CC(=C2F)OC3=NC=NN4C3=C(C(=C4)OCC(C)O)C",
+      "nearest_train_drug_id": 9933475,
+      "tanimoto_similarity": 0.4074074074074074
+    },
+    {
+      "test_drug_id": 10074640,
+      "test_smiles": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC(=CS4)C5=CN=CC=C5",
+      "nearest_train_drug_id": 5291,
+      "tanimoto_similarity": 0.7466666666666667
+    },
+    {
+      "test_drug_id": 24889392,
+      "test_smiles": "CC(C)(C)C1=CC(=NO1)NC(=O)NC2=CC=C(C=C2)C3=CN4C5=C(C=C(C=C5)OCCN6CCOCC6)SC4=N3",
+      "nearest_train_drug_id": 156422,
+      "tanimoto_similarity": 0.3269230769230769
+    },
+    {
+      "test_drug_id": 17755052,
+      "test_smiles": "CS(=O)(=O)N1CCN(CC1)CC2=CC3=C(S2)C(=NC(=N3)C4=C5C=NNC5=CC=C4)N6CCOCC6",
+      "nearest_train_drug_id": 9884685,
+      "tanimoto_similarity": 0.26666666666666666
+    },
+    {
+      "test_drug_id": 11656518,
+      "test_smiles": "CN1C2=C(C=C(C=C2)OC3=CC(=NC=C3)C4=NC=C(N4)C(F)(F)F)N=C1NC5=CC=C(C=C5)C(F)(F)F",
+      "nearest_train_drug_id": 216239,
+      "tanimoto_similarity": 0.26744186046511625
+    },
+    {
+      "test_drug_id": 10127622,
+      "test_smiles": "CN1C=NC2=C1C=C(C(=C2F)NC3=C(C=C(C=C3)Br)Cl)C(=O)NOCCO",
+      "nearest_train_drug_id": 6918454,
+      "tanimoto_similarity": 0.375
+    },
+    {
+      "test_drug_id": 176155,
+      "test_smiles": "CS(=O)C1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC=C(C=C4)F",
+      "nearest_train_drug_id": 11717001,
+      "tanimoto_similarity": 0.17567567567567569
+    },
+    {
+      "test_drug_id": 9809715,
+      "test_smiles": "CN1CCN(CC1)CC(=O)N(C)C2=CC=C(C=C2)NC(=C3C4=C(C=C(C=C4)C(=O)OC)NC3=O)C5=CC=CC=C5",
+      "nearest_train_drug_id": 5291,
+      "tanimoto_similarity": 0.23809523809523808
+    },
+    {
+      "test_drug_id": 5287969,
+      "test_smiles": "CN1CCC(C(C1)O)C2=C(C=C(C3=C2OC(=CC3=O)C4=CC=CC=C4Cl)O)O",
+      "nearest_train_drug_id": 10461815,
+      "tanimoto_similarity": 0.1926605504587156
+    },
+    {
+      "test_drug_id": 10427712,
+      "test_smiles": "C1=CC(=CC(=C1)O)C2=NC3=C(N=C2C4=CC(=CC=C4)O)N=C(N=C3N)N",
+      "nearest_train_drug_id": 9884685,
+      "tanimoto_similarity": 0.25757575757575757
+    },
+    {
+      "test_drug_id": 44259,
+      "test_smiles": "CC12C(C(CC(O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)NC)OC",
+      "nearest_train_drug_id": 51004351,
+      "tanimoto_similarity": 0.6923076923076923
+    },
+    {
+      "test_drug_id": 3081361,
+      "test_smiles": "CN1CCC(CC1)COC2=C(C=C3C(=C2)N=CN=C3NC4=C(C=C(C=C4)Br)F)OC",
+      "nearest_train_drug_id": 123631,
+      "tanimoto_similarity": 0.4444444444444444
+    },
+    {
+      "test_drug_id": 6450551,
+      "test_smiles": "CNC(=O)C1=CC=CC=C1SC2=CC3=C(C=C2)C(=NN3)C=CC4=CC=CC=N4",
+      "nearest_train_drug_id": 11427553,
+      "tanimoto_similarity": 0.2972972972972973
+    },
+    {
+      "test_drug_id": 9926791,
+      "test_smiles": "CC1CCN(CC1N(C)C2=NC=NC3=C2C=CN3)C(=O)CC#N",
+      "nearest_train_drug_id": 25127112,
+      "tanimoto_similarity": 0.3333333333333333
+    },
+    {
+      "test_drug_id": 11617559,
+      "test_smiles": "COC1=CC=C(C=C1)COC2=C(C=C(C=C2)CC3=CN=C(N=C3N)N)OC",
+      "nearest_train_drug_id": 10427712,
+      "tanimoto_similarity": 0.1875
+    }
+  ]
+}

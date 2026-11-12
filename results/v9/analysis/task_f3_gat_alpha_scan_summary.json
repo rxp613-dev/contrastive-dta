@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-08-27 21:52",
+  "total_experiments": 30,
+  "completed": 30,
+  "failed": 0,
+  "params_verified": true,
+  "summary": [
+    {
+      "experiment_id": "GAT_E7_alpha0_v2",
+      "alpha": 0.0,
+      "num_seeds": 5,
+      "test_mse_mean": 0.3276477813720703,
+      "test_mse_std": 0.010938881131306715,
+      "test_ci_mean": 0.7599685529812105,
+      "test_ci_std": 0.003321193619425165
+    },
+    {
+      "experiment_id": "GAT_E7_alpha001_v2",
+      "alpha": 0.001,
+      "num_seeds": 5,
+      "test_mse_mean": 0.3194382429122925,
+      "test_mse_std": 0.013348987838409121,
+      "test_ci_mean": 0.7619732592170572,
+      "test_ci_std": 0.0028392086103882783
+    },
+    {
+      "experiment_id": "GAT_E7_alpha003_v2",
+      "alpha": 0.003,
+      "num_seeds": 5,
+      "test_mse_mean": 0.3283456385135651,
+      "test_mse_std": 0.008945845340493946,
+      "test_ci_mean": 0.7583270327950514,
+      "test_ci_std": 0.0025164066595596505
+    },
+    {
+      "experiment_id": "GAT_E7_alpha0100_v2",
+      "alpha": 0.01,
+      "num_seeds": 5,
+      "test_mse_mean": 0.30486242175102235,
+      "test_mse_std": 0.02366468112923417,
+      "test_ci_mean": 0.7641467071225783,
+      "test_ci_std": 0.0056615873415460085
+    },
+    {
+      "experiment_id": "GAT_E7_alpha0300_v2",
+      "alpha": 0.03,
+      "num_seeds": 5,
+      "test_mse_mean": 0.27157490253448485,
+      "test_mse_std": 0.008657576727518074,
+      "test_ci_mean": 0.7716924017142998,
+      "test_ci_std": 0.0025174562510023434
+    },
+    {
+      "experiment_id": "GAT_E7_alpha50_v2",
+      "alpha": 0.05,
+      "num_seeds": 5,
+      "test_mse_mean": 0.26589649319648745,
+      "test_mse_std": 0.012334448392966262,
+      "test_ci_mean": 0.7728910161824201,
+      "test_ci_std": 0.002711492306914725
+    }
+  ]
+}

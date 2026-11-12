@@ -1,0 +1,28 @@
+{
+  "config": {
+    "dataset": "davis",
+    "batch_size": 512,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "lr_patience": 30,
+    "early_stop_patience": 150,
+    "max_epochs": 500,
+    "device": "cuda"
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    456,
+    789,
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "alphas": [
+    0.0,
+    0.05
+  ]
+}

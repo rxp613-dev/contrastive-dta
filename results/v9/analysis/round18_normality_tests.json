@@ -1,0 +1,38 @@
+{
+  "tests": [
+    {
+      "test": "Davis E7 vs E0 (GIN)",
+      "n": 5,
+      "mean_diff": -0.03332641124725342,
+      "shapiro_wilk": {
+        "W": 0.8694461396350311,
+        "p": 0.26418830738175225,
+        "interpretation": "Normal"
+      },
+      "levene": {
+        "F": 2.5761491972967985,
+        "p": 0.1471527173237181,
+        "interpretation": "Equal variances"
+      },
+      "recommendation": "Parametric t-test appropriate"
+    },
+    {
+      "test": "GAT cold-target E7 vs E0",
+      "n": 5,
+      "mean_diff": -0.11680861711502075,
+      "shapiro_wilk": {
+        "W": 0.9708978848691229,
+        "p": 0.8809846922454188,
+        "interpretation": "Normal"
+      },
+      "levene": {
+        "F": 3.58797766231803,
+        "p": 0.0948115490376223,
+        "interpretation": "Equal variances"
+      },
+      "recommendation": "Parametric t-test appropriate"
+    }
+  ],
+  "method": "Shapiro-Wilk (normality) + Levene (variance homogeneity)",
+  "significance_level": 0.05
+}

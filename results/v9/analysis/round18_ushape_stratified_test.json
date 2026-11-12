@@ -1,0 +1,643 @@
+{
+  "per_seed_improvements": [
+    {
+      "seed": 7,
+      "quantile": 0,
+      "e0_mse": 0.22864837581360817,
+      "e7_mse": 0.18822329223524065,
+      "mse_improvement_pct": 17.68002218888344,
+      "n_samples": 752
+    },
+    {
+      "seed": 7,
+      "quantile": 1,
+      "e0_mse": 0.18570497231013677,
+      "e7_mse": 0.17811157919962464,
+      "mse_improvement_pct": 4.08895519384951,
+      "n_samples": 752
+    },
+    {
+      "seed": 7,
+      "quantile": 2,
+      "e0_mse": 0.2748736617358636,
+      "e7_mse": 0.24910195947998393,
+      "mse_improvement_pct": 9.375835463146212,
+      "n_samples": 750
+    },
+    {
+      "seed": 7,
+      "quantile": 3,
+      "e0_mse": 0.3132591675243742,
+      "e7_mse": 0.2666540227315086,
+      "mse_improvement_pct": 14.877503876798537,
+      "n_samples": 752
+    },
+    {
+      "seed": 42,
+      "quantile": 0,
+      "e0_mse": 0.23600583003886996,
+      "e7_mse": 0.19493778449641994,
+      "mse_improvement_pct": 17.40128433932592,
+      "n_samples": 752
+    },
+    {
+      "seed": 42,
+      "quantile": 1,
+      "e0_mse": 0.18780597332742693,
+      "e7_mse": 0.17087396950144568,
+      "mse_improvement_pct": 9.015689717419935,
+      "n_samples": 752
+    },
+    {
+      "seed": 42,
+      "quantile": 2,
+      "e0_mse": 0.28233309440699544,
+      "e7_mse": 0.25401502258715514,
+      "mse_improvement_pct": 10.030022119553074,
+      "n_samples": 750
+    },
+    {
+      "seed": 42,
+      "quantile": 3,
+      "e0_mse": 0.30908646090827935,
+      "e7_mse": 0.2641018664533469,
+      "mse_improvement_pct": 14.554048832401476,
+      "n_samples": 752
+    },
+    {
+      "seed": 123,
+      "quantile": 0,
+      "e0_mse": 0.21949029256291366,
+      "e7_mse": 0.19428657220634102,
+      "mse_improvement_pct": 11.482840567697712,
+      "n_samples": 752
+    },
+    {
+      "seed": 123,
+      "quantile": 1,
+      "e0_mse": 0.18917521567153983,
+      "e7_mse": 0.15752232314785736,
+      "mse_improvement_pct": 16.7320504492727,
+      "n_samples": 752
+    },
+    {
+      "seed": 123,
+      "quantile": 2,
+      "e0_mse": 0.2614247584498083,
+      "e7_mse": 0.23931930369458435,
+      "mse_improvement_pct": 8.455761759637632,
+      "n_samples": 750
+    },
+    {
+      "seed": 123,
+      "quantile": 3,
+      "e0_mse": 0.29451504372013343,
+      "e7_mse": 0.2512410708764022,
+      "mse_improvement_pct": 14.693297937219421,
+      "n_samples": 752
+    },
+    {
+      "seed": 2024,
+      "quantile": 0,
+      "e0_mse": 0.24245386917704717,
+      "e7_mse": 0.2023599762773963,
+      "mse_improvement_pct": 16.536709863917697,
+      "n_samples": 752
+    },
+    {
+      "seed": 2024,
+      "quantile": 1,
+      "e0_mse": 0.22039864169952872,
+      "e7_mse": 0.15920221996213302,
+      "mse_improvement_pct": 27.766242688929676,
+      "n_samples": 752
+    },
+    {
+      "seed": 2024,
+      "quantile": 2,
+      "e0_mse": 0.2933348633175304,
+      "e7_mse": 0.2562692185717891,
+      "mse_improvement_pct": 12.635949346947667,
+      "n_samples": 750
+    },
+    {
+      "seed": 2024,
+      "quantile": 3,
+      "e0_mse": 0.3311428496364088,
+      "e7_mse": 0.26147487792478147,
+      "mse_improvement_pct": 21.038645946340672,
+      "n_samples": 752
+    },
+    {
+      "seed": 3407,
+      "quantile": 0,
+      "e0_mse": 0.22312819247444884,
+      "e7_mse": 0.200181246987697,
+      "mse_improvement_pct": 10.28419816979407,
+      "n_samples": 752
+    },
+    {
+      "seed": 3407,
+      "quantile": 1,
+      "e0_mse": 0.17780693099142328,
+      "e7_mse": 0.16869972555913165,
+      "mse_improvement_pct": 5.121963121185036,
+      "n_samples": 752
+    },
+    {
+      "seed": 3407,
+      "quantile": 2,
+      "e0_mse": 0.26195228716189345,
+      "e7_mse": 0.2458658493793673,
+      "mse_improvement_pct": 6.140980083363155,
+      "n_samples": 750
+    },
+    {
+      "seed": 3407,
+      "quantile": 3,
+      "e0_mse": 0.2939414357038167,
+      "e7_mse": 0.2576110758662019,
+      "mse_improvement_pct": 12.359727287384633,
+      "n_samples": 752
+    }
+  ],
+  "per_seed_e0": [
+    {
+      "seed": 7,
+      "quantile": 0,
+      "mse": 0.22864837581360817,
+      "ci": 0.7469020975683641,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 7,
+      "quantile": 1,
+      "mse": 0.18570497231013677,
+      "ci": 0.7424134782266691,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 7,
+      "quantile": 2,
+      "mse": 0.2748736617358636,
+      "ci": 0.7892632879818189,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 7,
+      "quantile": 3,
+      "mse": 0.3132591675243742,
+      "ci": 0.807285049617746,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 42,
+      "quantile": 0,
+      "mse": 0.23600583003886996,
+      "ci": 0.7442017465194939,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 42,
+      "quantile": 1,
+      "mse": 0.18780597332742693,
+      "ci": 0.7439773256607051,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 42,
+      "quantile": 2,
+      "mse": 0.28233309440699544,
+      "ci": 0.7875955794470894,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 42,
+      "quantile": 3,
+      "mse": 0.30908646090827935,
+      "ci": 0.8100312919861092,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 123,
+      "quantile": 0,
+      "mse": 0.21949029256291366,
+      "ci": 0.7440323127281923,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 123,
+      "quantile": 1,
+      "mse": 0.18917521567153983,
+      "ci": 0.740433477622239,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 123,
+      "quantile": 2,
+      "mse": 0.2614247584498083,
+      "ci": 0.7937445266359322,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 123,
+      "quantile": 3,
+      "mse": 0.29451504372013343,
+      "ci": 0.8115629884657718,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 2024,
+      "quantile": 0,
+      "mse": 0.24245386917704717,
+      "ci": 0.746091992253703,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 2024,
+      "quantile": 1,
+      "mse": 0.22039864169952872,
+      "ci": 0.7389384167310111,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 2024,
+      "quantile": 2,
+      "mse": 0.2933348633175304,
+      "ci": 0.7860782459442828,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 2024,
+      "quantile": 3,
+      "mse": 0.3311428496364088,
+      "ci": 0.8027614007146644,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 3407,
+      "quantile": 0,
+      "mse": 0.22312819247444884,
+      "ci": 0.7417502513515981,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 3407,
+      "quantile": 1,
+      "mse": 0.17780693099142328,
+      "ci": 0.744187741637989,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 3407,
+      "quantile": 2,
+      "mse": 0.26195228716189345,
+      "ci": 0.7948075967135158,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 3407,
+      "quantile": 3,
+      "mse": 0.2939414357038167,
+      "ci": 0.8135149967439165,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    }
+  ],
+  "per_seed_e7": [
+    {
+      "seed": 7,
+      "quantile": 0,
+      "mse": 0.18822329223524065,
+      "ci": 0.758185329107859,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 7,
+      "quantile": 1,
+      "mse": 0.17811157919962464,
+      "ci": 0.7388221342172491,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 7,
+      "quantile": 2,
+      "mse": 0.24910195947998393,
+      "ci": 0.7982356464791159,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 7,
+      "quantile": 3,
+      "mse": 0.2666540227315086,
+      "ci": 0.8203180086996829,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 42,
+      "quantile": 0,
+      "mse": 0.19493778449641994,
+      "ci": 0.7446729842515516,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 42,
+      "quantile": 1,
+      "mse": 0.17087396950144568,
+      "ci": 0.7381027116905964,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 42,
+      "quantile": 2,
+      "mse": 0.25401502258715514,
+      "ci": 0.7913420819231551,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 42,
+      "quantile": 3,
+      "mse": 0.2641018664533469,
+      "ci": 0.8160926293290689,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 123,
+      "quantile": 0,
+      "mse": 0.19428657220634102,
+      "ci": 0.7489829563177877,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 123,
+      "quantile": 1,
+      "mse": 0.15752232314785736,
+      "ci": 0.7391765190210956,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 123,
+      "quantile": 2,
+      "mse": 0.23931930369458435,
+      "ci": 0.7971491607610569,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 123,
+      "quantile": 3,
+      "mse": 0.2512410708764022,
+      "ci": 0.8232645676385393,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 2024,
+      "quantile": 0,
+      "mse": 0.2023599762773963,
+      "ci": 0.75031195261831,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 2024,
+      "quantile": 1,
+      "mse": 0.15920221996213302,
+      "ci": 0.7351896899778214,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 2024,
+      "quantile": 2,
+      "mse": 0.2562692185717891,
+      "ci": 0.7972428233229585,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 2024,
+      "quantile": 3,
+      "mse": 0.26147487792478147,
+      "ci": 0.8156840085444114,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    },
+    {
+      "seed": 3407,
+      "quantile": 0,
+      "mse": 0.200181246987697,
+      "ci": 0.7519692268894793,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.13455103342401417,
+      "avg_drug_similarity": 0.22279167109058232,
+      "avg_target_similarity": 0.08251605014178144
+    },
+    {
+      "seed": 3407,
+      "quantile": 1,
+      "mse": 0.16869972555913165,
+      "ci": 0.7421223427030705,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.1713550629654913,
+      "avg_drug_similarity": 0.3316218641746345,
+      "avg_target_similarity": 0.09258460707889411
+    },
+    {
+      "seed": 3407,
+      "quantile": 2,
+      "mse": 0.2458658493793673,
+      "ci": 0.7918619091417092,
+      "n_samples": 750,
+      "avg_combined_similarity": 0.24394057509470873,
+      "avg_drug_similarity": 0.468615067428342,
+      "avg_target_similarity": 0.15751751674672415
+    },
+    {
+      "seed": 3407,
+      "quantile": 3,
+      "mse": 0.2576110758662019,
+      "ci": 0.8213813691453785,
+      "n_samples": 752,
+      "avg_combined_similarity": 0.5604617104500967,
+      "avg_drug_similarity": 0.37417350116800313,
+      "avg_target_similarity": 0.9121579524253786
+    }
+  ],
+  "aggregated": [
+    {
+      "quantile": 0,
+      "e0_mse_mean": 0.22994531201337756,
+      "e0_mse_std": 0.009362911874491864,
+      "e7_mse_mean": 0.195997774440619,
+      "e7_mse_std": 0.005533385493849886,
+      "imp_mean": 14.677011025923766,
+      "imp_std": 3.514176667592066,
+      "n_samples": 752
+    },
+    {
+      "quantile": 1,
+      "e0_mse_mean": 0.1921783468000111,
+      "e0_mse_std": 0.01637806200534556,
+      "e7_mse_mean": 0.16688196347403847,
+      "e7_mse_std": 0.00854292057655519,
+      "imp_mean": 12.544980234131371,
+      "imp_std": 9.852408611561609,
+      "n_samples": 752
+    },
+    {
+      "quantile": 2,
+      "e0_mse_mean": 0.2747837330144182,
+      "e0_mse_std": 0.013640505711097135,
+      "e7_mse_mean": 0.24891427074257594,
+      "e7_mse_std": 0.0067361788031547664,
+      "imp_mean": 9.327709754529547,
+      "imp_std": 2.3640826574818563,
+      "n_samples": 750
+    },
+    {
+      "quantile": 3,
+      "e0_mse_mean": 0.3083889914986025,
+      "e0_mse_std": 0.015355466727341645,
+      "e7_mse_mean": 0.26021658277044823,
+      "e7_mse_std": 0.006030502657998582,
+      "imp_mean": 15.504644776028949,
+      "imp_std": 3.258484962822721,
+      "n_samples": 752
+    }
+  ],
+  "quantile_boundaries": [
+    {
+      "lower": 0.10238708968942774,
+      "upper": 0.1517326259101109
+    },
+    {
+      "lower": 0.1517844471431627,
+      "upper": 0.19405727981217624
+    },
+    {
+      "lower": 0.19406740196947994,
+      "upper": 0.3603749850782236
+    },
+    {
+      "lower": 0.3629173016695399,
+      "upper": 0.8640987597877147
+    }
+  ],
+  "u_shape_test": {
+    "q0_vs_q2": {
+      "t_statistic": 5.127784252991241,
+      "p_value": 0.006849024911553222,
+      "significant": true
+    },
+    "q3_vs_q2": {
+      "t_statistic": 9.677766667688655,
+      "p_value": 0.000637900631060126,
+      "significant": true
+    },
+    "u_shape_confirmed": true,
+    "n_seeds": 5,
+    "interpretation": "U-shape confirmed: both Q0 and Q3 improvements significantly exceed Q2. Pure memorization and pure transfer hypotheses rejected."
+  }
+}

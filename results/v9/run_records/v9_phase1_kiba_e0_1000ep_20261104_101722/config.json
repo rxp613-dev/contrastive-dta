@@ -1,0 +1,30 @@
+{
+  "config": {
+    "config_version": "Config C",
+    "batch_size": 512,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "lr_patience": 30,
+    "early_stop_patience": 150,
+    "max_epochs": 1000,
+    "dataset": "kiba",
+    "device": "cuda",
+    "contrastive": false,
+    "alpha": 0.0
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    456,
+    789,
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "task": "V9 Phase 1 Task 1.1",
+  "goal": "KIBA E0 @1000ep, Config C, 10 seeds",
+  "timestamp": "20261104_101722"
+}

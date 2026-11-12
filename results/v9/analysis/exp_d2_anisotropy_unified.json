@@ -1,0 +1,93 @@
+{
+  "method": "unified (\u57fa\u4e8e\u534f\u65b9\u5dee\u77e9\u9635\u7279\u5f81\u503c + Wang & Isola 2020 uniformity)",
+  "E0": {
+    "drug": {
+      "anisotropy": 0.2982282042503357,
+      "uniformity": 0.24063241481781006,
+      "eigenvalues_top5": [
+        1005.8981323242188,
+        469.70928955078125,
+        275.7936706542969,
+        266.2941589355469,
+        209.7987823486328
+      ],
+      "eigenvalue_ratio": Infinity
+    },
+    "protein": {
+      "anisotropy": 0.36697402596473694,
+      "uniformity": 0.49992698431015015,
+      "eigenvalues_top5": [
+        34.57481002807617,
+        28.18027114868164,
+        9.645281791687012,
+        6.780045032501221,
+        4.366942405700684
+      ],
+      "eigenvalue_ratio": Infinity
+    },
+    "fused": {
+      "anisotropy": 0.2901291251182556,
+      "uniformity": 0.24584566056728363,
+      "eigenvalues_top5": [
+        1005.9154663085938,
+        469.78387451171875,
+        275.8315124511719,
+        266.3942565917969,
+        209.8268585205078
+      ],
+      "eigenvalue_ratio": Infinity
+    }
+  },
+  "E7": {
+    "drug": {
+      "anisotropy": 0.1317582130432129,
+      "uniformity": 1.270700454711914,
+      "eigenvalues_top5": [
+        947.7827758789062,
+        823.6915893554688,
+        729.7719116210938,
+        662.2225952148438,
+        621.7411499023438
+      ],
+      "eigenvalue_ratio": Infinity
+    },
+    "protein": {
+      "anisotropy": 0.12929628789424896,
+      "uniformity": 2.3035783767700195,
+      "eigenvalues_top5": [
+        16.994300842285156,
+        12.906205177307129,
+        11.340831756591797,
+        8.480560302734375,
+        5.839417457580566
+      ],
+      "eigenvalue_ratio": Infinity
+    },
+    "fused": {
+      "anisotropy": 0.12940023839473724,
+      "uniformity": 1.2850450277328491,
+      "eigenvalues_top5": [
+        947.8290405273438,
+        823.7141723632812,
+        729.838623046875,
+        662.2600708007812,
+        621.7821655273438
+      ],
+      "eigenvalue_ratio": Infinity
+    }
+  },
+  "comparison": {
+    "drug": {
+      "anisotropy_change_pct": -55.81966723287722,
+      "uniformity_change_pct": 428.06703355987975
+    },
+    "protein": {
+      "anisotropy_change_pct": -64.76691025901837,
+      "uniformity_change_pct": 360.78296412599735
+    },
+    "fused": {
+      "anisotropy_change_pct": -55.3990870988929,
+      "uniformity_change_pct": 422.7039699491279
+    }
+  }
+}

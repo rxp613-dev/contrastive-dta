@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-09-01T11:20:14.028535",
+  "method": "vectorized_pair_counting",
+  "results": [
+    {
+      "dir": "E7_alpha001_seed42",
+      "alpha": "alpha001",
+      "old_ci": 0.7829065759017595,
+      "new_ci": 0.8944839824711479
+    },
+    {
+      "dir": "E7_alpha001_seed3407",
+      "alpha": "alpha001",
+      "old_ci": 0.7803543393631114,
+      "new_ci": 0.8909268516130754
+    },
+    {
+      "dir": "E7_alpha001_seed2024",
+      "alpha": "alpha001",
+      "old_ci": 0.7751364886781307,
+      "new_ci": 0.8836498551962525
+    },
+    {
+      "dir": "E7_alpha001_seed7",
+      "alpha": "alpha001",
+      "old_ci": 0.7807521597860083,
+      "new_ci": 0.891479632977283
+    },
+    {
+      "dir": "E7_alpha001_seed123",
+      "alpha": "alpha001",
+      "old_ci": 0.7799001744264433,
+      "new_ci": 0.8902922723834478
+    },
+    {
+      "dir": "E7_alpha005_seed42",
+      "alpha": "alpha005",
+      "old_ci": 0.7771063098364079,
+      "new_ci": 0.8863982634743687
+    },
+    {
+      "dir": "E7_alpha005_seed3407",
+      "alpha": "alpha005",
+      "old_ci": 0.7811494258498335,
+      "new_ci": 0.8920352126895181
+    },
+    {
+      "dir": "E7_alpha005_seed2024",
+      "alpha": "alpha005",
+      "old_ci": 0.7794583601117693,
+      "new_ci": 0.8896790036503374
+    },
+    {
+      "dir": "E7_alpha005_seed7",
+      "alpha": "alpha005",
+      "old_ci": 0.7832919207895913,
+      "new_ci": 0.8950225568376773
+    },
+    {
+      "dir": "E7_alpha005_seed123",
+      "alpha": "alpha005",
+      "old_ci": 0.7819203892818221,
+      "new_ci": 0.893108702044387
+    }
+  ]
+}

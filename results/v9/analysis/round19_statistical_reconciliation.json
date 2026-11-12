@@ -1,0 +1,20 @@
+{
+  "experiment": "Statistical reconciliation audit",
+  "date": "2026-09-03",
+  "objective": "Address T2: Hedges g numerical inconsistency",
+  "verified": [
+    "Davis improvement: 13.25% \u2713",
+    "Davis Holm p: 0.0196 \u2713",
+    "KIBA improvement: 13.97% \u2713",
+    "GAT cold-target degradation: -24.81% \u2713"
+  ],
+  "discrepancies": [
+    "Davis Hedges' g: computed -2.17 vs paper 2.75",
+    "KIBA Hedges' g: computed -1.82 vs paper 1.74",
+    "GAT cold-target Hedges' g: computed 7.03 vs paper -6.22",
+    "GIN cold-drug Hedges' g: computed 0.55 vs paper 0.77",
+    "GIN cold-target Hedges' g: computed -0.41 vs paper 0.35",
+    "GIN cold-both Hedges' g: computed 0.53 vs paper 0.34"
+  ],
+  "all_consistent": false
+}

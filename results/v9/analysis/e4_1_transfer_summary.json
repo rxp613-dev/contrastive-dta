@@ -1,0 +1,94 @@
+{
+  "script": "scripts/e4_1_transfer.py",
+  "timestamp": "2026-10-09 07:43:40",
+  "finetune_protocol": {
+    "learning_rate": "0.00001",
+    "max_epochs": "50",
+    "weight_decay": "0.0001",
+    "batch_size": "512",
+    "early_stop_patience": "50",
+    "training_strategy": "joint"
+  },
+  "seeds": [
+    42,
+    3407,
+    2024,
+    7,
+    123
+  ],
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "results": [
+    {
+      "exp_id": "e4_D2K_seed42",
+      "direction": "D2K",
+      "status": "success",
+      "detail": "OK mse=0.4300 ci=0.7431 ep=49",
+      "elapsed_min": 17.1
+    },
+    {
+      "exp_id": "e4_D2K_seed3407",
+      "direction": "D2K",
+      "status": "success",
+      "detail": "OK mse=0.4307 ci=0.7417 ep=49",
+      "elapsed_min": 17.2
+    },
+    {
+      "exp_id": "e4_D2K_seed2024",
+      "direction": "D2K",
+      "status": "success",
+      "detail": "OK mse=0.4395 ci=0.7385 ep=50",
+      "elapsed_min": 16.9
+    },
+    {
+      "exp_id": "e4_D2K_seed7",
+      "direction": "D2K",
+      "status": "success",
+      "detail": "OK mse=0.4412 ci=0.7356 ep=49",
+      "elapsed_min": 17.2
+    },
+    {
+      "exp_id": "e4_D2K_seed123",
+      "direction": "D2K",
+      "status": "success",
+      "detail": "OK mse=0.4413 ci=0.7401 ep=49",
+      "elapsed_min": 17.1
+    },
+    {
+      "exp_id": "e4_K2D_seed42",
+      "direction": "K2D",
+      "status": "success",
+      "detail": "OK mse=0.5440 ci=0.7880 ep=50",
+      "elapsed_min": 4.6
+    },
+    {
+      "exp_id": "e4_K2D_seed3407",
+      "direction": "K2D",
+      "status": "success",
+      "detail": "OK mse=0.5415 ci=0.7850 ep=49",
+      "elapsed_min": 4.7
+    },
+    {
+      "exp_id": "e4_K2D_seed2024",
+      "direction": "K2D",
+      "status": "success",
+      "detail": "OK mse=0.5497 ci=0.7873 ep=47",
+      "elapsed_min": 4.5
+    },
+    {
+      "exp_id": "e4_K2D_seed7",
+      "direction": "K2D",
+      "status": "success",
+      "detail": "OK mse=0.4747 ci=0.8011 ep=50",
+      "elapsed_min": 4.6
+    },
+    {
+      "exp_id": "e4_K2D_seed123",
+      "direction": "K2D",
+      "status": "success",
+      "detail": "OK mse=0.5797 ci=0.7841 ep=49",
+      "elapsed_min": 5.2
+    }
+  ]
+}

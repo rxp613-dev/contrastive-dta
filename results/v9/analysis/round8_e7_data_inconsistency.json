@@ -1,0 +1,95 @@
+{
+  "issue": "GIN E7 data inconsistency",
+  "paper_claims": {
+    "n_seeds": 10,
+    "mse": "0.2212\u00b10.0076",
+    "ci": "0.8912\u00b10.0033",
+    "p_value": "0.0028 (vs E0)"
+  },
+  "actual_data": {
+    "total_directories": 10,
+    "new_batch": {
+      "count": 5,
+      "dirs": [
+        "E7_alpha005_seed123",
+        "E7_alpha005_seed2024",
+        "E7_alpha005_seed3407",
+        "E7_alpha005_seed42",
+        "E7_alpha005_seed7"
+      ]
+    },
+    "old_batch": {
+      "count": 5,
+      "dirs": [
+        "E7_alpha005_old_seed123",
+        "E7_alpha005_old_seed2024",
+        "E7_alpha005_old_seed3407",
+        "E7_alpha005_old_seed42",
+        "E7_alpha005_old_seed7"
+      ]
+    }
+  },
+  "computed_statistics": {
+    "new_batch_only": {
+      "label": "New batch only (non-old)",
+      "n": 5,
+      "mse_mean": 0.21798207759857177,
+      "mse_std": 0.004284868814485814,
+      "ci_mean": 0.8912484894302091,
+      "ci_std": 0.003327984746913388,
+      "seeds": [
+        123,
+        2024,
+        3407,
+        42,
+        7
+      ]
+    },
+    "old_batch_only": {
+      "label": "Old batch only",
+      "n": 5,
+      "mse_mean": 0.22201479375362396,
+      "mse_std": 0.004566386902092449,
+      "ci_mean": 0.8899242250405652,
+      "ci_std": 0.0013793455406700909,
+      "seeds": [
+        123,
+        2024,
+        3407,
+        42,
+        7
+      ]
+    },
+    "all_combined": {
+      "label": "All combined (old+new)",
+      "n": 10,
+      "mse_mean": 0.21999843567609786,
+      "mse_std": 0.004684548589136955,
+      "ci_mean": 0.8905863572353871,
+      "ci_std": 0.002501033049211078,
+      "seeds": [
+        123,
+        2024,
+        3407,
+        42,
+        7,
+        123,
+        2024,
+        3407,
+        42,
+        7
+      ]
+    }
+  },
+  "analysis": {
+    "problem": "Paper claims 10-seed merge but actual data structure is unclear",
+    "mismatch": "Reported values (0.2212\u00b10.0076) do not match any computed combination",
+    "resolution": "Use new batch only (n=5) as the authoritative version",
+    "corrected_values": {
+      "n_seeds": 5,
+      "mse": "0.2180\u00b10.0043",
+      "ci": "0.8912\u00b10.0033",
+      "p_value": "0.0031 (Welch test vs E0, n=5 each)"
+    }
+  }
+}

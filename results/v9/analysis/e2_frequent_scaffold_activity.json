@@ -1,0 +1,507 @@
+{
+  "train_data": {
+    "n_molecules": 24044,
+    "active_rate": 0.18478622525370156
+  },
+  "scaffold_statistics": {
+    "n_unique_scaffolds": 68,
+    "n_frequent_scaffolds": 68,
+    "min_count": 10
+  },
+  "frequent_scaffold_activity": {
+    "O=C1Nc2ccc(S(=O)(=O)Cc3ccccc3)cc2C1=Cc1cc(C(=O)N2CCCC2CN2CCCC2)c[nH]1": {
+      "count": 371,
+      "n_active": 64,
+      "activity_rate": 0.1725067385444744,
+      "mean_pXC": 5.39992476117454,
+      "std_pXC": 0.6556027799794888
+    },
+    "c1ccc(Nc2ncnc3cc(OC4CCOC4)ccc23)cc1": {
+      "count": 371,
+      "n_active": 27,
+      "activity_rate": 0.07277628032345014,
+      "mean_pXC": 5.251162916551168,
+      "std_pXC": 0.850359792250408
+    },
+    "c1ccc(Nc2nccc(Nc3ccc4c[nH]nc4c3)n2)cc1": {
+      "count": 368,
+      "n_active": 58,
+      "activity_rate": 0.15760869565217392,
+      "mean_pXC": 5.348216120236089,
+      "std_pXC": 0.6909800223326523
+    },
+    "O=C(Nc1ccccc1)N1CCN(c2ncnc3cc(OCCCN4CCCCC4)ccc23)CC1": {
+      "count": 368,
+      "n_active": 28,
+      "activity_rate": 0.07608695652173914,
+      "mean_pXC": 5.195166613368813,
+      "std_pXC": 0.6338343018938793
+    },
+    "O=c1ncn2nc(Sc3ccccc3)ccc2c1-c1ccccc1": {
+      "count": 365,
+      "n_active": 2,
+      "activity_rate": 0.005479452054794521,
+      "mean_pXC": 5.0309210629867245,
+      "std_pXC": 0.236853147774601
+    },
+    "c1ccc(COc2ccc(Nc3ccnc4ccccc34)cc2)nc1": {
+      "count": 364,
+      "n_active": 58,
+      "activity_rate": 0.15934065934065933,
+      "mean_pXC": 5.415712970795425,
+      "std_pXC": 0.9319558385567045
+    },
+    "O=C(Nc1ccc(-c2cn3c(n2)sc2cc(OCCN4CCOCC4)ccc23)cc1)Nc1ccon1": {
+      "count": 364,
+      "n_active": 27,
+      "activity_rate": 0.07417582417582418,
+      "mean_pXC": 5.214115794289771,
+      "std_pXC": 0.7299324024822516
+    },
+    "O=C(Nc1ccc(CN2CCNCC2)cc1)Nc1ccc(Oc2ccncn2)cc1": {
+      "count": 363,
+      "n_active": 154,
+      "activity_rate": 0.42424242424242425,
+      "mean_pXC": 6.068456229520468,
+      "std_pXC": 1.2190860184084777
+    },
+    "O=C(c1ccccc1)c1c[nH]c2ncccc12": {
+      "count": 363,
+      "n_active": 21,
+      "activity_rate": 0.05785123966942149,
+      "mean_pXC": 5.1934287289115835,
+      "std_pXC": 0.49228282556248487
+    },
+    "c1nc(Oc2ccc3[nH]ccc3c2)c2ccc(OCCCN3CCCC3)cc2n1": {
+      "count": 362,
+      "n_active": 64,
+      "activity_rate": 0.17679558011049723,
+      "mean_pXC": 5.4317376698983155,
+      "std_pXC": 0.9205800341447841
+    },
+    "O=C(NOCC1CC1)c1ccccc1Nc1ccccc1": {
+      "count": 362,
+      "n_active": 2,
+      "activity_rate": 0.0055248618784530384,
+      "mean_pXC": 5.012723709477757,
+      "std_pXC": 0.13412605979014644
+    },
+    "C1=c2ccccc2=NC1=C1NNc2ncncc21": {
+      "count": 361,
+      "n_active": 130,
+      "activity_rate": 0.3601108033240997,
+      "mean_pXC": 5.751660125157977,
+      "std_pXC": 0.8570138224789571
+    },
+    "c1ccc(CCCOc2cncc(-c3ccc4n[nH]cc4c3)c2)cc1": {
+      "count": 361,
+      "n_active": 72,
+      "activity_rate": 0.1994459833795014,
+      "mean_pXC": 5.443176890025677,
+      "std_pXC": 0.8022047947965266
+    },
+    "c1nc(-c2cnn(CC3CCCC3)c2)c2cc[nH]c2n1": {
+      "count": 361,
+      "n_active": 54,
+      "activity_rate": 0.14958448753462603,
+      "mean_pXC": 5.35058890135527,
+      "std_pXC": 0.6652657725326124
+    },
+    "O=C1NC(=O)C2=C1c1cn(c3ccccc13)CCCOCCn1cc2c2ccccc21": {
+      "count": 359,
+      "n_active": 44,
+      "activity_rate": 0.12256267409470752,
+      "mean_pXC": 5.264721481867292,
+      "std_pXC": 0.5632806401664591
+    },
+    "c1cc(-c2nc(N3CCOCC3)c3sc(CN4CCNCC4)cc3n2)c2cn[nH]c2c1": {
+      "count": 359,
+      "n_active": 18,
+      "activity_rate": 0.05013927576601671,
+      "mean_pXC": 5.173994351763426,
+      "std_pXC": 0.6342414782836722
+    },
+    "c1ccc(COc2ccc(Cc3cncnc3)cc2)cc1": {
+      "count": 359,
+      "n_active": 4,
+      "activity_rate": 0.011142061281337047,
+      "mean_pXC": 5.025690119840973,
+      "std_pXC": 0.2602304709335338
+    },
+    "c1ccc(-c2nc(-c3ccccc3)c(-c3ccncc3)[nH]2)cc1": {
+      "count": 358,
+      "n_active": 17,
+      "activity_rate": 0.04748603351955307,
+      "mean_pXC": 5.1428914140915225,
+      "std_pXC": 0.4144380749024048
+    },
+    "c1ccc(Nc2nnc(Cc3ccncc3)c3ccccc23)cc1": {
+      "count": 358,
+      "n_active": 10,
+      "activity_rate": 0.027932960893854747,
+      "mean_pXC": 5.071816719866184,
+      "std_pXC": 0.3801662942900901
+    },
+    "O=C1N=c2ccccc2=CC1=C1Nc2ccc(N3CCNCC3)cc2N1": {
+      "count": 358,
+      "n_active": 107,
+      "activity_rate": 0.2988826815642458,
+      "mean_pXC": 5.658475590489962,
+      "std_pXC": 0.9100428507022571
+    },
+    "c1nc(NC2CCCNC2)c2cc[nH]c2n1": {
+      "count": 358,
+      "n_active": 14,
+      "activity_rate": 0.03910614525139665,
+      "mean_pXC": 5.115023778250524,
+      "std_pXC": 0.5188680651721879
+    },
+    "O=C(Nc1ccccc1)C1(C(=O)Nc2ccc(Oc3ccnc4cc(OCCCN5CCOCC5)ccc34)cc2)CC1": {
+      "count": 358,
+      "n_active": 153,
+      "activity_rate": 0.4273743016759777,
+      "mean_pXC": 6.100644914303539,
+      "std_pXC": 1.3301939839593733
+    },
+    "O=C(CN1CCNCC1)Nc1ccc(NC(=C2C(=O)Nc3ccccc32)c2ccccc2)cc1": {
+      "count": 357,
+      "n_active": 161,
+      "activity_rate": 0.45098039215686275,
+      "mean_pXC": 6.034609648239595,
+      "std_pXC": 1.137854537257143
+    },
+    "c1ccc(-c2nc(N3CCOCC3)c3oc4ncccc4c3n2)cc1": {
+      "count": 357,
+      "n_active": 18,
+      "activity_rate": 0.05042016806722689,
+      "mean_pXC": 5.169564836758581,
+      "std_pXC": 0.6627843747616086
+    },
+    "O=c1[nH]c2nc(Nc3ccccc3)ncc2cc1-c1ccccc1": {
+      "count": 357,
+      "n_active": 117,
+      "activity_rate": 0.3277310924369748,
+      "mean_pXC": 5.859481122199529,
+      "std_pXC": 1.260262243093711
+    },
+    "c1ccc(Nc2ccc3[nH]cnc3c2)cc1": {
+      "count": 357,
+      "n_active": 2,
+      "activity_rate": 0.0056022408963585435,
+      "mean_pXC": 5.0157106947472965,
+      "std_pXC": 0.13466583974079205
+    },
+    "c1ccc(Nc2ncnc3cc(OCC4CCNCC4)ccc23)cc1": {
+      "count": 357,
+      "n_active": 76,
+      "activity_rate": 0.21288515406162464,
+      "mean_pXC": 5.519621480624036,
+      "std_pXC": 0.8628242628756956
+    },
+    "c1ccc(Nc2ccnc3cc(OCCCN4CCNCC4)ccc23)cc1": {
+      "count": 356,
+      "n_active": 116,
+      "activity_rate": 0.3258426966292135,
+      "mean_pXC": 5.947887674624408,
+      "std_pXC": 1.3247779430164246
+    },
+    "O=C1Nc2ccccc2C1=Cc1cc(C(=O)NCCCN2CCOCC2)c[nH]1": {
+      "count": 355,
+      "n_active": 136,
+      "activity_rate": 0.38309859154929576,
+      "mean_pXC": 5.846587581605958,
+      "std_pXC": 0.9370528095100519
+    },
+    "c1cnc2ccc(Sc3nnc4ccc(-c5cn[nH]c5)nn34)cc2c1": {
+      "count": 355,
+      "n_active": 4,
+      "activity_rate": 0.011267605633802818,
+      "mean_pXC": 5.044589687463286,
+      "std_pXC": 0.38548300141326125
+    },
+    "c1ccc2c(c1)ncc1nccn12": {
+      "count": 355,
+      "n_active": 10,
+      "activity_rate": 0.028169014084507043,
+      "mean_pXC": 5.055622082179501,
+      "std_pXC": 0.2385124170551465
+    },
+    "c1ccc(COc2cncc(-c3cnn(C4CCNCC4)c3)c2)cc1": {
+      "count": 355,
+      "n_active": 92,
+      "activity_rate": 0.2591549295774648,
+      "mean_pXC": 5.531770452921366,
+      "std_pXC": 0.8442383847147189
+    },
+    "C(=Cc1n[nH]c2cc(Sc3ccccc3)ccc12)c1ccccn1": {
+      "count": 354,
+      "n_active": 51,
+      "activity_rate": 0.1440677966101695,
+      "mean_pXC": 5.383622546809247,
+      "std_pXC": 0.7639994089795057
+    },
+    "c1ccc(Nc2ncnc3cc(OCCCN4CCOCC4)ccc23)cc1": {
+      "count": 353,
+      "n_active": 47,
+      "activity_rate": 0.13314447592067988,
+      "mean_pXC": 5.410636976336002,
+      "std_pXC": 0.9448038243786837
+    },
+    "O=C(Nc1ccccc1)Nc1ccc(-c2cccc3[nH]ncc23)cc1": {
+      "count": 353,
+      "n_active": 47,
+      "activity_rate": 0.13314447592067988,
+      "mean_pXC": 5.364925954470878,
+      "std_pXC": 0.8244909231286008
+    },
+    "O=C1NC(=O)C(c2cn(C3CCN(Cc4ccccn4)CC3)c3ccccc23)=C1c1c[nH]c2ccccc12": {
+      "count": 352,
+      "n_active": 23,
+      "activity_rate": 0.06534090909090909,
+      "mean_pXC": 5.16986377399849,
+      "std_pXC": 0.46412188815502253
+    },
+    "O=C1NCc2c1c1c3ccccc3n3c1c1c2c2ccccc2n1C1CCC3O1": {
+      "count": 352,
+      "n_active": 249,
+      "activity_rate": 0.7073863636363636,
+      "mean_pXC": 6.755038186279822,
+      "std_pXC": 1.1611801573415903
+    },
+    "O=C(Nc1ccc2c(c1)NCC2)c1cccnc1NCc1ccncc1": {
+      "count": 352,
+      "n_active": 25,
+      "activity_rate": 0.07102272727272728,
+      "mean_pXC": 5.183193075858144,
+      "std_pXC": 0.5839474127442945
+    },
+    "c1ccc(COc2ccc(Nc3ncnc4ccc(-c5ccco5)cc34)cc2)cc1": {
+      "count": 351,
+      "n_active": 12,
+      "activity_rate": 0.03418803418803419,
+      "mean_pXC": 5.1070547072551,
+      "std_pXC": 0.5630070880370506
+    },
+    "c1nonc1-c1nc2cncc(OCC3CCCNC3)c2[nH]1": {
+      "count": 351,
+      "n_active": 47,
+      "activity_rate": 0.1339031339031339,
+      "mean_pXC": 5.292936238727874,
+      "std_pXC": 0.7477253071683332
+    },
+    "c1cc2c(Oc3ccc4[nH]ccc4c3)ncnn2c1": {
+      "count": 350,
+      "n_active": 29,
+      "activity_rate": 0.08285714285714285,
+      "mean_pXC": 5.198840609279707,
+      "std_pXC": 0.5673004289279333
+    },
+    "c1ccc(Nc2nc3cc(Oc4ccnc(-c5ncc[nH]5)c4)ccc3[nH]2)cc1": {
+      "count": 350,
+      "n_active": 30,
+      "activity_rate": 0.08571428571428572,
+      "mean_pXC": 5.178793285177195,
+      "std_pXC": 0.49082248912396176
+    },
+    "O=C(Nc1ccccc1)Nc1ccc(Oc2ccncc2)cc1": {
+      "count": 350,
+      "n_active": 52,
+      "activity_rate": 0.14857142857142858,
+      "mean_pXC": 5.370657426155268,
+      "std_pXC": 0.7792536296456801
+    },
+    "O=C1NCc2c1c1c3ccccc3n3c1c1c2c2ccccc2n1C1CCCC3O1": {
+      "count": 350,
+      "n_active": 288,
+      "activity_rate": 0.8228571428571428,
+      "mean_pXC": 7.196799427561285,
+      "std_pXC": 1.2629711392492955
+    },
+    "O=C(Nc1ccccc1)c1cnc(Nc2cc(N3CCNCC3)ncn2)s1": {
+      "count": 349,
+      "n_active": 94,
+      "activity_rate": 0.2693409742120344,
+      "mean_pXC": 5.898203453904846,
+      "std_pXC": 1.573413379927442
+    },
+    "O=C(Nc1ncc(SCc2ncco2)s1)C1CCNCC1": {
+      "count": 349,
+      "n_active": 31,
+      "activity_rate": 0.08882521489971347,
+      "mean_pXC": 5.225701595684631,
+      "std_pXC": 0.5856324097937399
+    },
+    "O=C(Nc1cn[nH]c1C(=O)NC1CCNCC1)c1ccccc1": {
+      "count": 349,
+      "n_active": 25,
+      "activity_rate": 0.07163323782234957,
+      "mean_pXC": 5.192217569895378,
+      "std_pXC": 0.6869249623032062
+    },
+    "O=C(Nc1cccc(Nc2nccc(-c3cccnc3)n2)c1)c1ccc(CN2CCNCC2)cc1": {
+      "count": 349,
+      "n_active": 26,
+      "activity_rate": 0.07449856733524356,
+      "mean_pXC": 5.2133827774602155,
+      "std_pXC": 0.7226642681592875
+    },
+    "N=C1CCc2cc(-c3c[nH]nc3-c3ccncc3)ccc21": {
+      "count": 348,
+      "n_active": 5,
+      "activity_rate": 0.014367816091954023,
+      "mean_pXC": 5.060176197365979,
+      "std_pXC": 0.3533490161053742
+    },
+    "c1ccc(Nc2ncnc3ccc(OCCCN4CCOCC4)cc23)cc1": {
+      "count": 348,
+      "n_active": 27,
+      "activity_rate": 0.07758620689655173,
+      "mean_pXC": 5.23074870103795,
+      "std_pXC": 0.6701415026346851
+    },
+    "O=C(Nc1cccc(-n2ccnc2)c1)c1cccc(Nc2nccc(-c3cccnc3)n2)c1": {
+      "count": 348,
+      "n_active": 48,
+      "activity_rate": 0.13793103448275862,
+      "mean_pXC": 5.298619247748831,
+      "std_pXC": 0.7480769518774357
+    },
+    "c1ccc(-c2nc3cncnc3nc2-c2ccccc2)cc1": {
+      "count": 348,
+      "n_active": 38,
+      "activity_rate": 0.10919540229885058,
+      "mean_pXC": 5.24502092212699,
+      "std_pXC": 0.5765103513914657
+    },
+    "O=C(NC1CC2OC(C1)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)CNC4=O)c1ccccc1": {
+      "count": 348,
+      "n_active": 115,
+      "activity_rate": 0.33045977011494254,
+      "mean_pXC": 5.6972298551669,
+      "std_pXC": 0.8643985823335381
+    },
+    "O=C(c1ccc(C=Cc2n[nH]c3ccccc23)cc1)N1CCNCC1": {
+      "count": 347,
+      "n_active": 173,
+      "activity_rate": 0.49855907780979825,
+      "mean_pXC": 6.0345865498847795,
+      "std_pXC": 0.9054797835103688
+    },
+    "O=C1CN(C2CCCC2)c2nc(Nc3ccc(C(=O)NC4CCNCC4)cc3)ncc2N1": {
+      "count": 347,
+      "n_active": 28,
+      "activity_rate": 0.08069164265129683,
+      "mean_pXC": 5.226715439296729,
+      "std_pXC": 0.5862678686500918
+    },
+    "O=C(Nc1ccc(Sc2nc(Nc3cc[nH]n3)cc(N3CCNCC3)n2)cc1)C1CC1": {
+      "count": 347,
+      "n_active": 97,
+      "activity_rate": 0.27953890489913547,
+      "mean_pXC": 5.678056945018941,
+      "std_pXC": 0.9361621011737015
+    },
+    "c1ccc(Nc2ccnc(Nc3ccc(OCCN4CCCC4)cc3)n2)cc1": {
+      "count": 347,
+      "n_active": 124,
+      "activity_rate": 0.3573487031700288,
+      "mean_pXC": 5.813456058113799,
+      "std_pXC": 0.846357880851174
+    },
+    "O=C(Nc1ccc(OCCN2CCOCC2)c2ccccc12)Nc1ccnn1-c1ccccc1": {
+      "count": 346,
+      "n_active": 28,
+      "activity_rate": 0.08092485549132948,
+      "mean_pXC": 5.202481312967036,
+      "std_pXC": 0.5306896939791089
+    },
+    "O=C1COc2ccc(Nc3ccnc(Nc4ccccc4)n3)nc2N1.c1ccccc1": {
+      "count": 346,
+      "n_active": 191,
+      "activity_rate": 0.5520231213872833,
+      "mean_pXC": 6.210335560344973,
+      "std_pXC": 1.1341322456274947
+    },
+    "O=C(Nc1cccc(Nc2nc(-c3cccnc3)cs2)c1)c1ccc(CN2CCNCC2)cc1": {
+      "count": 344,
+      "n_active": 28,
+      "activity_rate": 0.08139534883720931,
+      "mean_pXC": 5.211503839813565,
+      "std_pXC": 0.6869846378004356
+    },
+    "O=c1cc(-c2ccccc2)oc2c(C3CCNCC3)cccc12": {
+      "count": 344,
+      "n_active": 46,
+      "activity_rate": 0.13372093023255813,
+      "mean_pXC": 5.355372516583178,
+      "std_pXC": 0.6162005370633985
+    },
+    "O=C(c1cc2ccccc2[nH]1)N1CCNCC1": {
+      "count": 343,
+      "n_active": 102,
+      "activity_rate": 0.29737609329446063,
+      "mean_pXC": 5.7041082620534125,
+      "std_pXC": 0.9525474125063403
+    },
+    "c1ccc(Nc2ccnc(Nc3ccc(N4CCC(N5CCNCC5)CC4)cc3)n2)cc1": {
+      "count": 343,
+      "n_active": 194,
+      "activity_rate": 0.565597667638484,
+      "mean_pXC": 6.329622911002106,
+      "std_pXC": 1.1257361199950668
+    },
+    "O=C1Nc2ccccc2C1=Cc1ccc[nH]1": {
+      "count": 342,
+      "n_active": 162,
+      "activity_rate": 0.47368421052631576,
+      "mean_pXC": 6.070149713342688,
+      "std_pXC": 1.076095043589538
+    },
+    "O=C(Cc1cc(Nc2ncnc3ccccc23)n[nH]1)Nc1ccccc1": {
+      "count": 342,
+      "n_active": 30,
+      "activity_rate": 0.08771929824561403,
+      "mean_pXC": 5.246213093799747,
+      "std_pXC": 0.6206460938376108
+    },
+    "c1ccc(Nc2ncc3c(n2)-c2ccccc2C(c2ccccc2)=NC3)cc1": {
+      "count": 342,
+      "n_active": 21,
+      "activity_rate": 0.06140350877192982,
+      "mean_pXC": 5.15248850444569,
+      "std_pXC": 0.43953480098152414
+    },
+    "c1ccc(Nc2ncnc3ccccc23)cc1": {
+      "count": 341,
+      "n_active": 45,
+      "activity_rate": 0.13196480938416422,
+      "mean_pXC": 5.349362834627371,
+      "std_pXC": 0.7864230104161617
+    },
+    "O=C(Nc1cccc2c1[nH]c1cnccc12)c1cccnc1": {
+      "count": 337,
+      "n_active": 5,
+      "activity_rate": 0.01483679525222552,
+      "mean_pXC": 5.026430164687836,
+      "std_pXC": 0.20550349123044725
+    }
+  },
+  "activity_rate_distribution": {
+    "mean": 0.18535483991443366,
+    "median": 0.13255464265242206,
+    "std": 0.1771974223325499,
+    "min": 0.005479452054794521,
+    "max": 0.8228571428571428,
+    "n_high": 1,
+    "n_medium": 3,
+    "n_low": 64
+  },
+  "hdodh_comparison": {
+    "n_scaffolds": 0,
+    "correlation": {
+      "spearman_rho": null,
+      "p_value": null
+    },
+    "scaffolds": {}
+  }
+}

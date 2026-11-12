@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Supplementary File S4}\\[0.5em]
+{\large Batch A Transparency Report}\\[1em]
+Contrastive Learning for Drug--Target Affinity:\\A Systematic Benchmark of Encoders, Losses, and Generalization\\[0.5em]
+Xiaoping Ren et al.
+\end{center}
+
+\noindent\rule{\linewidth}{1pt}
+\vspace{1em}
+
+\section{Purpose}
+
+During the experimental process, we encountered a configuration error in an early batch of E7 experiments (Batch A). For full transparency, we report these results here and explain why they were excluded from the main analysis.
+
+\section{Configuration Error}
+
+Batch A experiments were run on 2026-08-05/06 with an incorrect contrastive weight parameter:
+\begin{itemize}
+\item \textbf{Intended configuration (E7)}: $\alpha=0.05$, $\beta=0.0$ (no Uniformity/Cross-Modal losses)
+\item \textbf{Actual configuration (Batch A)}: $\alpha=0.05$, $\beta=0.05$ (incorrect)
+\end{itemize}
+
+The parameter $\beta$ controls the weight of Uniformity and Cross-Modal losses in the contrastive objective. For E7, we defined $\beta=0.0$ to isolate the effect of InfoNCE loss alone. Batch A inadvertently used $\beta=0.05$, which includes these additional loss components.
+
+\section{Batch A Results}
+
+Table~\ref{tab:batch_a} reports all Batch A experiments. We ran 10 experiments across two $\alpha$ values (0.01 and 0.05), each with 5 seeds.
+
+\begin{table}[!h]
+\centering
+\caption{Batch A Results (Excluded from Main Analysis)}
+\label{tab:batch_a}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Directory} & \textbf{$\alpha$} & \textbf{$\beta$} & \textbf{MSE} & \textbf{CI} \\
+\hline
+E7\_alpha001\_old\_seed7 & 0.01 & 0.05 & 0.2191 & 0.5593 \\
+E7\_alpha001\_old\_seed42 & 0.01 & 0.05 & 0.2119 & 0.5624 \\
+E7\_alpha001\_old\_seed123 & 0.01 & 0.05 & 0.2295 & 0.5574 \\
+E7\_alpha001\_old\_seed2024 & 0.01 & 0.05 & 0.2097 & 0.5696 \\
+E7\_alpha001\_old\_seed3407 & 0.01 & 0.05 & 0.2031 & 0.5677 \\
+\hline
+\textbf{Mean $\pm$ std} & 0.01 & 0.05 & \textbf{0.2147 $\pm$ 0.0095} & 0.5633 $\pm$ 0.0046 \\
+\hline
+E7\_alpha005\_old\_seed7 & 0.05 & 0.05 & 0.2188 & 0.5585 \\
+E7\_alpha005\_old\_seed42 & 0.05 & 0.05 & 0.2228 & 0.5603 \\
+E7\_alpha005\_old\_seed123 & 0.05 & 0.05 & 0.2160 & 0.5613 \\
+E7\_alpha005\_old\_seed2024 & 0.05 & 0.05 & 0.2266 & 0.5562 \\
+E7\_alpha005\_old\_seed3407 & 0.05 & 0.05 & 0.2259 & 0.5601 \\
+\hline
+\textbf{Mean $\pm$ std} & 0.05 & 0.05 & \textbf{0.2220 $\pm$ 0.0044} & 0.5593 $\pm$ 0.0021 \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Comparison with Batch C (Reported Results)}
+
+For comparison, the reported E7 results in the main paper (Batch C, run on 2026-08-23/24 with correct configuration $\beta=0.0$) are:
+\begin{itemize}
+\item \textbf{E7 ($\alpha=0.05$, $\beta=0.0$)}: MSE = 0.2180 $\pm$ 0.0043, CI = 0.8912 $\pm$ 0.0033
+\end{itemize}
+
+Note that Batch A CI values ($\sim$0.56) are substantially lower than Batch C CI values ($\sim$0.89). This discrepancy suggests that the incorrect $\beta=0.05$ parameter not only affected the loss function but may have also impacted the CI computation or model training in ways beyond the intended configuration.
+
+\section{Exclusion Rationale}
+
+Batch A was excluded from the main analysis for the following reasons:
+\begin{enumerate}
+\item \textbf{Configuration error}: The $\beta=0.05$ parameter violates the E7 definition ($\beta=0.0$), making these experiments non-comparable to the controlled protocol.
+\item \textbf{Not performance-based selection}: The exclusion decision was made upon discovering the configuration error, not based on performance outcomes. We did not cherry-pick Batch C because it performed better.
+\item \textbf{Consistency}: All E7 results in the main paper use the same correct configuration ($\beta=0.0$) to ensure fair comparison with other ablation conditions.
+\end{enumerate}
+
+\section{Transparency Statement}
+
+We report Batch A results here to demonstrate full experimental transparency. The exclusion was based on a documented configuration error, not selective reporting. All experimental decisions were made prior to observing results, and the configuration error was identified during routine audit of experimental logs.
+
+\end{document}

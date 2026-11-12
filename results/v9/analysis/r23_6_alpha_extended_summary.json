@@ -1,0 +1,141 @@
+{
+  "script": "scripts/r23_6_kiba_alpha_extended.py",
+  "timestamp": "2026-10-10 17:31:34",
+  "alphas": [
+    0.2,
+    0.3,
+    0.5
+  ],
+  "seeds": [
+    42,
+    3407,
+    2024,
+    7,
+    123
+  ],
+  "total": 15,
+  "success": 15,
+  "failed": 0,
+  "results": [
+    {
+      "exp_id": "GIN_KIBA_alpha200_seed42",
+      "alpha": 0.2,
+      "seed": 42,
+      "status": "success",
+      "detail": "OK mse=0.2531 ci=0.8164 ep=214",
+      "elapsed_min": 87.8
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha200_seed3407",
+      "alpha": 0.2,
+      "seed": 3407,
+      "status": "success",
+      "detail": "OK mse=0.1879 ci=0.8472 ep=294",
+      "elapsed_min": 111.2
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha200_seed2024",
+      "alpha": 0.2,
+      "seed": 2024,
+      "status": "success",
+      "detail": "OK mse=0.5930 ci=0.6861 ep=12",
+      "elapsed_min": 21.9
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha200_seed7",
+      "alpha": 0.2,
+      "seed": 7,
+      "status": "success",
+      "detail": "OK mse=0.2447 ci=0.8198 ep=246",
+      "elapsed_min": 101.7
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha200_seed123",
+      "alpha": 0.2,
+      "seed": 123,
+      "status": "success",
+      "detail": "OK mse=0.2003 ci=0.8405 ep=218",
+      "elapsed_min": 124.9
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha300_seed42",
+      "alpha": 0.3,
+      "seed": 42,
+      "status": "success",
+      "detail": "OK mse=0.2679 ci=0.8086 ep=182",
+      "elapsed_min": 107.0
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha300_seed3407",
+      "alpha": 0.3,
+      "seed": 3407,
+      "status": "success",
+      "detail": "OK mse=0.2040 ci=0.8392 ep=319",
+      "elapsed_min": 135.6
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha300_seed2024",
+      "alpha": 0.3,
+      "seed": 2024,
+      "status": "success",
+      "detail": "OK mse=0.2780 ci=0.8044 ep=192",
+      "elapsed_min": 81.7
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha300_seed7",
+      "alpha": 0.3,
+      "seed": 7,
+      "status": "success",
+      "detail": "OK mse=0.2988 ci=0.7972 ep=126",
+      "elapsed_min": 59.8
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha300_seed123",
+      "alpha": 0.3,
+      "seed": 123,
+      "status": "success",
+      "detail": "OK mse=0.2583 ci=0.8148 ep=252",
+      "elapsed_min": 100.7
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha500_seed42",
+      "alpha": 0.5,
+      "seed": 42,
+      "status": "success",
+      "detail": "OK mse=0.2057 ci=0.8384 ep=246",
+      "elapsed_min": 97.1
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha500_seed3407",
+      "alpha": 0.5,
+      "seed": 3407,
+      "status": "success",
+      "detail": "OK mse=0.1994 ci=0.8422 ep=285",
+      "elapsed_min": 108.9
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha500_seed2024",
+      "alpha": 0.5,
+      "seed": 2024,
+      "status": "success",
+      "detail": "OK mse=0.1869 ci=0.8497 ep=316",
+      "elapsed_min": 120.4
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha500_seed7",
+      "alpha": 0.5,
+      "seed": 7,
+      "status": "success",
+      "detail": "OK mse=0.2012 ci=0.8388 ep=302",
+      "elapsed_min": 113.4
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha500_seed123",
+      "alpha": 0.5,
+      "seed": 123,
+      "status": "success",
+      "detail": "OK mse=0.2205 ci=0.8318 ep=252",
+      "elapsed_min": 99.8
+    }
+  ]
+}

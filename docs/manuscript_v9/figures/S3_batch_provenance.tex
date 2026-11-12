@@ -1,0 +1,82 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Supplementary File S3}\\[0.5em]
+{\large Batch-Provenance and Metric-Convention Map}\\[1em]
+Apparent Contrastive Learning Gains in Drug--Target Affinity Prediction Are Manufactured by Under-Converged Supervised Baselines:\\A Convergent-Protocol Reassessment (V9)\\[0.5em]
+Xiaoping Ren et al.
+\end{center}
+
+\noindent\rule{\linewidth}{1pt}
+\vspace{1em}
+
+\section{Purpose}
+
+To make every number in this paper traceable, we document the mapping between experiment batches, protocols, and inclusion status. All values in this paper derive exclusively from batches marked \textbf{authoritative}; \textbf{excluded} batches are retained in the repository and in \texttt{canonical\_results\_v2.csv} (with explicit suffix annotations) for provenance only.
+
+\section{Experiment Batch Provenance Map}
+
+\begin{table*}[!h]
+\caption{Experiment batch provenance map. CI values across all authoritative batches use the pair-counting convention.}
+\label{tab:batch_map}
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.8cm}p{3.5cm}p{1.8cm}p{2.2cm}}
+\toprule
+Batch (directory pattern) & Content & Status & Notes \\
+\midrule
+\texttt{E0\_\allowbreak{}seed*}, \texttt{E1--E6\_\allowbreak{}seed*}, \texttt{E7\_\allowbreak{}alpha00X\_\allowbreak{}seed*} & Davis main results (Table 2) & authoritative & $\beta=0.0$ (E5/E7), $n=5$ \\
+\texttt{E8\_\allowbreak{}alpha*\_\allowbreak{}seed*} & GIN $\alpha$-scan (S1) & authoritative & E8\_\allowbreak{}alpha00000 is $\alpha{=}0$ ref; E8\_\allowbreak{}alpha0 is duplicate (unused) \\
+\texttt{GAT\_\allowbreak{}E7\_\allowbreak{}alpha*\_\allowbreak{}v2\_\allowbreak{}seed*} & GAT $\alpha$-scan + GAT baseline & authoritative & F3 re-run after Round-10 audit (param 521,345) \\
+\texttt{GAT\_\allowbreak{}E7\_\allowbreak{}alpha*\_\allowbreak{}seed*} (non-v2) & --- & \textbf{superseded} & GIN mislabeled as GAT; no final number from this batch \\
+\texttt{round21\_\allowbreak{}T11\_\allowbreak{}*}, \texttt{round21\_\allowbreak{}T4\_\allowbreak{}*} & Cold-target $\alpha$-scan, CL$\times$reg factorial & authoritative & Protocol A ($wd=10^{-4}$) / B ($wd=10^{-2}$) \\
+\texttt{round18\_\allowbreak{}gat\_\allowbreak{}coldtarget\_\allowbreak{}*} & Regularization pilot & \textbf{superseded} & Pre-unification; superseded by T4 factorial \\
+\texttt{GIN\_\allowbreak{}KIBA\_\allowbreak{}alpha*\_\allowbreak{}seed*}, \texttt{KIBA\_\allowbreak{}E0\_\allowbreak{}seed*} & KIBA $\alpha$-scan and baseline ($n=10$) & authoritative & $\beta=0.0$, $lr=5\times10^{-4}$; 5+5 seeds \\
+\texttt{GIN\_\allowbreak{}KIBA\_\allowbreak{}alpha0\_\allowbreak{}seed*} & --- & \textbf{excluded} & Config audit: $\alpha{=}0.1,\beta{=}0.05$ despite name; annotated \texttt{\_\allowbreak{}POLLUTED} \\
+\texttt{KIBA\_\allowbreak{}alpha*\_\allowbreak{}lr0.0001\_\allowbreak{}seed*} & --- & \textbf{excluded} & $\beta=0.05$ protocol contamination \\
+\texttt{KIBA\_\allowbreak{}alpha050\_\allowbreak{}lr0.0001\_\allowbreak{}seed*} ($n=10$) & --- & \textbf{excluded} & $\beta=0.05$ contamination; misread "$\alpha=0.50$ optimum" \\
+\texttt{Batch A (E7, $\beta=0.05$)} & S4 & \textbf{excluded} & Config error (documented, not performance-based) \\
+\texttt{E7\_\allowbreak{}alpha001\_\allowbreak{}old}, \texttt{E7\_\allowbreak{}alpha005\_\allowbreak{}old} & --- & \textbf{superseded} & Earlier E7 protocol generation \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\section{Audit Scripts}
+
+The 115-directory KIBA audit, the parameter-count architecture check (GIN 498,177 / GAT 521,345), and the config-level assertions applied to every included run are implemented in the public repository scripts:
+\begin{itemize}
+\item \texttt{p0\_1\_1\_kiba\_audit.py} -- KIBA directory audit
+\item \texttt{p0\_1\_2\_kiba\_deep\_audit.py} -- Deep config-level audit
+\item \texttt{e5\_1\_t11\_t4\_config\_audit.py} -- Cold-target experiment config audit
+\end{itemize}
+
+\section{Metric Convention}
+
+All CI values across authoritative batches use the \textbf{pair-counting convention} (standard pairwise counting method for Concordance Index). This ensures consistency with the main text and enables direct comparison across experiments.
+
+\section{Data Availability}
+
+All experimental data, including excluded batches with explicit annotations, are available in the public repository at \url{https://github.com/rxp613-dev/contrastive-dta} and archived at \url{https://doi.org/10.5281/zenodo.23308152}.
+
+% ===========================================================================
+% V9 extension (Task 3.4.1, generated 2026-11-12 by
+% scripts/v9_phase3p4_provenance.py): every V9 batch family, with per-run
+% and launcher detail tables transcribed directly from result directories.
+% Machine-readable counterpart: results/analysis/v9_phase3p4_provenance.json.
+% ===========================================================================
+\input{S3_v9_provenance}
+
+\end{document}

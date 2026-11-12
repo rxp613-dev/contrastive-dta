@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-09-01T15:43:22.816547",
+  "paper_data": {
+    "0.000": {
+      "ci": 0.8625,
+      "ci_std": 0.0046,
+      "mse": 0.3276,
+      "mse_std": 0.0109
+    },
+    "0.001": {
+      "ci": 0.8653,
+      "ci_std": 0.004,
+      "mse": 0.3194,
+      "mse_std": 0.0133
+    },
+    "0.003": {
+      "ci": 0.8602,
+      "ci_std": 0.0035,
+      "mse": 0.3283,
+      "mse_std": 0.0089
+    },
+    "0.010": {
+      "ci": 0.8683,
+      "ci_std": 0.0079,
+      "mse": 0.3049,
+      "mse_std": 0.0237
+    },
+    "0.030": {
+      "ci": 0.8788,
+      "ci_std": 0.0035,
+      "mse": 0.2716,
+      "mse_std": 0.0087
+    },
+    "0.050": {
+      "ci": 0.8805,
+      "ci_std": 0.0038,
+      "mse": 0.2659,
+      "mse_std": 0.0123
+    },
+    "0.100": {
+      "ci": 0.8794,
+      "ci_std": 0.0036,
+      "mse": 0.2662,
+      "mse_std": 0.0119
+    },
+    "0.300": {
+      "ci": 0.8753,
+      "ci_std": 0.0046,
+      "mse": 0.2741,
+      "mse_std": 0.0053
+    }
+  },
+  "verification_results": {
+    "0.000": {
+      "batch": null,
+      "consistent": false
+    },
+    "0.001": {
+      "batch": "v2",
+      "consistent": true
+    },
+    "0.003": {
+      "batch": "v2",
+      "consistent": true
+    },
+    "0.010": {
+      "batch": null,
+      "consistent": false
+    },
+    "0.030": {
+      "batch": "v2",
+      "consistent": true
+    },
+    "0.050": {
+      "batch": "v2",
+      "consistent": true
+    },
+    "0.100": {
+      "batch": null,
+      "consistent": false
+    },
+    "0.300": {
+      "batch": null,
+      "consistent": false
+    }
+  },
+  "inconsistencies": [
+    "0.000",
+    "0.010",
+    "0.100",
+    "0.300"
+  ]
+}

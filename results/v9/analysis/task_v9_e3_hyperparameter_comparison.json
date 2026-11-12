@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-10-21T18:46:54.030978",
+  "task": "E3: Hyperparameter Comparison with GraphDTA",
+  "our_hyperparams": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "batch_size": 512,
+    "max_epochs": 500,
+    "lr_scheduler": {
+      "type": "ReduceLROnPlateau",
+      "patience": 10,
+      "factor": 0.5
+    },
+    "early_stopping": {
+      "patience": 50,
+      "metric": "validation_MSE"
+    },
+    "dataset_size": {
+      "KIBA": 118254,
+      "Davis": 30056
+    },
+    "steps_per_epoch": {
+      "KIBA": 230,
+      "Davis": 58
+    }
+  },
+  "graphdta_hyperparams": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "max_epochs": 200,
+    "lr_scheduler": {
+      "type": "ReduceLROnPlateau",
+      "patience": 20,
+      "factor": 0.5
+    },
+    "early_stopping": {
+      "patience": 100,
+      "metric": "validation_MSE"
+    },
+    "dataset_size": {
+      "KIBA": 118254
+    },
+    "steps_per_epoch": {
+      "KIBA": 461
+    }
+  },
+  "key_differences": {
+    "batch_size_ratio": 2.0,
+    "lr_patience_ratio": 0.5,
+    "early_stop_patience_ratio": 0.5,
+    "steps_per_epoch_ratio": 0.49891540130151846
+  },
+  "proposed_configs": {
+    "A_match_graphdta": {
+      "batch_size": 256,
+      "lr_scheduler_patience": 20,
+      "early_stopping_patience": 100,
+      "estimated_gpu_hours": "10-20"
+    },
+    "B_moderate": {
+      "batch_size": 512,
+      "lr_scheduler_patience": 30,
+      "early_stopping_patience": 150,
+      "estimated_gpu_hours": "15-30"
+    },
+    "C_aggressive": {
+      "batch_size": 512,
+      "lr_scheduler_patience": 50,
+      "early_stopping_patience": 200,
+      "estimated_gpu_hours": "20-40"
+    }
+  },
+  "recommendation": "Config B (moderate adjustment) offers best trade-off: 3x more patience with same batch efficiency, estimated 15-30 GPU hours for 5 seeds"
+}

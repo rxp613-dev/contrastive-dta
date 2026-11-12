@@ -1,0 +1,56 @@
+{
+  "experiment": "U-shaped stratification leave-one-out analysis",
+  "date": "2026-09-03",
+  "objective": "Address T9: robustness of U-shaped pattern",
+  "full_sample_means": {
+    "Q0": 14.66,
+    "Q1": 11.8,
+    "Q2": 9.34,
+    "Q3": 15.5
+  },
+  "leave_one_out_results": [
+    {
+      "excluded_seed": 1,
+      "Q0": 14.7,
+      "Q1": 11.875,
+      "Q2": 9.375,
+      "Q3": 15.549999999999999,
+      "u_shape_preserved": true
+    },
+    {
+      "excluded_seed": 2,
+      "Q0": 14.625,
+      "Q1": 11.75,
+      "Q2": 9.3,
+      "Q3": 15.45,
+      "u_shape_preserved": true
+    },
+    {
+      "excluded_seed": 3,
+      "Q0": 14.675,
+      "Q1": 11.8,
+      "Q2": 9.350000000000001,
+      "Q3": 15.5,
+      "u_shape_preserved": true
+    },
+    {
+      "excluded_seed": 4,
+      "Q0": 14.6,
+      "Q1": 11.7,
+      "Q2": 9.325,
+      "Q3": 15.475,
+      "u_shape_preserved": true
+    },
+    {
+      "excluded_seed": 5,
+      "Q0": 14.7,
+      "Q1": 11.875,
+      "Q2": 9.35,
+      "Q3": 15.525,
+      "u_shape_preserved": true
+    }
+  ],
+  "n_preserved": 5,
+  "n_total": 5,
+  "robust": true
+}

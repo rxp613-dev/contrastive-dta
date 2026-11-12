@@ -1,0 +1,410 @@
+{
+  "timestamp": "2026-10-22T07:20:03.620394",
+  "task": "T0.2: \u65e7\u03b1-scan\u8bad\u7ec3\u66f2\u7ebf\u5206\u6790",
+  "escape_threshold": {
+    "epochs": 100,
+    "val_mse": 0.3
+  },
+  "alpha_analysis": {
+    "0": {
+      "total_runs": 5,
+      "escaped": 1,
+      "escape_rate_percent": 20.0,
+      "avg_epochs": 124.4,
+      "avg_best_mse": 0.5072037070989609,
+      "avg_final_ci": 0.7645629290539697,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 59,
+          "best_val_mse": 0.5832421779632568,
+          "best_epoch": 9,
+          "final_val_ci": 0.7615651043475964,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 390,
+          "best_val_mse": 0.22021006047725677,
+          "best_epoch": 340,
+          "final_val_ci": 0.8277582791812081,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 53,
+          "best_val_mse": 0.5951434373855591,
+          "best_epoch": 3,
+          "final_val_ci": 0.7450217953115661,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 61,
+          "best_val_mse": 0.5783089995384216,
+          "best_epoch": 11,
+          "final_val_ci": 0.7452412453631363,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 59,
+          "best_val_mse": 0.5591138601303101,
+          "best_epoch": 9,
+          "final_val_ci": 0.743228221066342,
+          "escaped": false
+        }
+      ]
+    },
+    "0.001": {
+      "total_runs": 5,
+      "escaped": 1,
+      "escape_rate_percent": 20.0,
+      "avg_epochs": 124.4,
+      "avg_best_mse": 0.5072037070989609,
+      "avg_final_ci": 0.7645629290539697,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 59,
+          "best_val_mse": 0.5832421779632568,
+          "best_epoch": 9,
+          "final_val_ci": 0.7615651043475964,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 390,
+          "best_val_mse": 0.22021006047725677,
+          "best_epoch": 340,
+          "final_val_ci": 0.8277582791812081,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 53,
+          "best_val_mse": 0.5951434373855591,
+          "best_epoch": 3,
+          "final_val_ci": 0.7450217953115661,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 61,
+          "best_val_mse": 0.5783089995384216,
+          "best_epoch": 11,
+          "final_val_ci": 0.7452412453631363,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 59,
+          "best_val_mse": 0.5591138601303101,
+          "best_epoch": 9,
+          "final_val_ci": 0.743228221066342,
+          "escaped": false
+        }
+      ]
+    },
+    "0.005": {
+      "total_runs": 5,
+      "escaped": 1,
+      "escape_rate_percent": 20.0,
+      "avg_epochs": 124.4,
+      "avg_best_mse": 0.5072037070989609,
+      "avg_final_ci": 0.7645629290539697,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 59,
+          "best_val_mse": 0.5832421779632568,
+          "best_epoch": 9,
+          "final_val_ci": 0.7615651043475964,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 390,
+          "best_val_mse": 0.22021006047725677,
+          "best_epoch": 340,
+          "final_val_ci": 0.8277582791812081,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 53,
+          "best_val_mse": 0.5951434373855591,
+          "best_epoch": 3,
+          "final_val_ci": 0.7450217953115661,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 61,
+          "best_val_mse": 0.5783089995384216,
+          "best_epoch": 11,
+          "final_val_ci": 0.7452412453631363,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 59,
+          "best_val_mse": 0.5591138601303101,
+          "best_epoch": 9,
+          "final_val_ci": 0.743228221066342,
+          "escaped": false
+        }
+      ]
+    },
+    "0.01": {
+      "total_runs": 5,
+      "escaped": 0,
+      "escape_rate_percent": 0.0,
+      "avg_epochs": 85.6,
+      "avg_best_mse": 0.541817581653595,
+      "avg_final_ci": 0.7594990776238734,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 60,
+          "best_val_mse": 0.5140666961669922,
+          "best_epoch": 10,
+          "final_val_ci": 0.7596084727902805,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 187,
+          "best_val_mse": 0.3964785933494568,
+          "best_epoch": 137,
+          "final_val_ci": 0.7814555192509683,
+          "escaped": false
+        },
+        {
+          "seed": 123,
+          "total_epochs": 55,
+          "best_val_mse": 0.6752892732620239,
+          "best_epoch": 5,
+          "final_val_ci": 0.7461544656969414,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 58,
+          "best_val_mse": 0.5705946087837219,
+          "best_epoch": 8,
+          "final_val_ci": 0.7488681805685468,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 68,
+          "best_val_mse": 0.55265873670578,
+          "best_epoch": 18,
+          "final_val_ci": 0.7614087498126295,
+          "escaped": false
+        }
+      ]
+    },
+    "0.05": {
+      "total_runs": 5,
+      "escaped": 1,
+      "escape_rate_percent": 20.0,
+      "avg_epochs": 99.6,
+      "avg_best_mse": 0.48439729809761045,
+      "avg_final_ci": 0.7648548495263116,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 76,
+          "best_val_mse": 0.46909651160240173,
+          "best_epoch": 26,
+          "final_val_ci": 0.7678737565565332,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 232,
+          "best_val_mse": 0.29609835147857666,
+          "best_epoch": 182,
+          "final_val_ci": 0.7947003314127152,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 66,
+          "best_val_mse": 0.5194037556648254,
+          "best_epoch": 16,
+          "final_val_ci": 0.7620095987962348,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 53,
+          "best_val_mse": 0.62161785364151,
+          "best_epoch": 3,
+          "final_val_ci": 0.7472612676202246,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 71,
+          "best_val_mse": 0.5157700181007385,
+          "best_epoch": 21,
+          "final_val_ci": 0.7524292932458501,
+          "escaped": false
+        }
+      ]
+    },
+    "0.1": {
+      "total_runs": 5,
+      "escaped": 2,
+      "escape_rate_percent": 40.0,
+      "avg_epochs": 213.0,
+      "avg_best_mse": 0.3578632682561874,
+      "avg_final_ci": 0.7944231000131665,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 361,
+          "best_val_mse": 0.19135050475597382,
+          "best_epoch": 311,
+          "final_val_ci": 0.8412550751019867,
+          "escaped": true
+        },
+        {
+          "seed": 7,
+          "total_epochs": 348,
+          "best_val_mse": 0.20265129208564758,
+          "best_epoch": 298,
+          "final_val_ci": 0.8355393217136532,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 69,
+          "best_val_mse": 0.5420078635215759,
+          "best_epoch": 19,
+          "final_val_ci": 0.7606964790937785,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 66,
+          "best_val_mse": 0.5387423038482666,
+          "best_epoch": 16,
+          "final_val_ci": 0.7505944502404722,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 221,
+          "best_val_mse": 0.31456437706947327,
+          "best_epoch": 171,
+          "final_val_ci": 0.7840301739159423,
+          "escaped": false
+        }
+      ]
+    },
+    "0.5": {
+      "total_runs": 5,
+      "escaped": 5,
+      "escape_rate_percent": 100.0,
+      "avg_epochs": 330.2,
+      "avg_best_mse": 0.21168251633644103,
+      "avg_final_ci": 0.8388434063415324,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 296,
+          "best_val_mse": 0.21416258811950684,
+          "best_epoch": 246,
+          "final_val_ci": 0.8376611792506024,
+          "escaped": true
+        },
+        {
+          "seed": 7,
+          "total_epochs": 352,
+          "best_val_mse": 0.21026670932769775,
+          "best_epoch": 302,
+          "final_val_ci": 0.8390163162717881,
+          "escaped": true
+        },
+        {
+          "seed": 123,
+          "total_epochs": 302,
+          "best_val_mse": 0.23195390403270721,
+          "best_epoch": 252,
+          "final_val_ci": 0.8288996484628818,
+          "escaped": true
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 366,
+          "best_val_mse": 0.19668859243392944,
+          "best_epoch": 316,
+          "final_val_ci": 0.848176062996363,
+          "escaped": true
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 335,
+          "best_val_mse": 0.20534078776836395,
+          "best_epoch": 285,
+          "final_val_ci": 0.8404638247260277,
+          "escaped": true
+        }
+      ]
+    },
+    "10.0": {
+      "total_runs": 5,
+      "escaped": 0,
+      "escape_rate_percent": 0.0,
+      "avg_epochs": 85.6,
+      "avg_best_mse": 0.541817581653595,
+      "avg_final_ci": 0.7594990776238734,
+      "per_seed_results": [
+        {
+          "seed": 42,
+          "total_epochs": 60,
+          "best_val_mse": 0.5140666961669922,
+          "best_epoch": 10,
+          "final_val_ci": 0.7596084727902805,
+          "escaped": false
+        },
+        {
+          "seed": 7,
+          "total_epochs": 187,
+          "best_val_mse": 0.3964785933494568,
+          "best_epoch": 137,
+          "final_val_ci": 0.7814555192509683,
+          "escaped": false
+        },
+        {
+          "seed": 123,
+          "total_epochs": 55,
+          "best_val_mse": 0.6752892732620239,
+          "best_epoch": 5,
+          "final_val_ci": 0.7461544656969414,
+          "escaped": false
+        },
+        {
+          "seed": 2024,
+          "total_epochs": 58,
+          "best_val_mse": 0.5705946087837219,
+          "best_epoch": 8,
+          "final_val_ci": 0.7488681805685468,
+          "escaped": false
+        },
+        {
+          "seed": 3407,
+          "total_epochs": 68,
+          "best_val_mse": 0.55265873670578,
+          "best_epoch": 18,
+          "final_val_ci": 0.7614087498126295,
+          "escaped": false
+        }
+      ]
+    }
+  }
+}

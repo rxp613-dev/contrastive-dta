@@ -1,0 +1,265 @@
+{
+  "timestamp": "2026-10-21T18:45:20.789560",
+  "task": "E2: KIBA E0 Per-Run Distribution Diagnosis",
+  "total_e0_runs": 20,
+  "gin_e0": {
+    "count": 5,
+    "mean": 0.48465536236763,
+    "std": 0.13691392257680915,
+    "median": 0.55196213722229,
+    "min": 0.2121817171573639,
+    "max": 0.5742043852806091,
+    "runs": [
+      {
+        "experiment_id": "GIN_KIBA_alpha0_seed123",
+        "model": "GIN",
+        "seed": 123,
+        "test_mse": 0.5742043852806091,
+        "test_ci": 0.678424290521083,
+        "best_val_mse": 0.5951434373855591,
+        "best_epoch": 3,
+        "batch": "unknown",
+        "lr": null
+      },
+      {
+        "experiment_id": "GIN_KIBA_alpha0_seed2024",
+        "model": "GIN",
+        "seed": 2024,
+        "test_mse": 0.5536948442459106,
+        "test_ci": 0.6920337223900486,
+        "best_val_mse": 0.5783089995384216,
+        "best_epoch": 11,
+        "batch": "unknown",
+        "lr": null
+      },
+      {
+        "experiment_id": "GIN_KIBA_alpha0_seed3407",
+        "model": "GIN",
+        "seed": 3407,
+        "test_mse": 0.5312337279319763,
+        "test_ci": 0.6956393915952153,
+        "best_val_mse": 0.5591138601303101,
+        "best_epoch": 9,
+        "batch": "unknown",
+        "lr": null
+      },
+      {
+        "experiment_id": "GIN_KIBA_alpha0_seed42",
+        "model": "GIN",
+        "seed": 42,
+        "test_mse": 0.55196213722229,
+        "test_ci": 0.6984741172436173,
+        "best_val_mse": 0.5832421779632568,
+        "best_epoch": 9,
+        "batch": "unknown",
+        "lr": null
+      },
+      {
+        "experiment_id": "GIN_KIBA_alpha0_seed7",
+        "model": "GIN",
+        "seed": 7,
+        "test_mse": 0.2121817171573639,
+        "test_ci": 0.8302108998954898,
+        "best_val_mse": 0.22021006047725677,
+        "best_epoch": 340,
+        "batch": "unknown",
+        "lr": null
+      }
+    ]
+  },
+  "gat_e0": {
+    "count": 15,
+    "mean": 0.4990953723589579,
+    "std": 0.0746829592119248,
+    "median": 0.5319156646728516,
+    "min": 0.3877337872982025,
+    "max": 0.639216959476471,
+    "runs": [
+      {
+        "experiment_id": "KIBA_E0_fixed100_seed123",
+        "model": "GAT",
+        "seed": 123,
+        "test_mse": 0.639216959476471,
+        "test_ci": 0.6719950921778934,
+        "best_val_mse": 0.6596128344535828,
+        "best_epoch": 3,
+        "batch": "fixed100",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_fixed100_seed2024",
+        "model": "GAT",
+        "seed": 2024,
+        "test_mse": 0.5319156646728516,
+        "test_ci": 0.6933029617129436,
+        "best_val_mse": 0.5659928321838379,
+        "best_epoch": 8,
+        "batch": "fixed100",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_fixed100_seed3407",
+        "model": "GAT",
+        "seed": 3407,
+        "test_mse": 0.5636589527130127,
+        "test_ci": 0.7162873088465286,
+        "best_val_mse": 0.5822709202766418,
+        "best_epoch": 30,
+        "batch": "fixed100",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_fixed100_seed42",
+        "model": "GAT",
+        "seed": 42,
+        "test_mse": 0.5441333651542664,
+        "test_ci": 0.6889998829104831,
+        "best_val_mse": 0.5754377841949463,
+        "best_epoch": 8,
+        "batch": "fixed100",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_fixed100_seed7",
+        "model": "GAT",
+        "seed": 7,
+        "test_mse": 0.4317130148410797,
+        "test_ci": 0.7424411631325449,
+        "best_val_mse": 0.4531126916408539,
+        "best_epoch": 50,
+        "batch": "fixed100",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_lr0.0001_seed123",
+        "model": "GAT",
+        "seed": 123,
+        "test_mse": 0.3877337872982025,
+        "test_ci": 0.7583090840793852,
+        "best_val_mse": 0.4055381119251251,
+        "best_epoch": 105,
+        "batch": "ablation",
+        "lr": "0.0001"
+      },
+      {
+        "experiment_id": "KIBA_E0_lr0.0001_seed2024",
+        "model": "GAT",
+        "seed": 2024,
+        "test_mse": 0.40021535754203796,
+        "test_ci": 0.7510209627166153,
+        "best_val_mse": 0.4246174693107605,
+        "best_epoch": 95,
+        "batch": "ablation",
+        "lr": "0.0001"
+      },
+      {
+        "experiment_id": "KIBA_E0_lr0.0001_seed3407",
+        "model": "GAT",
+        "seed": 3407,
+        "test_mse": 0.4485245943069458,
+        "test_ci": 0.7358328284662833,
+        "best_val_mse": 0.4729102849960327,
+        "best_epoch": 44,
+        "batch": "ablation",
+        "lr": "0.0001"
+      },
+      {
+        "experiment_id": "KIBA_E0_lr0.0001_seed42",
+        "model": "GAT",
+        "seed": 42,
+        "test_mse": 0.4380006790161133,
+        "test_ci": 0.7349604175734543,
+        "best_val_mse": 0.460906445980072,
+        "best_epoch": 41,
+        "batch": "ablation",
+        "lr": "0.0001"
+      },
+      {
+        "experiment_id": "KIBA_E0_lr0.0001_seed7",
+        "model": "GAT",
+        "seed": 7,
+        "test_mse": 0.40554577112197876,
+        "test_ci": 0.7515295783513287,
+        "best_val_mse": 0.4232904613018036,
+        "best_epoch": 71,
+        "batch": "ablation",
+        "lr": "0.0001"
+      },
+      {
+        "experiment_id": "KIBA_E0_seed123",
+        "model": "GAT",
+        "seed": 123,
+        "test_mse": 0.5616687536239624,
+        "test_ci": 0.688557936146944,
+        "best_val_mse": 0.5923182368278503,
+        "best_epoch": 9,
+        "batch": "ablation",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_seed2024",
+        "model": "GAT",
+        "seed": 2024,
+        "test_mse": 0.5769228339195251,
+        "test_ci": 0.6885818945143212,
+        "best_val_mse": 0.6036323308944702,
+        "best_epoch": 12,
+        "batch": "ablation",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_seed3407",
+        "model": "GAT",
+        "seed": 3407,
+        "test_mse": 0.5439289808273315,
+        "test_ci": 0.690825361600428,
+        "best_val_mse": 0.5753234624862671,
+        "best_epoch": 12,
+        "batch": "ablation",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_seed42",
+        "model": "GAT",
+        "seed": 42,
+        "test_mse": 0.5446950197219849,
+        "test_ci": 0.6909154948871992,
+        "best_val_mse": 0.5712774395942688,
+        "best_epoch": 7,
+        "batch": "ablation",
+        "lr": null
+      },
+      {
+        "experiment_id": "KIBA_E0_seed7",
+        "model": "GAT",
+        "seed": 7,
+        "test_mse": 0.46855685114860535,
+        "test_ci": 0.7215557818330199,
+        "best_val_mse": 0.4878678619861603,
+        "best_epoch": 20,
+        "batch": "ablation",
+        "lr": null
+      }
+    ]
+  },
+  "literature_comparison": {
+    "graphdta_gin": {
+      "mse": 0.147,
+      "ci": 0.882
+    },
+    "graphdta_gat": {
+      "mse": 0.179,
+      "ci": 0.866
+    },
+    "this_work_gin_ratio": 3.296975254201565,
+    "this_work_gat_ratio": 2.7882423036813293
+  },
+  "diagnosis": {
+    "gin_cv": 0.2824974883347202,
+    "gin_range": 0.36202266812324524,
+    "possible_bimodal": true,
+    "unstable_baseline": true
+  },
+  "key_finding": "Seed 7 is NOT an outlier dragging mean down - it's the best run (0.2122 vs 0.55 for others). Other seeds suffer from premature early stopping (epoch 3-11 vs 340 for seed7).",
+  "conclusion": "KIBA baseline anomaly is due to premature early stopping, not failed runs. Seed 7 shows the model CAN achieve good performance (MSE=0.21), but other seeds converge too quickly to suboptimal solutions."
+}

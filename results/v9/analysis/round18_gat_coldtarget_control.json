@@ -1,0 +1,142 @@
+{
+  "experiment": "GAT cold-target regularization control",
+  "objective": "Test if stronger regularization improves cold-target performance",
+  "hypothesis": "GAT cold-target failure is due to memorization; stronger regularization should improve it",
+  "result": "REJECTED - stronger regularization dramatically worsens performance",
+  "conditions": {
+    "baseline": {
+      "dropout": 0.1,
+      "weight_decay": 0.0001
+    },
+    "strong_dropout": {
+      "dropout": 0.3,
+      "weight_decay": 0.0001
+    },
+    "strong_wd": {
+      "dropout": 0.1,
+      "weight_decay": 0.001
+    },
+    "both_strong": {
+      "dropout": 0.3,
+      "weight_decay": 0.001
+    }
+  },
+  "seeds": [
+    42,
+    3407,
+    2024,
+    7,
+    123
+  ],
+  "alpha": 0.05,
+  "split_type": "cold_target",
+  "results": {
+    "baseline": {
+      "mean_mse": 0.26384527087211607,
+      "std_mse": 0.009418163577059413,
+      "mean_ci": 0.8805297832485721,
+      "std_ci": 0.0019769093649503137,
+      "mses": [
+        0.26071420311927795,
+        0.2617858648300171,
+        0.2640535235404968,
+        0.25352412462234497,
+        0.2791486382484436
+      ],
+      "cis": [
+        0.8828122881058585,
+        0.8822405640780799,
+        0.8787518851179116,
+        0.8803919323195851,
+        0.8784522466214253
+      ]
+    },
+    "strong_dropout": {
+      "mean_mse": 0.3172209084033966,
+      "std_mse": 0.020757966905555016,
+      "mean_ci": 0.8602183830800685,
+      "std_ci": 0.006785357355656367,
+      "mses": [
+        0.32114553451538086,
+        0.31986093521118164,
+        0.28456413745880127,
+        0.3423982560634613,
+        0.31813567876815796
+      ],
+      "cis": [
+        0.8608138284888189,
+        0.8577509289439164,
+        0.8704961126640747,
+        0.8517282382160488,
+        0.8603028070874836
+      ]
+    },
+    "strong_wd": {
+      "mean_mse": 0.45412182807922363,
+      "std_mse": 0.02132010081635409,
+      "mean_ci": 0.8185935158401566,
+      "std_ci": 0.006878698901959255,
+      "mses": [
+        0.4345707893371582,
+        0.4274103045463562,
+        0.467094361782074,
+        0.4706279933452606,
+        0.47090569138526917
+      ],
+      "cis": [
+        0.823296591741257,
+        0.8284128329657452,
+        0.8142245626935435,
+        0.8132998162992149,
+        0.8137337755010227
+      ]
+    },
+    "both_strong": {
+      "mean_mse": 0.5152424037456512,
+      "std_mse": 0.01297971430812225,
+      "mean_ci": 0.7923690771349565,
+      "std_ci": 0.006018857431743497,
+      "mses": [
+        0.5204773545265198,
+        0.5263432860374451,
+        0.49966874718666077,
+        0.5030201077461243,
+        0.5267025232315063
+      ],
+      "cis": [
+        0.787599788014374,
+        0.7876060304830509,
+        0.8007660154839054,
+        0.7966998005423629,
+        0.7891737511510897
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "condition": "strong_dropout",
+      "improvement_pct": -20.229901167018205,
+      "t_stat": -4.664205933145251,
+      "p_value": 0.009559518028035027,
+      "cohens_d": -2.0858963055141237,
+      "hedges_g": -1.668717044411299
+    },
+    {
+      "condition": "strong_wd",
+      "improvement_pct": -72.11672075006919,
+      "t_stat": -20.2710809394993,
+      "p_value": 3.49647423069742e-05,
+      "cohens_d": -9.065502991624147,
+      "hedges_g": -7.252402393299318
+    },
+    {
+      "condition": "both_strong",
+      "improvement_pct": -95.28203103378175,
+      "t_stat": -49.75298726564583,
+      "p_value": 9.765755824624887e-07,
+      "cohens_d": -22.25021232193309,
+      "hedges_g": -17.800169857546475
+    }
+  ],
+  "conclusion": "Memorization is not the primary cause of GAT cold-target failure. The attention mechanism itself may be fundamentally unsuited for cold-target generalization, as stronger regularization (which should reduce memorization) dramatically worsens performance instead of improving it."
+}

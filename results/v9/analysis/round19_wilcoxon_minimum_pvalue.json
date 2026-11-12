@@ -1,0 +1,29 @@
+{
+  "experiment": "Wilcoxon signed-rank test minimum p-value derivation",
+  "date": "2026-09-03",
+  "objective": "Address I1/T8: Wilcoxon as primary test for n=5",
+  "n": 5,
+  "total_combinations": 32,
+  "min_p_value_two_tailed": 0.0625,
+  "min_p_value_one_tailed": 0.03125,
+  "w_plus_distribution": {
+    "15": 1,
+    "10": 3,
+    "11": 2,
+    "6": 3,
+    "12": 2,
+    "7": 3,
+    "8": 3,
+    "3": 2,
+    "13": 1,
+    "9": 3,
+    "4": 2,
+    "5": 3,
+    "1": 1,
+    "14": 1,
+    "2": 1,
+    "0": 1
+  },
+  "conclusion": "With n=5, Wilcoxon min p = 0.0625 > 0.05, cannot achieve significance",
+  "recommendation": "Use paired t-test as primary, Wilcoxon as supporting evidence"
+}

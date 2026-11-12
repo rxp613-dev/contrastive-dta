@@ -1,0 +1,70 @@
+{
+  "experiment": "GIN Davis \u03b1 consistency verification",
+  "data_source": "GIN architecture (main Davis results)",
+  "alpha_values_tested": [
+    0.01,
+    0.05,
+    0.5
+  ],
+  "per_seed_results": [
+    {
+      "seed": 123,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.2105731964111328,
+      "all_mses": {
+        "0.01": 0.2247304916381836,
+        "0.05": 0.2105731964111328,
+        "0.5": 0.2182217538356781
+      }
+    },
+    {
+      "seed": 2024,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.21980233490467072,
+      "all_mses": {
+        "0.01": 0.2359851896762848,
+        "0.05": 0.21980233490467072,
+        "0.5": 0.23048847913742065
+      }
+    },
+    {
+      "seed": 3407,
+      "optimal_alpha": 0.01,
+      "optimal_mse": 0.2144315540790558,
+      "all_mses": {
+        "0.01": 0.2144315540790558,
+        "0.05": 0.21807098388671875,
+        "0.5": 0.23086127638816833
+      }
+    },
+    {
+      "seed": 42,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.22096018493175507,
+      "all_mses": {
+        "0.01": 0.22125010192394257,
+        "0.05": 0.22096018493175507,
+        "0.5": 0.2335241585969925
+      }
+    },
+    {
+      "seed": 7,
+      "optimal_alpha": 0.01,
+      "optimal_mse": 0.21902690827846527,
+      "all_mses": {
+        "0.01": 0.21902690827846527,
+        "0.05": 0.22050368785858154,
+        "0.5": 0.2379254400730133
+      }
+    }
+  ],
+  "test_set_optimal_alpha": 0.05,
+  "matching_seeds": 3,
+  "total_seeds": 5,
+  "consistency_rate": 60.0,
+  "alpha_distribution": {
+    "0.05": 3,
+    "0.01": 2
+  },
+  "note": "\u03b1=0.10 per-seed data missing - only comparing \u03b1=0.01, 0.05, 0.50"
+}

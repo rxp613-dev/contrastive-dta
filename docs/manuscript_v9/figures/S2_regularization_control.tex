@@ -1,0 +1,96 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+{\Large\bfseries Supplementary File S2}\\[0.5em]
+{\large GAT Cold-Target Regularization Control Experiment}\\[1em]
+Contrastive Learning for Drug--Target Affinity:\\A Systematic Benchmark of Encoders, Losses, and Generalization\\[0.5em]
+Xiaoping Ren et al.
+\end{center}
+
+\noindent\rule{\linewidth}{1pt}
+\vspace{1em}
+
+\section{Experiment Design}
+
+This supplementary file details the regularization control experiment designed to test whether GAT's poor cold-target performance is due to overfitting/memorization. If memorization is the primary cause, stronger regularization should improve performance.
+
+\section{Pilot Regularization Experiment (Superseded)}
+
+An earlier pilot regularization experiment (dropout$\in\{0.1,0.3\}$ $\times$ weight\_decay$\in\{10^{-4},10^{-3}\}$, $\alpha=0.05$) was conducted under a pre-unification protocol that differed from the main text in dropout setting and augmentation. Because its protocol is not comparable with the unified protocol used elsewhere in this paper, its numeric results are omitted here; the full per-seed data remain available in the public repository (directories \texttt{round18\_gat\_coldtarget\_*}). It is superseded by the complete 2$\times$2 factorial design below, which uses the unified protocol.
+
+\section{Complete 2$\times$2 Factorial Design (Authoritative)}
+
+To disentangle the interaction effects, we executed the complete 2$\times$2 factorial design (CL $\times$ regularization) on cold-target splits under the unified protocol (weight\_decay=0.01, augmentation=noise, $\beta=0.0$, $\gamma=0.0$, $n=5$ seeds).
+
+\begin{table}[!h]
+\caption{Regularization control results (authoritative batch: weight\_decay=0.01, cold-target split, augmentation=noise, $\beta=0.0$, $\gamma=0.0$, $n=5$ seeds).}
+\label{tab:t4_results}
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{Condition} & \textbf{Architecture} & \textbf{CL} & \textbf{MSE} & \textbf{CI} \\
+\hline
+no-CL $\times$ strong-reg & GIN & No & 0.5073 $\pm$ 0.0167 & 0.7805 $\pm$ 0.0097 \\
+CL $\times$ strong-reg & GIN & Yes ($\alpha$=0.05) & 0.4793 $\pm$ 0.0184 & 0.7883 $\pm$ 0.0095 \\
+no-CL $\times$ strong-reg & GAT & No & 0.5586 $\pm$ 0.0067 & 0.7511 $\pm$ 0.0075 \\
+CL $\times$ strong-reg & GAT & Yes ($\alpha$=0.05) & 0.5701 $\pm$ 0.0018 & 0.7464 $\pm$ 0.0013 \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Key Findings}
+
+These results demonstrate that the CL$\times$regularization interaction is \textit{architecture-dependent}:
+\begin{itemize}
+\item \textbf{GIN}: Under strong regularization, CL \textbf{helps} cold-target performance by +5.53\% ($p=0.018$, survives Bonferroni correction over 2 factorial comparisons, $p=0.036$).
+\item \textbf{GAT}: Under strong regularization, CL \textbf{hurts} performance by $-$2.06\% ($p=0.012$, survives Bonferroni correction, $p=0.024$).
+\end{itemize}
+
+This indicates architecture-dependent responses rather than universal degradation, suggesting that the cold-target vulnerability is a consequence of the interaction between contrastive learning, regularization, and architecture inductive biases.
+
+\section{$\alpha$-Dependent Cold-Target Vulnerability}
+
+The cold-target $\alpha$-scan experiment further characterizes this phenomenon under the unified protocol (weight\_decay=$10^{-4}$, augmentation=noise, $\beta=0.0$, $\gamma=0.0$, $n=5$ seeds):
+
+\begin{table}[!h]
+\caption{Cold-target $\alpha$ scan for GAT (authoritative batch).}
+\label{tab:t11_results}
+\centering
+\begin{tabular}{lcccc}
+\hline
+$\alpha$ & \textbf{MSE} & \textbf{CI} & \textbf{$\Delta$ vs $\alpha$=0} & \textbf{$p$-value} \\
+\hline
+0.000 & 0.4454 $\pm$ 0.0095 & 0.7989 $\pm$ 0.0064 & baseline & --- \\
+0.001 & 0.4349 $\pm$ 0.0090 & 0.8014 $\pm$ 0.0065 & +2.37\% & 0.154 \\
+0.003 & 0.4373 $\pm$ 0.0103 & 0.7979 $\pm$ 0.0070 & +1.82\% & 0.357 \\
+0.010 & 0.4554 $\pm$ 0.0110 & 0.7891 $\pm$ 0.0026 & $-$2.25\% & 0.426 \\
+0.030 & 0.5147 $\pm$ 0.0133 & 0.7677 $\pm$ 0.0068 & \textbf{$-$15.57\%} & \textbf{0.002**} \\
+0.050 & 0.5378 $\pm$ 0.0100 & 0.7549 $\pm$ 0.0082 & \textbf{$-$20.74\%} & \textbf{<0.001***} \\
+\hline
+\end{tabular}
+\end{table}
+
+Performance follows an overall increasing trend with $\alpha$ (Spearman $\rho=0.829$, two-sided $p=0.0416$, $n=6$), with optimal $\alpha=0.001$ (slightly better than the $\alpha=0$ baseline) and significant degradation only at $\alpha \geq 0.03$. This reframes the issue from ``architecture-specific brittleness'' to ``$\alpha$-dependent cold-target vulnerability''---the degradation can be avoided by setting $\alpha \leq 0.01$ for cold-target scenarios.
+
+\section{Implications}
+
+These results demonstrate that:
+\begin{enumerate}
+\item The cold-target degradation is not a simple memorization overfitting issue (strong regularization does not universally help).
+\item The CL$\times$regularization interaction is architecture-dependent (GIN benefits, GAT suffers under strong regularization).
+\item The degradation is $\alpha$-dependent, with small weights ($\alpha \leq 0.01$) being safe.
+\item Practitioners should use $\alpha \leq 0.01$ for cold-target scenarios to avoid degradation.
+\end{enumerate}
+
+\end{document}

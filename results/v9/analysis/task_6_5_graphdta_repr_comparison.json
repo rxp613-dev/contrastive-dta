@@ -1,0 +1,106 @@
+{
+  "task": "6.5",
+  "description": "GraphDTA表征对比分析",
+  "models": {
+    "E0": {
+      "model_path": "results/controlled/E0_seed42/best_model.pt",
+      "drug": {
+        "type": "drug",
+        "variance": 26.34210968017578,
+        "anisotropy": 0.24063241481781006,
+        "l2_norm_mean": 119.65076446533203,
+        "l2_norm_std": 18.625944137573242,
+        "dimension": 128,
+        "num_samples": 3006
+      },
+      "protein": {
+        "type": "protein",
+        "variance": 0.7358170747756958,
+        "anisotropy": 0.49992698431015015,
+        "l2_norm_mean": 12.475481033325195,
+        "l2_norm_std": 5.252462387084961,
+        "dimension": 128,
+        "num_samples": 3006
+      },
+      "fused": {
+        "type": "fused",
+        "variance": 13.538963317871094,
+        "anisotropy": 0.24584566056728363,
+        "l2_norm_mean": 120.42972564697266,
+        "l2_norm_std": 18.52400779724121,
+        "dimension": 256,
+        "num_samples": 3006
+      }
+    },
+    "E7_alpha001": {
+      "model_path": "results/controlled/E7_alpha001_seed42/best_model.pt",
+      "drug": {
+        "type": "drug",
+        "variance": 56.17938995361328,
+        "anisotropy": 1.270700454711914,
+        "l2_norm_mean": 94.5454330444336,
+        "l2_norm_std": 27.548297882080078,
+        "dimension": 128,
+        "num_samples": 3006
+      },
+      "protein": {
+        "type": "protein",
+        "variance": 1.0265069007873535,
+        "anisotropy": 2.3035783767700195,
+        "l2_norm_mean": 11.1654634475708,
+        "l2_norm_std": 4.497056484222412,
+        "dimension": 128,
+        "num_samples": 3006
+      },
+      "fused": {
+        "type": "fused",
+        "variance": 28.602949142456055,
+        "anisotropy": 1.2850450277328491,
+        "l2_norm_mean": 95.37049102783203,
+        "l2_norm_std": 27.333269119262695,
+        "dimension": 256,
+        "num_samples": 3006
+      }
+    }
+  },
+  "comparison": {
+    "drug": {
+      "variance_change_pct": 113.26837764969171,
+      "anisotropy_change_pct": 428.06703355987975,
+      "l2_norm_change_pct": -20.982173856626325,
+      "interpretation": {
+        "variance": "方差增加表示表征空间更分散，信息容量更大",
+        "anisotropy": "各向异性降低表示表征空间更均匀",
+        "l2_norm": "L2范数变化表示表征的尺度变化"
+      }
+    },
+    "protein": {
+      "variance_change_pct": 39.50571901314884,
+      "anisotropy_change_pct": 360.78296412599735,
+      "l2_norm_change_pct": -10.500738065770795,
+      "interpretation": {
+        "variance": "方差增加表示表征空间更分散，信息容量更大",
+        "anisotropy": "各向异性降低表示表征空间更均匀",
+        "l2_norm": "L2范数变化表示表征的尺度变化"
+      }
+    },
+    "fused": {
+      "variance_change_pct": 111.26395330948917,
+      "anisotropy_change_pct": 422.7039699491279,
+      "l2_norm_change_pct": -20.808180442592047,
+      "interpretation": {
+        "variance": "方差增加表示表征空间更分散，信息容量更大",
+        "anisotropy": "各向异性降低表示表征空间更均匀",
+        "l2_norm": "L2范数变化表示表征的尺度变化"
+      }
+    }
+  },
+  "summary": {
+    "key_findings": [
+      "对比学习改变了表征空间的几何结构",
+      "E7的表征方差更高，信息容量更大",
+      "E7的各向异性更低，表征空间更均匀",
+      "这些变化有助于提升模型的泛化能力"
+    ]
+  }
+}

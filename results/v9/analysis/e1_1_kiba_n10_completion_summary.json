@@ -1,0 +1,70 @@
+{
+  "script": "scripts/e1_1_kiba_n10_completion.py",
+  "timestamp": "2026-10-09 04:50:44",
+  "protocol": {
+    "dataset": "kiba",
+    "architecture": "GIN",
+    "learning_rate": "0.0005",
+    "weight_decay": "0.0001",
+    "batch_size": "512",
+    "max_epochs": "500",
+    "early_stop_patience": "50",
+    "temperature": "0.1",
+    "training_strategy": "joint",
+    "pretrain_epochs": "200",
+    "finetune_epochs": "300"
+  },
+  "new_seeds": [
+    251,
+    1496,
+    5934,
+    7350,
+    9889
+  ],
+  "total": 8,
+  "success": 8,
+  "failed": 0,
+  "results": [
+    {
+      "exp_id": "GIN_KIBA_alpha30_seed251",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.2481, test_ci=0.8217, best_epoch=242)"
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha50_seed251",
+      "status": "success",
+      "detail": "OK (test_mse=0.3046, test_ci=0.7957, best_epoch=206)",
+      "elapsed_min": 85.7
+    },
+    {
+      "exp_id": "GIN_KIBA_alpha50_seed7350",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.3020, test_ci=0.7968, best_epoch=203)"
+    },
+    {
+      "exp_id": "KIBA_E0_seed251",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.4935, test_ci=0.7144, best_epoch=14)"
+    },
+    {
+      "exp_id": "KIBA_E0_seed1496",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.5473, test_ci=0.7069, best_epoch=6)"
+    },
+    {
+      "exp_id": "KIBA_E0_seed5934",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.5273, test_ci=0.7116, best_epoch=14)"
+    },
+    {
+      "exp_id": "KIBA_E0_seed7350",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.4495, test_ci=0.7578, best_epoch=64)"
+    },
+    {
+      "exp_id": "KIBA_E0_seed9889",
+      "status": "skipped",
+      "detail": "OK (test_mse=0.5064, test_ci=0.7142, best_epoch=12)"
+    }
+  ]
+}

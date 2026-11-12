@@ -1,0 +1,59 @@
+{
+  "experiment": "Practical metrics comparison (E0 vs E7)",
+  "metrics": {
+    "EF@1%": "Enrichment Factor at top 1%",
+    "EF@5%": "Enrichment Factor at top 5%",
+    "BEDROC": "Boltzmann-Enhanced Discrimination of ROC (\u03b1=20)",
+    "Top-50": "Hit rate in top 50 predictions",
+    "Top-100": "Hit rate in top 100 predictions"
+  },
+  "hit_definition": "Top 10% true affinity (strongest binders)",
+  "results": {
+    "E0": {
+      "EF@1%": {
+        "mean": 9.387508305647842,
+        "std": 0.14887309723952055
+      },
+      "EF@5%": {
+        "mean": 7.776318936877077,
+        "std": 0.2761184616084304
+      },
+      "BEDROC": {
+        "mean": 0.7157224019483216,
+        "std": 0.014327380739744936
+      },
+      "Top-50": {
+        "mean": 0.932,
+        "std": 0.01095445115010327
+      },
+      "Top-100": {
+        "mean": 0.8640000000000001,
+        "std": 0.03209361307176246
+      },
+      "n_seeds": 5
+    },
+    "E7": {
+      "EF@1%": {
+        "mean": 9.853554817275748,
+        "std": 0.18233156233228512
+      },
+      "EF@5%": {
+        "mean": 8.65514950166113,
+        "std": 0.1941067707187703
+      },
+      "BEDROC": {
+        "mean": 0.81928996108484,
+        "std": 0.008407789082475841
+      },
+      "Top-50": {
+        "mean": 0.968,
+        "std": 0.010954451150103331
+      },
+      "Top-100": {
+        "mean": 0.916,
+        "std": 0.01140175425099139
+      },
+      "n_seeds": 5
+    }
+  }
+}

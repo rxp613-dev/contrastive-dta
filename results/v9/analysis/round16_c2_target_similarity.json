@@ -1,0 +1,3110 @@
+{
+  "n_test_targets": 441,
+  "n_exact_matches": 0,
+  "entity_overlap": 441,
+  "train_only": 1,
+  "test_only": 0,
+  "similarity_stats": {
+    "mean": 0.299084174726854,
+    "median": 0.0941385435168739,
+    "std": 0.35983880111661126,
+    "min": 0.05752023860247124,
+    "max": 1.0,
+    "quantiles": {
+      "q10": 0.07383177570093458,
+      "q25": 0.08153078202995008,
+      "q50": 0.0941385435168739,
+      "q75": 0.302834008097166,
+      "q90": 1.0
+    }
+  },
+  "details": [
+    {
+      "test_target_id": "FGFR2",
+      "test_sequence_length": 821,
+      "nearest_train_target_id": "FGFR1",
+      "sequence_identity": 0.07785888077858881,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(V559D-T670I)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TAK1",
+      "test_sequence_length": 606,
+      "nearest_train_target_id": "PIP5K1A",
+      "sequence_identity": 0.09735973597359736,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MLK3",
+      "test_sequence_length": 847,
+      "nearest_train_target_id": "MLK2",
+      "sequence_identity": 0.09329140461215933,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "p38-alpha",
+      "test_sequence_length": 360,
+      "nearest_train_target_id": "p38-beta",
+      "sequence_identity": 0.728021978021978,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IRAK1",
+      "test_sequence_length": 712,
+      "nearest_train_target_id": "TRKA",
+      "sequence_identity": 0.07468354430379746,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MINK",
+      "test_sequence_length": 1332,
+      "nearest_train_target_id": "MAP4K4",
+      "sequence_identity": 0.30255255255255253,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AURKA",
+      "test_sequence_length": 403,
+      "nearest_train_target_id": "PFTK1",
+      "sequence_identity": 0.11300639658848614,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(E542K)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TIE1",
+      "test_sequence_length": 1138,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 0.07540702656383891,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AKT3",
+      "test_sequence_length": 479,
+      "nearest_train_target_id": "AKT1",
+      "sequence_identity": 0.13958333333333334,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LTK",
+      "test_sequence_length": 864,
+      "nearest_train_target_id": "MLCK",
+      "sequence_identity": 0.0798611111111111,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK2(KinDom.1-N-terminal)",
+      "test_sequence_length": 740,
+      "nearest_train_target_id": "RSK4(KinDom.2-C-terminal)",
+      "sequence_identity": 0.08187919463087248,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MET",
+      "test_sequence_length": 1390,
+      "nearest_train_target_id": "MET(Y1235D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BTK",
+      "test_sequence_length": 483,
+      "nearest_train_target_id": "PCTK1",
+      "sequence_identity": 0.09109730848861283,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LRRK2(G2019S)",
+      "test_sequence_length": 2527,
+      "nearest_train_target_id": "LRRK2",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GRK4",
+      "test_sequence_length": 578,
+      "nearest_train_target_id": "CAMKK2",
+      "sequence_identity": 0.08333333333333333,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK1",
+      "test_sequence_length": 1258,
+      "nearest_train_target_id": "NEK5",
+      "sequence_identity": 0.10174880763116058,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK8",
+      "test_sequence_length": 544,
+      "nearest_train_target_id": "CDK7",
+      "sequence_identity": 0.09558823529411764,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA6",
+      "test_sequence_length": 547,
+      "nearest_train_target_id": "SRC",
+      "sequence_identity": 0.08043875685557587,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK6",
+      "test_sequence_length": 313,
+      "nearest_train_target_id": "PRKX",
+      "sequence_identity": 0.09217877094972067,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(F317L)p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MKK7",
+      "test_sequence_length": 419,
+      "nearest_train_target_id": "YANK3",
+      "sequence_identity": 0.08641975308641975,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ADCK3",
+      "test_sequence_length": 647,
+      "nearest_train_target_id": "PLK1",
+      "sequence_identity": 0.07418856259659969,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK2",
+      "test_sequence_length": 524,
+      "nearest_train_target_id": "PFCDPK1(Pfalciparum)",
+      "sequence_identity": 0.08969465648854962,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "VEGFR2",
+      "test_sequence_length": 1356,
+      "nearest_train_target_id": "IGF1R",
+      "sequence_identity": 0.08046817849305048,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK1(KinDom.2-C-terminal)",
+      "test_sequence_length": 735,
+      "nearest_train_target_id": "RSK1(KinDom.1-N-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CHEK2",
+      "test_sequence_length": 543,
+      "nearest_train_target_id": "PAK2",
+      "sequence_identity": 0.0847145488029466,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK9",
+      "test_sequence_length": 979,
+      "nearest_train_target_id": "PIK3CB",
+      "sequence_identity": 0.07383177570093458,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MARK2",
+      "test_sequence_length": 788,
+      "nearest_train_target_id": "SNARK",
+      "sequence_identity": 0.17639593908629442,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JAK1(JH1domain-catalytic)",
+      "test_sequence_length": 1154,
+      "nearest_train_target_id": "JAK1(JH2domain-pseudokinase)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FYN",
+      "test_sequence_length": 537,
+      "nearest_train_target_id": "TXK",
+      "sequence_identity": 0.2756052141527002,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP3K15",
+      "test_sequence_length": 1313,
+      "nearest_train_target_id": "VEGFR2",
+      "sequence_identity": 0.07227138643067847,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIOK2",
+      "test_sequence_length": 552,
+      "nearest_train_target_id": "STK39",
+      "sequence_identity": 0.07971014492753623,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK4CB",
+      "test_sequence_length": 816,
+      "nearest_train_target_id": "TBK1",
+      "sequence_identity": 0.07598039215686274,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SIK",
+      "test_sequence_length": 783,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.08146399055489964,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DCAMKL2",
+      "test_sequence_length": 766,
+      "nearest_train_target_id": "DCAMKL1",
+      "sequence_identity": 0.08485639686684072,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ROS1",
+      "test_sequence_length": 2347,
+      "nearest_train_target_id": "TRPM6",
+      "sequence_identity": 0.05752023860247124,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERBB4",
+      "test_sequence_length": 1308,
+      "nearest_train_target_id": "ERBB3",
+      "sequence_identity": 0.11251862891207154,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TESK1",
+      "test_sequence_length": 244,
+      "nearest_train_target_id": "PIM3",
+      "sequence_identity": 0.06748466257668712,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IKK-epsilon",
+      "test_sequence_length": 716,
+      "nearest_train_target_id": "TBK1",
+      "sequence_identity": 0.41426611796982166,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR(G719S)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK1G",
+      "test_sequence_length": 476,
+      "nearest_train_target_id": "CAMK1D",
+      "sequence_identity": 0.10504201680672269,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3C2G",
+      "test_sequence_length": 1445,
+      "nearest_train_target_id": "MET(Y1235D)",
+      "sequence_identity": 0.06505190311418685,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DDR1",
+      "test_sequence_length": 913,
+      "nearest_train_target_id": "DDR2",
+      "sequence_identity": 0.15224534501642936,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PCTK2",
+      "test_sequence_length": 523,
+      "nearest_train_target_id": "IRAK4",
+      "sequence_identity": 0.08221797323135756,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TSSK1B",
+      "test_sequence_length": 367,
+      "nearest_train_target_id": "CAMK2D",
+      "sequence_identity": 0.10420841683366733,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BRK",
+      "test_sequence_length": 451,
+      "nearest_train_target_id": "IRAK4",
+      "sequence_identity": 0.0891304347826087,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "STK35",
+      "test_sequence_length": 534,
+      "nearest_train_target_id": "BMPR1B",
+      "sequence_identity": 0.08801498127340825,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MELK",
+      "test_sequence_length": 651,
+      "nearest_train_target_id": "PKNB(Mtuberculosis)",
+      "sequence_identity": 0.08141321044546851,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L858R)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHB2",
+      "test_sequence_length": 482,
+      "nearest_train_target_id": "RET(V804M)",
+      "sequence_identity": 0.10995850622406639,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GCN2(KinDom2S808G)",
+      "test_sequence_length": 1649,
+      "nearest_train_target_id": "MYO3A",
+      "sequence_identity": 0.0703456640388114,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L747E749del)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MLK1",
+      "test_sequence_length": 373,
+      "nearest_train_target_id": "CSNK1D",
+      "sequence_identity": 0.08433734939759036,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK1",
+      "test_sequence_length": 393,
+      "nearest_train_target_id": "MEK3",
+      "sequence_identity": 0.13486005089058525,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NIM1",
+      "test_sequence_length": 436,
+      "nearest_train_target_id": "PFTK1",
+      "sequence_identity": 0.09168443496801706,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BRAF",
+      "test_sequence_length": 766,
+      "nearest_train_target_id": "BRAF(V600E)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RAF1",
+      "test_sequence_length": 648,
+      "nearest_train_target_id": "WEE1",
+      "sequence_identity": 0.08487654320987655,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L747T751del)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NDR2",
+      "test_sequence_length": 464,
+      "nearest_train_target_id": "STK33",
+      "sequence_identity": 0.10116731517509728,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DRAK2",
+      "test_sequence_length": 372,
+      "nearest_train_target_id": "STK16",
+      "sequence_identity": 0.0913978494623656,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IGF1R",
+      "test_sequence_length": 1367,
+      "nearest_train_target_id": "VEGFR2",
+      "sequence_identity": 0.08046817849305048,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAST1",
+      "test_sequence_length": 1570,
+      "nearest_train_target_id": "ASK1",
+      "sequence_identity": 0.06687898089171974,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(M1043I)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIM1",
+      "test_sequence_length": 404,
+      "nearest_train_target_id": "p38-delta",
+      "sequence_identity": 0.08168316831683169,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK6",
+      "test_sequence_length": 681,
+      "nearest_train_target_id": "PAK7",
+      "sequence_identity": 0.12934631432545202,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK9",
+      "test_sequence_length": 372,
+      "nearest_train_target_id": "ERK2",
+      "sequence_identity": 0.10483870967741936,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP4K3",
+      "test_sequence_length": 894,
+      "nearest_train_target_id": "MAP4K2",
+      "sequence_identity": 0.28523489932885904,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MTOR",
+      "test_sequence_length": 2549,
+      "nearest_train_target_id": "LRRK2",
+      "sequence_identity": 0.0612004707728521,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "QSK",
+      "test_sequence_length": 1263,
+      "nearest_train_target_id": "TNIK",
+      "sequence_identity": 0.06985294117647059,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(D835Y)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FES",
+      "test_sequence_length": 822,
+      "nearest_train_target_id": "FER",
+      "sequence_identity": 0.20194647201946472,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK2",
+      "test_sequence_length": 298,
+      "nearest_train_target_id": "CDK3",
+      "sequence_identity": 0.7344262295081967,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "INSRR",
+      "test_sequence_length": 1297,
+      "nearest_train_target_id": "TIE2",
+      "sequence_identity": 0.07555898226676946,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BMPR1B",
+      "test_sequence_length": 502,
+      "nearest_train_target_id": "STK35",
+      "sequence_identity": 0.08801498127340825,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AMPK-alpha1",
+      "test_sequence_length": 559,
+      "nearest_train_target_id": "PHKG1",
+      "sequence_identity": 0.12343470483005367,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP4K2",
+      "test_sequence_length": 820,
+      "nearest_train_target_id": "MAP4K3",
+      "sequence_identity": 0.28523489932885904,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK1(KinDom.1-N-terminal)",
+      "test_sequence_length": 735,
+      "nearest_train_target_id": "RSK1(KinDom.2-C-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1G1",
+      "test_sequence_length": 422,
+      "nearest_train_target_id": "YANK2",
+      "sequence_identity": 0.09004739336492891,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDC2L1",
+      "test_sequence_length": 542,
+      "nearest_train_target_id": "FGR",
+      "sequence_identity": 0.08302583025830258,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDC2L2",
+      "test_sequence_length": 475,
+      "nearest_train_target_id": "CSK",
+      "sequence_identity": 0.08842105263157894,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ACVRL1",
+      "test_sequence_length": 503,
+      "nearest_train_target_id": "ACVR1B",
+      "sequence_identity": 0.08712871287128712,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "STK39",
+      "test_sequence_length": 545,
+      "nearest_train_target_id": "TGFBR1",
+      "sequence_identity": 0.08807339449541285,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MST4",
+      "test_sequence_length": 416,
+      "nearest_train_target_id": "MST2",
+      "sequence_identity": 0.09368635437881874,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FGFR1",
+      "test_sequence_length": 822,
+      "nearest_train_target_id": "FGFR2",
+      "sequence_identity": 0.07785888077858881,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DAPK2",
+      "test_sequence_length": 370,
+      "nearest_train_target_id": "ERK2",
+      "sequence_identity": 0.10810810810810811,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JAK2(JH1domain-catalytic)",
+      "test_sequence_length": 1132,
+      "nearest_train_target_id": "FAK",
+      "sequence_identity": 0.06537102473498234,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MARK1",
+      "test_sequence_length": 795,
+      "nearest_train_target_id": "ERK5",
+      "sequence_identity": 0.08333333333333333,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(F317L)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKX",
+      "test_sequence_length": 358,
+      "nearest_train_target_id": "NEK6",
+      "sequence_identity": 0.09217877094972067,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RPS6KA4(KinDom.1-N-terminal)",
+      "test_sequence_length": 772,
+      "nearest_train_target_id": "RPS6KA4(KinDom.2-C-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA7",
+      "test_sequence_length": 998,
+      "nearest_train_target_id": "EPHB3",
+      "sequence_identity": 0.1933867735470942,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(H1047Y)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HPK1",
+      "test_sequence_length": 833,
+      "nearest_train_target_id": "ERK5",
+      "sequence_identity": 0.08163265306122448,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ROCK1",
+      "test_sequence_length": 1354,
+      "nearest_train_target_id": "MRCKB",
+      "sequence_identity": 0.08299240210403273,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IRAK4",
+      "test_sequence_length": 460,
+      "nearest_train_target_id": "BRK",
+      "sequence_identity": 0.0891304347826087,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GRK1",
+      "test_sequence_length": 563,
+      "nearest_train_target_id": "GRK7",
+      "sequence_identity": 0.0941385435168739,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDKL3",
+      "test_sequence_length": 592,
+      "nearest_train_target_id": "PFPK5(Pfalciparum)",
+      "sequence_identity": 0.14864864864864866,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP3K3",
+      "test_sequence_length": 626,
+      "nearest_train_target_id": "MAP3K2",
+      "sequence_identity": 0.09105431309904154,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIOK3",
+      "test_sequence_length": 519,
+      "nearest_train_target_id": "STK39",
+      "sequence_identity": 0.08256880733944955,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(A829P)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP4K5",
+      "test_sequence_length": 846,
+      "nearest_train_target_id": "YSK1",
+      "sequence_identity": 0.10520094562647754,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ANKK1",
+      "test_sequence_length": 765,
+      "nearest_train_target_id": "RIPK4",
+      "sequence_identity": 0.07908163265306123,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CLK2",
+      "test_sequence_length": 499,
+      "nearest_train_target_id": "MST2",
+      "sequence_identity": 0.08617234468937876,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(H396P)p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LZK",
+      "test_sequence_length": 966,
+      "nearest_train_target_id": "TAOK3",
+      "sequence_identity": 0.07660455486542443,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TAOK3",
+      "test_sequence_length": 898,
+      "nearest_train_target_id": "MAP4K5",
+      "sequence_identity": 0.07683741648106904,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDKL2",
+      "test_sequence_length": 493,
+      "nearest_train_target_id": "CDKL1",
+      "sequence_identity": 0.35699797160243407,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MARK3",
+      "test_sequence_length": 753,
+      "nearest_train_target_id": "ARK5",
+      "sequence_identity": 0.16865869853917662,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(G719S)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SIK2",
+      "test_sequence_length": 926,
+      "nearest_train_target_id": "MAP4K3",
+      "sequence_identity": 0.08531317494600432,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LYN",
+      "test_sequence_length": 582,
+      "nearest_train_target_id": "WEE1",
+      "sequence_identity": 0.07585139318885449,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT1",
+      "test_sequence_length": 1338,
+      "nearest_train_target_id": "VEGFR2",
+      "sequence_identity": 0.07890855457227139,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "p38-beta",
+      "test_sequence_length": 364,
+      "nearest_train_target_id": "p38-alpha",
+      "sequence_identity": 0.728021978021978,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LIMK2",
+      "test_sequence_length": 638,
+      "nearest_train_target_id": "WEE1",
+      "sequence_identity": 0.0913312693498452,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PFTK1",
+      "test_sequence_length": 469,
+      "nearest_train_target_id": "AURKA",
+      "sequence_identity": 0.11300639658848614,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKAC-alpha",
+      "test_sequence_length": 351,
+      "nearest_train_target_id": "PKAC-beta",
+      "sequence_identity": 0.9287749287749287,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK3(KinDom.2-C-terminal)",
+      "test_sequence_length": 733,
+      "nearest_train_target_id": "RSK3(KinDom.1-N-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PHKG1",
+      "test_sequence_length": 387,
+      "nearest_train_target_id": "AMPK-alpha1",
+      "sequence_identity": 0.12343470483005367,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TLK2",
+      "test_sequence_length": 772,
+      "nearest_train_target_id": "RSK1(KinDom.1-N-terminal)",
+      "sequence_identity": 0.08549222797927461,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDC2L5",
+      "test_sequence_length": 324,
+      "nearest_train_target_id": "PFTAIRE2",
+      "sequence_identity": 0.10344827586206896,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RPS6KA5(KinDom.1-N-terminal)",
+      "test_sequence_length": 802,
+      "nearest_train_target_id": "RPS6KA5(KinDom.2-C-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ZAP70",
+      "test_sequence_length": 619,
+      "nearest_train_target_id": "DYRK1B",
+      "sequence_identity": 0.07472178060413355,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA4",
+      "test_sequence_length": 986,
+      "nearest_train_target_id": "EPHA3",
+      "sequence_identity": 0.3133874239350913,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIPK1",
+      "test_sequence_length": 671,
+      "nearest_train_target_id": "SRPK1",
+      "sequence_identity": 0.07600596125186289,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK3",
+      "test_sequence_length": 721,
+      "nearest_train_target_id": "ERK4",
+      "sequence_identity": 0.13453536754507628,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK4",
+      "test_sequence_length": 473,
+      "nearest_train_target_id": "MAPKAPK5",
+      "sequence_identity": 0.09513742071881606,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LIMK1",
+      "test_sequence_length": 647,
+      "nearest_train_target_id": "NEK11",
+      "sequence_identity": 0.07264296754250386,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NLK",
+      "test_sequence_length": 527,
+      "nearest_train_target_id": "RIOK3",
+      "sequence_identity": 0.08159392789373814,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(M351T)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(T315I)p",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DCAMKL1",
+      "test_sequence_length": 740,
+      "nearest_train_target_id": "DCAMKL2",
+      "sequence_identity": 0.08485639686684072,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIPK2",
+      "test_sequence_length": 540,
+      "nearest_train_target_id": "OSR1",
+      "sequence_identity": 0.08888888888888889,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TRKA",
+      "test_sequence_length": 790,
+      "nearest_train_target_id": "TRKB",
+      "sequence_identity": 0.11518987341772152,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BIKE",
+      "test_sequence_length": 1161,
+      "nearest_train_target_id": "AAK1",
+      "sequence_identity": 0.07407407407407407,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAPKAPK2",
+      "test_sequence_length": 400,
+      "nearest_train_target_id": "DRAK1",
+      "sequence_identity": 0.1570048309178744,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ASK2",
+      "test_sequence_length": 1288,
+      "nearest_train_target_id": "ERBB2",
+      "sequence_identity": 0.07375776397515528,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK3",
+      "test_sequence_length": 347,
+      "nearest_train_target_id": "MEK1",
+      "sequence_identity": 0.13486005089058525,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK2",
+      "test_sequence_length": 445,
+      "nearest_train_target_id": "TSSK1B",
+      "sequence_identity": 0.09438202247191012,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKAC-beta",
+      "test_sequence_length": 351,
+      "nearest_train_target_id": "PKAC-alpha",
+      "sequence_identity": 0.9287749287749287,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MLCK",
+      "test_sequence_length": 819,
+      "nearest_train_target_id": "LTK",
+      "sequence_identity": 0.0798611111111111,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SBK1",
+      "test_sequence_length": 424,
+      "nearest_train_target_id": "PLK1",
+      "sequence_identity": 0.08955223880597014,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(Q252H)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HCK",
+      "test_sequence_length": 526,
+      "nearest_train_target_id": "FGR",
+      "sequence_identity": 0.21739130434782608,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK4(KinDom.2-C-terminal)",
+      "test_sequence_length": 745,
+      "nearest_train_target_id": "RSK4(KinDom.1-N-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3C2B",
+      "test_sequence_length": 1634,
+      "nearest_train_target_id": "MAST1",
+      "sequence_identity": 0.06364749082007344,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RET",
+      "test_sequence_length": 458,
+      "nearest_train_target_id": "RET(V804M)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK7",
+      "test_sequence_length": 719,
+      "nearest_train_target_id": "PAK4",
+      "sequence_identity": 0.1376912378303199,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(Q252H)p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SRPK3",
+      "test_sequence_length": 567,
+      "nearest_train_target_id": "OSR1",
+      "sequence_identity": 0.08994708994708994,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKMYT1",
+      "test_sequence_length": 499,
+      "nearest_train_target_id": "CAMKK1",
+      "sequence_identity": 0.09504950495049505,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TBK1",
+      "test_sequence_length": 729,
+      "nearest_train_target_id": "IKK-epsilon",
+      "sequence_identity": 0.41426611796982166,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HUNK",
+      "test_sequence_length": 714,
+      "nearest_train_target_id": "DRAK1",
+      "sequence_identity": 0.08543417366946779,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MYLK",
+      "test_sequence_length": 1914,
+      "nearest_train_target_id": "MRCKB",
+      "sequence_identity": 0.06165099268547544,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JNK1",
+      "test_sequence_length": 427,
+      "nearest_train_target_id": "JNK2",
+      "sequence_identity": 0.7494145199063232,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSK",
+      "test_sequence_length": 450,
+      "nearest_train_target_id": "CDC2L2",
+      "sequence_identity": 0.08842105263157894,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PHKG2",
+      "test_sequence_length": 406,
+      "nearest_train_target_id": "DRAK1",
+      "sequence_identity": 0.09178743961352658,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "WEE2",
+      "test_sequence_length": 567,
+      "nearest_train_target_id": "ACVRL1",
+      "sequence_identity": 0.07407407407407407,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1A1",
+      "test_sequence_length": 337,
+      "nearest_train_target_id": "CSNK1A1L",
+      "sequence_identity": 0.9050445103857567,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK1",
+      "test_sequence_length": 545,
+      "nearest_train_target_id": "SRC",
+      "sequence_identity": 0.08440366972477065,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CTK",
+      "test_sequence_length": 507,
+      "nearest_train_target_id": "YANK3",
+      "sequence_identity": 0.09072978303747535,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FER",
+      "test_sequence_length": 822,
+      "nearest_train_target_id": "FES",
+      "sequence_identity": 0.20194647201946472,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BMPR1A",
+      "test_sequence_length": 532,
+      "nearest_train_target_id": "FRK",
+      "sequence_identity": 0.07894736842105263,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDKL5",
+      "test_sequence_length": 1030,
+      "nearest_train_target_id": "TAOK1",
+      "sequence_identity": 0.08155339805825243,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP3K1",
+      "test_sequence_length": 1512,
+      "nearest_train_target_id": "IGF1R",
+      "sequence_identity": 0.06415343915343916,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HIPK3",
+      "test_sequence_length": 1215,
+      "nearest_train_target_id": "NEK1",
+      "sequence_identity": 0.06915739268680444,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CLK1",
+      "test_sequence_length": 484,
+      "nearest_train_target_id": "CLK4",
+      "sequence_identity": 0.16322314049586778,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TGFBR1",
+      "test_sequence_length": 503,
+      "nearest_train_target_id": "STK39",
+      "sequence_identity": 0.08807339449541285,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA5",
+      "test_sequence_length": 1017,
+      "nearest_train_target_id": "EPHB3",
+      "sequence_identity": 0.06981317600786627,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CASK",
+      "test_sequence_length": 926,
+      "nearest_train_target_id": "SIK2",
+      "sequence_identity": 0.07451403887688984,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK2A2",
+      "test_sequence_length": 350,
+      "nearest_train_target_id": "MAPKAPK2",
+      "sequence_identity": 0.09,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JNK2",
+      "test_sequence_length": 424,
+      "nearest_train_target_id": "JNK1",
+      "sequence_identity": 0.7494145199063232,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GSK3A",
+      "test_sequence_length": 483,
+      "nearest_train_target_id": "PKMYT1",
+      "sequence_identity": 0.09418837675350701,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HIPK1",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "HIPK2",
+      "sequence_identity": 0.08099173553719008,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TAOK1",
+      "test_sequence_length": 1001,
+      "nearest_train_target_id": "TAOK2",
+      "sequence_identity": 0.302834008097166,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK2D",
+      "test_sequence_length": 499,
+      "nearest_train_target_id": "CAMK2G",
+      "sequence_identity": 0.5501792114695341,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TRKC",
+      "test_sequence_length": 839,
+      "nearest_train_target_id": "FER",
+      "sequence_identity": 0.08343265792610251,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(C420R)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(M1043I)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA3",
+      "test_sequence_length": 983,
+      "nearest_train_target_id": "EPHA4",
+      "sequence_identity": 0.3133874239350913,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(E545K)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MST2",
+      "test_sequence_length": 491,
+      "nearest_train_target_id": "OSR1",
+      "sequence_identity": 0.1252371916508539,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FGFR3",
+      "test_sequence_length": 480,
+      "nearest_train_target_id": "FGFR3(G697C)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(ITD)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1A1L",
+      "test_sequence_length": 337,
+      "nearest_train_target_id": "CSNK1A1",
+      "sequence_identity": 0.9050445103857567,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRP4",
+      "test_sequence_length": 1007,
+      "nearest_train_target_id": "TAOK1",
+      "sequence_identity": 0.08341608738828203,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ASK1",
+      "test_sequence_length": 1374,
+      "nearest_train_target_id": "ROCK1",
+      "sequence_identity": 0.07059679767103348,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SYK",
+      "test_sequence_length": 635,
+      "nearest_train_target_id": "SNARK",
+      "sequence_identity": 0.08031496062992126,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MARK4",
+      "test_sequence_length": 752,
+      "nearest_train_target_id": "MARK3",
+      "sequence_identity": 0.09163346613545817,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FRK",
+      "test_sequence_length": 505,
+      "nearest_train_target_id": "OSR1",
+      "sequence_identity": 0.08538899430740038,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK4",
+      "test_sequence_length": 399,
+      "nearest_train_target_id": "MYLK4",
+      "sequence_identity": 0.09022556390977443,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YSK4",
+      "test_sequence_length": 1328,
+      "nearest_train_target_id": "MINK",
+      "sequence_identity": 0.07507507507507508,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "STK16",
+      "test_sequence_length": 305,
+      "nearest_train_target_id": "DRAK2",
+      "sequence_identity": 0.0913978494623656,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DYRK2",
+      "test_sequence_length": 601,
+      "nearest_train_target_id": "GSK3A",
+      "sequence_identity": 0.08153078202995008,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TNNI3K",
+      "test_sequence_length": 835,
+      "nearest_train_target_id": "PRKD2",
+      "sequence_identity": 0.07175398633257403,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ALK",
+      "test_sequence_length": 1620,
+      "nearest_train_target_id": "MST1R",
+      "sequence_identity": 0.06481481481481481,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK11",
+      "test_sequence_length": 502,
+      "nearest_train_target_id": "CDK8",
+      "sequence_identity": 0.6952191235059761,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(F317I)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP3K4",
+      "test_sequence_length": 1608,
+      "nearest_train_target_id": "MYO3A",
+      "sequence_identity": 0.06435643564356436,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(T790M)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L747S752del)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKD1",
+      "test_sequence_length": 912,
+      "nearest_train_target_id": "PRKD3",
+      "sequence_identity": 0.07236842105263158,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(D816V)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MYLK4",
+      "test_sequence_length": 388,
+      "nearest_train_target_id": "PCTK3",
+      "sequence_identity": 0.13302752293577982,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AKT2",
+      "test_sequence_length": 481,
+      "nearest_train_target_id": "AKT1",
+      "sequence_identity": 0.23700623700623702,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ARK5",
+      "test_sequence_length": 661,
+      "nearest_train_target_id": "MARK3",
+      "sequence_identity": 0.16865869853917662,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKCE",
+      "test_sequence_length": 737,
+      "nearest_train_target_id": "RSK3(KinDom.2-C-terminal)",
+      "sequence_identity": 0.09226594301221167,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "STK33",
+      "test_sequence_length": 514,
+      "nearest_train_target_id": "NDR2",
+      "sequence_identity": 0.10116731517509728,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MYO3A",
+      "test_sequence_length": 1616,
+      "nearest_train_target_id": "GCN2(KinDom2S808G)",
+      "sequence_identity": 0.0703456640388114,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DMPK",
+      "test_sequence_length": 629,
+      "nearest_train_target_id": "DMPK2",
+      "sequence_identity": 0.11992263056092843,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAK",
+      "test_sequence_length": 623,
+      "nearest_train_target_id": "ICK",
+      "sequence_identity": 0.43670886075949367,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKG2",
+      "test_sequence_length": 762,
+      "nearest_train_target_id": "BRAF(V600E)",
+      "sequence_identity": 0.08616187989556136,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BLK",
+      "test_sequence_length": 599,
+      "nearest_train_target_id": "STK33",
+      "sequence_identity": 0.08347245409015025,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK7",
+      "test_sequence_length": 302,
+      "nearest_train_target_id": "PFPK5(Pfalciparum)",
+      "sequence_identity": 0.09271523178807947,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(R834Q)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ACVR2A",
+      "test_sequence_length": 513,
+      "nearest_train_target_id": "NEK3",
+      "sequence_identity": 0.0935672514619883,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LATS2",
+      "test_sequence_length": 1088,
+      "nearest_train_target_id": "TYK2(JH2domain-pseudokinase)",
+      "sequence_identity": 0.07329401853411963,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TYK2(JH1domain-catalytic)",
+      "test_sequence_length": 1187,
+      "nearest_train_target_id": "TYK2(JH2domain-pseudokinase)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DDR2",
+      "test_sequence_length": 855,
+      "nearest_train_target_id": "DDR1",
+      "sequence_identity": 0.15224534501642936,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIPK4",
+      "test_sequence_length": 784,
+      "nearest_train_target_id": "RPS6KA4(KinDom.1-N-terminal)",
+      "sequence_identity": 0.09438775510204081,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PDGFRB",
+      "test_sequence_length": 777,
+      "nearest_train_target_id": "HPK1",
+      "sequence_identity": 0.07923169267707082,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TAOK2",
+      "test_sequence_length": 1235,
+      "nearest_train_target_id": "TAOK1",
+      "sequence_identity": 0.302834008097166,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1E",
+      "test_sequence_length": 416,
+      "nearest_train_target_id": "CSNK1D",
+      "sequence_identity": 0.7259615384615384,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CD",
+      "test_sequence_length": 1044,
+      "nearest_train_target_id": "PDGFRA",
+      "sequence_identity": 0.06887052341597796,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PLK1",
+      "test_sequence_length": 603,
+      "nearest_train_target_id": "SBK1",
+      "sequence_identity": 0.08955223880597014,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ICK",
+      "test_sequence_length": 632,
+      "nearest_train_target_id": "MAK",
+      "sequence_identity": 0.43670886075949367,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(N841I)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MST1",
+      "test_sequence_length": 487,
+      "nearest_train_target_id": "NDR1",
+      "sequence_identity": 0.08418891170431211,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA8",
+      "test_sequence_length": 1005,
+      "nearest_train_target_id": "EPHA4",
+      "sequence_identity": 0.2507462686567164,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SLK",
+      "test_sequence_length": 1235,
+      "nearest_train_target_id": "MAP4K4",
+      "sequence_identity": 0.07227022780832679,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK3(KinDom.1-N-terminal)",
+      "test_sequence_length": 733,
+      "nearest_train_target_id": "RSK3(KinDom.2-C-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK11",
+      "test_sequence_length": 645,
+      "nearest_train_target_id": "EIF2AK1",
+      "sequence_identity": 0.08837209302325581,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PYK2",
+      "test_sequence_length": 1009,
+      "nearest_train_target_id": "JAK3(JH1domain-catalytic)",
+      "sequence_identity": 0.07295373665480427,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "p38-delta",
+      "test_sequence_length": 365,
+      "nearest_train_target_id": "p38-alpha",
+      "sequence_identity": 0.3863013698630137,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "S6K1",
+      "test_sequence_length": 525,
+      "nearest_train_target_id": "RIOK3",
+      "sequence_identity": 0.08190476190476191,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHB4",
+      "test_sequence_length": 935,
+      "nearest_train_target_id": "EPHB1",
+      "sequence_identity": 0.11788617886178862,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L858RT790M)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK1",
+      "test_sequence_length": 370,
+      "nearest_train_target_id": "YSK1",
+      "sequence_identity": 0.11032863849765258,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1G3",
+      "test_sequence_length": 447,
+      "nearest_train_target_id": "YANK2",
+      "sequence_identity": 0.07829977628635347,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ULK2",
+      "test_sequence_length": 1036,
+      "nearest_train_target_id": "SIK2",
+      "sequence_identity": 0.07239382239382239,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ADCK4",
+      "test_sequence_length": 544,
+      "nearest_train_target_id": "PRKR",
+      "sequence_identity": 0.07720588235294118,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(L576P)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHB6",
+      "test_sequence_length": 1021,
+      "nearest_train_target_id": "EPHB4",
+      "sequence_identity": 0.07835455435847209,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FGFR4",
+      "test_sequence_length": 802,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.08382526564344746,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MRCKB",
+      "test_sequence_length": 1711,
+      "nearest_train_target_id": "ROCK1",
+      "sequence_identity": 0.08299240210403273,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK4",
+      "test_sequence_length": 451,
+      "nearest_train_target_id": "CHEK1",
+      "sequence_identity": 0.0861344537815126,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JAK3(JH1domain-catalytic)",
+      "test_sequence_length": 1124,
+      "nearest_train_target_id": "PDGFRA",
+      "sequence_identity": 0.07384341637010676,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "STK36",
+      "test_sequence_length": 1315,
+      "nearest_train_target_id": "NEK1",
+      "sequence_identity": 0.08136882129277566,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(E746A750del)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA1",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "EPHA4",
+      "sequence_identity": 0.11359026369168357,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MKNK1",
+      "test_sequence_length": 465,
+      "nearest_train_target_id": "MKNK2",
+      "sequence_identity": 0.09462365591397849,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GAK",
+      "test_sequence_length": 1311,
+      "nearest_train_target_id": "MET(Y1235D)",
+      "sequence_identity": 0.07050359712230216,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIM2",
+      "test_sequence_length": 311,
+      "nearest_train_target_id": "SgK110",
+      "sequence_identity": 0.09192200557103064,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(V559D-V654A)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FGR",
+      "test_sequence_length": 529,
+      "nearest_train_target_id": "HCK",
+      "sequence_identity": 0.21739130434782608,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAPKAPK5",
+      "test_sequence_length": 473,
+      "nearest_train_target_id": "CAMK4",
+      "sequence_identity": 0.09513742071881606,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(V559D)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(D816V)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SRPK2",
+      "test_sequence_length": 688,
+      "nearest_train_target_id": "SRPK1",
+      "sequence_identity": 0.08430232558139535,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CLK4",
+      "test_sequence_length": 481,
+      "nearest_train_target_id": "CLK1",
+      "sequence_identity": 0.16322314049586778,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKD3",
+      "test_sequence_length": 890,
+      "nearest_train_target_id": "DDR1",
+      "sequence_identity": 0.0755750273822563,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TGFBR2",
+      "test_sequence_length": 567,
+      "nearest_train_target_id": "CDC2L1",
+      "sequence_identity": 0.07583774250440917,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BRAF(V600E)",
+      "test_sequence_length": 766,
+      "nearest_train_target_id": "BRAF",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK4-cyclinD3",
+      "test_sequence_length": 303,
+      "nearest_train_target_id": "CDK4-cyclinD1",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SGK3",
+      "test_sequence_length": 496,
+      "nearest_train_target_id": "CLK4",
+      "sequence_identity": 0.0907258064516129,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK2A1",
+      "test_sequence_length": 391,
+      "nearest_train_target_id": "MST3",
+      "sequence_identity": 0.09029345372460497,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK5",
+      "test_sequence_length": 708,
+      "nearest_train_target_id": "NEK1",
+      "sequence_identity": 0.10174880763116058,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MET(Y1235D)",
+      "test_sequence_length": 1390,
+      "nearest_train_target_id": "MET(M1250T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EIF2AK1",
+      "test_sequence_length": 630,
+      "nearest_train_target_id": "NEK11",
+      "sequence_identity": 0.08837209302325581,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SRC",
+      "test_sequence_length": 536,
+      "nearest_train_target_id": "PAK1",
+      "sequence_identity": 0.08440366972477065,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ACVR1",
+      "test_sequence_length": 509,
+      "nearest_train_target_id": "BMPR1B",
+      "sequence_identity": 0.07858546168958742,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK3",
+      "test_sequence_length": 305,
+      "nearest_train_target_id": "CDK2",
+      "sequence_identity": 0.7344262295081967,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BMPR2",
+      "test_sequence_length": 1038,
+      "nearest_train_target_id": "EPHA1",
+      "sequence_identity": 0.07610789980732177,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RPS6KA5(KinDom.2-C-terminal)",
+      "test_sequence_length": 802,
+      "nearest_train_target_id": "RPS6KA5(KinDom.1-N-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TYRO3",
+      "test_sequence_length": 890,
+      "nearest_train_target_id": "AXL",
+      "sequence_identity": 0.1040268456375839,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ACVR1B",
+      "test_sequence_length": 505,
+      "nearest_train_target_id": "ACVRL1",
+      "sequence_identity": 0.08712871287128712,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SgK110",
+      "test_sequence_length": 359,
+      "nearest_train_target_id": "PIM2",
+      "sequence_identity": 0.09192200557103064,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RPS6KA4(KinDom.2-C-terminal)",
+      "test_sequence_length": 772,
+      "nearest_train_target_id": "RPS6KA4(KinDom.1-N-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK1D",
+      "test_sequence_length": 385,
+      "nearest_train_target_id": "CAMK1G",
+      "sequence_identity": 0.10504201680672269,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MLK2",
+      "test_sequence_length": 954,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.09329140461215933,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL2",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "HIPK1",
+      "sequence_identity": 0.07520661157024794,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DCAMKL3",
+      "test_sequence_length": 648,
+      "nearest_train_target_id": "RSK3(KinDom.2-C-terminal)",
+      "sequence_identity": 0.08049113233287858,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MET(M1250T)",
+      "test_sequence_length": 1390,
+      "nearest_train_target_id": "MET(Y1235D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ZAK",
+      "test_sequence_length": 800,
+      "nearest_train_target_id": "MARK2",
+      "sequence_identity": 0.07875,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CB",
+      "test_sequence_length": 1070,
+      "nearest_train_target_id": "NEK9",
+      "sequence_identity": 0.07383177570093458,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MERTK",
+      "test_sequence_length": 999,
+      "nearest_train_target_id": "PDGFRA",
+      "sequence_identity": 0.07162534435261708,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(T315I)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CG",
+      "test_sequence_length": 1102,
+      "nearest_train_target_id": "TAOK2",
+      "sequence_identity": 0.06558704453441296,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMKK2",
+      "test_sequence_length": 588,
+      "nearest_train_target_id": "GRK1",
+      "sequence_identity": 0.08843537414965986,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ACVR2B",
+      "test_sequence_length": 512,
+      "nearest_train_target_id": "CAMKK1",
+      "sequence_identity": 0.083984375,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LATS1",
+      "test_sequence_length": 1130,
+      "nearest_train_target_id": "TYK2(JH2domain-pseudokinase)",
+      "sequence_identity": 0.07160909856781802,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "VRK2",
+      "test_sequence_length": 508,
+      "nearest_train_target_id": "BTK",
+      "sequence_identity": 0.08464566929133858,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(Q546K)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKNB(Mtuberculosis)",
+      "test_sequence_length": 626,
+      "nearest_train_target_id": "HIPK4",
+      "sequence_identity": 0.09584664536741214,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YANK2",
+      "test_sequence_length": 414,
+      "nearest_train_target_id": "YANK1",
+      "sequence_identity": 0.4251207729468599,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PFTAIRE2",
+      "test_sequence_length": 435,
+      "nearest_train_target_id": "CDC2L5",
+      "sequence_identity": 0.10344827586206896,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SRPK1",
+      "test_sequence_length": 655,
+      "nearest_train_target_id": "SRPK2",
+      "sequence_identity": 0.08430232558139535,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKCD",
+      "test_sequence_length": 676,
+      "nearest_train_target_id": "EIF2AK1",
+      "sequence_identity": 0.07840236686390532,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKG1",
+      "test_sequence_length": 671,
+      "nearest_train_target_id": "LIMK2",
+      "sequence_identity": 0.07451564828614009,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TEC",
+      "test_sequence_length": 631,
+      "nearest_train_target_id": "ITK",
+      "sequence_identity": 0.16798732171156894,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKN2",
+      "test_sequence_length": 984,
+      "nearest_train_target_id": "PKN1",
+      "sequence_identity": 0.08028455284552846,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(S752I759del)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIOK1",
+      "test_sequence_length": 568,
+      "nearest_train_target_id": "CAMKK2",
+      "sequence_identity": 0.07312925170068027,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIP5K1C",
+      "test_sequence_length": 668,
+      "nearest_train_target_id": "BLK",
+      "sequence_identity": 0.08083832335329341,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IKK-beta",
+      "test_sequence_length": 756,
+      "nearest_train_target_id": "IKK-alpha",
+      "sequence_identity": 0.11772486772486772,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AXL",
+      "test_sequence_length": 894,
+      "nearest_train_target_id": "TYRO3",
+      "sequence_identity": 0.1040268456375839,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK2",
+      "test_sequence_length": 400,
+      "nearest_train_target_id": "SgK110",
+      "sequence_identity": 0.0825,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(L861Q)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHA2",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "EPHA8",
+      "sequence_identity": 0.13034825870646766,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(D835H)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKR",
+      "test_sequence_length": 513,
+      "nearest_train_target_id": "STK33",
+      "sequence_identity": 0.09727626459143969,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TYK2(JH2domain-pseudokinase)",
+      "test_sequence_length": 1187,
+      "nearest_train_target_id": "TYK2(JH1domain-catalytic)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK5",
+      "test_sequence_length": 448,
+      "nearest_train_target_id": "CAMK4",
+      "sequence_identity": 0.080338266384778,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RET(V804L)",
+      "test_sequence_length": 458,
+      "nearest_train_target_id": "RET(V804M)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CLK3",
+      "test_sequence_length": 638,
+      "nearest_train_target_id": "WEE1",
+      "sequence_identity": 0.07739938080495357,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK1",
+      "test_sequence_length": 379,
+      "nearest_train_target_id": "PIM3",
+      "sequence_identity": 0.10290237467018469,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PCTK3",
+      "test_sequence_length": 436,
+      "nearest_train_target_id": "MYLK4",
+      "sequence_identity": 0.13302752293577982,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERBB2",
+      "test_sequence_length": 1255,
+      "nearest_train_target_id": "ERBB3",
+      "sequence_identity": 0.07600596125186289,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP3K2",
+      "test_sequence_length": 619,
+      "nearest_train_target_id": "MAP3K3",
+      "sequence_identity": 0.09105431309904154,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LKB1",
+      "test_sequence_length": 433,
+      "nearest_train_target_id": "CDKL2",
+      "sequence_identity": 0.08316430020283976,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NDR1",
+      "test_sequence_length": 465,
+      "nearest_train_target_id": "PFTK1",
+      "sequence_identity": 0.08955223880597014,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TNK1",
+      "test_sequence_length": 666,
+      "nearest_train_target_id": "HIPK4",
+      "sequence_identity": 0.0915915915915916,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIM3",
+      "test_sequence_length": 326,
+      "nearest_train_target_id": "ERK1",
+      "sequence_identity": 0.10290237467018469,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DMPK2",
+      "test_sequence_length": 1551,
+      "nearest_train_target_id": "DMPK",
+      "sequence_identity": 0.11992263056092843,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(E545A)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SRMS",
+      "test_sequence_length": 488,
+      "nearest_train_target_id": "CTK",
+      "sequence_identity": 0.08875739644970414,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK3",
+      "test_sequence_length": 559,
+      "nearest_train_target_id": "AMPK-alpha1",
+      "sequence_identity": 0.08228980322003578,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "NEK3",
+      "test_sequence_length": 506,
+      "nearest_train_target_id": "CDK3",
+      "sequence_identity": 0.09881422924901186,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(I800L)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(F317I)p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LCK",
+      "test_sequence_length": 509,
+      "nearest_train_target_id": "CAMKK1",
+      "sequence_identity": 0.07858546168958742,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK2B",
+      "test_sequence_length": 666,
+      "nearest_train_target_id": "CAMK2G",
+      "sequence_identity": 0.4594594594594595,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK4",
+      "test_sequence_length": 587,
+      "nearest_train_target_id": "ERK3",
+      "sequence_identity": 0.13453536754507628,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MAP4K4",
+      "test_sequence_length": 1273,
+      "nearest_train_target_id": "MINK",
+      "sequence_identity": 0.30255255255255253,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKD2",
+      "test_sequence_length": 878,
+      "nearest_train_target_id": "TYRO3",
+      "sequence_identity": 0.07528089887640449,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BRSK1",
+      "test_sequence_length": 778,
+      "nearest_train_target_id": "IKK-beta",
+      "sequence_identity": 0.07969151670951156,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YANK1",
+      "test_sequence_length": 396,
+      "nearest_train_target_id": "YANK2",
+      "sequence_identity": 0.4251207729468599,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TTK",
+      "test_sequence_length": 857,
+      "nearest_train_target_id": "PRKD1",
+      "sequence_identity": 0.07017543859649122,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHB1",
+      "test_sequence_length": 984,
+      "nearest_train_target_id": "EPHA4",
+      "sequence_identity": 0.17545638945233266,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PAK4",
+      "test_sequence_length": 591,
+      "nearest_train_target_id": "PAK7",
+      "sequence_identity": 0.1376912378303199,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIP5K1A",
+      "test_sequence_length": 562,
+      "nearest_train_target_id": "TAK1",
+      "sequence_identity": 0.09735973597359736,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YANK3",
+      "test_sequence_length": 486,
+      "nearest_train_target_id": "CTK",
+      "sequence_identity": 0.09072978303747535,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LRRK2",
+      "test_sequence_length": 2527,
+      "nearest_train_target_id": "LRRK2(G2019S)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSF1R",
+      "test_sequence_length": 972,
+      "nearest_train_target_id": "DDR2",
+      "sequence_identity": 0.07098765432098765,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AAK1",
+      "test_sequence_length": 961,
+      "nearest_train_target_id": "ERK5",
+      "sequence_identity": 0.07908428720083246,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK2A",
+      "test_sequence_length": 478,
+      "nearest_train_target_id": "CAMK2D",
+      "sequence_identity": 0.2985971943887776,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DRAK1",
+      "test_sequence_length": 414,
+      "nearest_train_target_id": "MAPKAPK2",
+      "sequence_identity": 0.1570048309178744,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "KIT(D816H)",
+      "test_sequence_length": 976,
+      "nearest_train_target_id": "KIT(V559D)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MEK6",
+      "test_sequence_length": 334,
+      "nearest_train_target_id": "SBK1",
+      "sequence_identity": 0.08726415094339622,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "OSR1",
+      "test_sequence_length": 527,
+      "nearest_train_target_id": "MST2",
+      "sequence_identity": 0.1252371916508539,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PKN1",
+      "test_sequence_length": 942,
+      "nearest_train_target_id": "PKN2",
+      "sequence_identity": 0.08028455284552846,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ITK",
+      "test_sequence_length": 620,
+      "nearest_train_target_id": "TEC",
+      "sequence_identity": 0.16798732171156894,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SNRK",
+      "test_sequence_length": 765,
+      "nearest_train_target_id": "AMPK-alpha2",
+      "sequence_identity": 0.08888888888888889,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ULK1",
+      "test_sequence_length": 1050,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.08190476190476191,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TIE2",
+      "test_sequence_length": 1157,
+      "nearest_train_target_id": "INSRR",
+      "sequence_identity": 0.07555898226676946,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TLK1",
+      "test_sequence_length": 766,
+      "nearest_train_target_id": "DYRK1A",
+      "sequence_identity": 0.07702349869451697,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TXK",
+      "test_sequence_length": 527,
+      "nearest_train_target_id": "FYN",
+      "sequence_identity": 0.2756052141527002,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PLK4",
+      "test_sequence_length": 970,
+      "nearest_train_target_id": "MAP4K3",
+      "sequence_identity": 0.088659793814433,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RIPK5",
+      "test_sequence_length": 929,
+      "nearest_train_target_id": "PKN1",
+      "sequence_identity": 0.07218683651804671,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TNIK",
+      "test_sequence_length": 1360,
+      "nearest_train_target_id": "MINK",
+      "sequence_identity": 0.28455882352941175,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PLK2",
+      "test_sequence_length": 685,
+      "nearest_train_target_id": "PDPK1",
+      "sequence_identity": 0.10510948905109489,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PDGFRA",
+      "test_sequence_length": 1089,
+      "nearest_train_target_id": "JAK3(JH1domain-catalytic)",
+      "sequence_identity": 0.07384341637010676,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(E255K)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK4-cyclinD1",
+      "test_sequence_length": 303,
+      "nearest_train_target_id": "CDK4-cyclinD3",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT3(K663Q)",
+      "test_sequence_length": 993,
+      "nearest_train_target_id": "FLT3(D835Y)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MRCKA",
+      "test_sequence_length": 1732,
+      "nearest_train_target_id": "MRCKB",
+      "sequence_identity": 0.07274826789838337,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MYO3B",
+      "test_sequence_length": 1341,
+      "nearest_train_target_id": "ROCK1",
+      "sequence_identity": 0.06646971935007386,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(Y253F)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMK2G",
+      "test_sequence_length": 558,
+      "nearest_train_target_id": "CAMK2D",
+      "sequence_identity": 0.5501792114695341,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YSK1",
+      "test_sequence_length": 426,
+      "nearest_train_target_id": "CAMK1",
+      "sequence_identity": 0.11032863849765258,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIP5K2B",
+      "test_sequence_length": 416,
+      "nearest_train_target_id": "JNK2",
+      "sequence_identity": 0.08018867924528301,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CAMKK1",
+      "test_sequence_length": 505,
+      "nearest_train_target_id": "AKT2",
+      "sequence_identity": 0.11683168316831684,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PFCDPK1(Pfalciparum)",
+      "test_sequence_length": 524,
+      "nearest_train_target_id": "PAK2",
+      "sequence_identity": 0.08969465648854962,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MST3",
+      "test_sequence_length": 443,
+      "nearest_train_target_id": "CSNK2A1",
+      "sequence_identity": 0.09029345372460497,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GRK7",
+      "test_sequence_length": 553,
+      "nearest_train_target_id": "GRK1",
+      "sequence_identity": 0.0941385435168739,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(T315I)p",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "INSR",
+      "test_sequence_length": 1382,
+      "nearest_train_target_id": "TNIK",
+      "sequence_identity": 0.07380607814761216,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "YES",
+      "test_sequence_length": 543,
+      "nearest_train_target_id": "PAK2",
+      "sequence_identity": 0.08287292817679558,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "WEE1",
+      "test_sequence_length": 646,
+      "nearest_train_target_id": "LIMK2",
+      "sequence_identity": 0.0913312693498452,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK2",
+      "test_sequence_length": 360,
+      "nearest_train_target_id": "DAPK2",
+      "sequence_identity": 0.10810810810810811,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AURKB",
+      "test_sequence_length": 344,
+      "nearest_train_target_id": "CDK7",
+      "sequence_identity": 0.1069364161849711,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK5",
+      "test_sequence_length": 292,
+      "nearest_train_target_id": "CDK3",
+      "sequence_identity": 0.3901639344262295,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "LOK",
+      "test_sequence_length": 968,
+      "nearest_train_target_id": "PRP4",
+      "sequence_identity": 0.07348560079443893,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ULK3",
+      "test_sequence_length": 472,
+      "nearest_train_target_id": "CDK7",
+      "sequence_identity": 0.11652542372881355,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RET(V804M)",
+      "test_sequence_length": 458,
+      "nearest_train_target_id": "RET(V804L)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AURKC",
+      "test_sequence_length": 309,
+      "nearest_train_target_id": "PKAC-alpha",
+      "sequence_identity": 0.1396011396011396,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ABL1(H396P)",
+      "test_sequence_length": 1167,
+      "nearest_train_target_id": "ABL1(M351T)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DAPK3",
+      "test_sequence_length": 454,
+      "nearest_train_target_id": "DAPK1",
+      "sequence_identity": 0.16503496503496504,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1G2",
+      "test_sequence_length": 415,
+      "nearest_train_target_id": "JNK1",
+      "sequence_identity": 0.08196721311475409,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CIT",
+      "test_sequence_length": 2027,
+      "nearest_train_target_id": "MRCKB",
+      "sequence_identity": 0.06265416872224963,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EGFR(G719C)",
+      "test_sequence_length": 1210,
+      "nearest_train_target_id": "EGFR",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIP5K2C",
+      "test_sequence_length": 421,
+      "nearest_train_target_id": "MST4",
+      "sequence_identity": 0.08788598574821853,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TNK2",
+      "test_sequence_length": 1038,
+      "nearest_train_target_id": "TNK1",
+      "sequence_identity": 0.08188824662813102,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDKL1",
+      "test_sequence_length": 357,
+      "nearest_train_target_id": "CDKL2",
+      "sequence_identity": 0.35699797160243407,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DAPK1",
+      "test_sequence_length": 1430,
+      "nearest_train_target_id": "DAPK3",
+      "sequence_identity": 0.16503496503496504,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DYRK1A",
+      "test_sequence_length": 763,
+      "nearest_train_target_id": "BRSK2",
+      "sequence_identity": 0.07732634338138926,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKCQ",
+      "test_sequence_length": 706,
+      "nearest_train_target_id": "PRKCD",
+      "sequence_identity": 0.0764872521246459,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "SNARK",
+      "test_sequence_length": 628,
+      "nearest_train_target_id": "MARK2",
+      "sequence_identity": 0.17639593908629442,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MYLK2",
+      "test_sequence_length": 596,
+      "nearest_train_target_id": "PLK1",
+      "sequence_identity": 0.0779436152570481,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK7",
+      "test_sequence_length": 346,
+      "nearest_train_target_id": "ULK3",
+      "sequence_identity": 0.11652542372881355,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BRSK2",
+      "test_sequence_length": 736,
+      "nearest_train_target_id": "CAMK1",
+      "sequence_identity": 0.08559782608695653,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RSK4(KinDom.1-N-terminal)",
+      "test_sequence_length": 745,
+      "nearest_train_target_id": "RSK4(KinDom.2-C-terminal)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HIPK4",
+      "test_sequence_length": 616,
+      "nearest_train_target_id": "PKNB(Mtuberculosis)",
+      "sequence_identity": 0.09584664536741214,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CHEK1",
+      "test_sequence_length": 476,
+      "nearest_train_target_id": "ULK3",
+      "sequence_identity": 0.09033613445378151,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AMPK-alpha2",
+      "test_sequence_length": 552,
+      "nearest_train_target_id": "DAPK3",
+      "sequence_identity": 0.10507246376811594,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "HIPK2",
+      "test_sequence_length": 1198,
+      "nearest_train_target_id": "HIPK1",
+      "sequence_identity": 0.08099173553719008,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERBB3",
+      "test_sequence_length": 1342,
+      "nearest_train_target_id": "ERBB4",
+      "sequence_identity": 0.11251862891207154,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CDK8",
+      "test_sequence_length": 464,
+      "nearest_train_target_id": "CDK11",
+      "sequence_identity": 0.6952191235059761,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TRPM6",
+      "test_sequence_length": 2022,
+      "nearest_train_target_id": "CIT",
+      "sequence_identity": 0.05920078934385792,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PLK3",
+      "test_sequence_length": 646,
+      "nearest_train_target_id": "DYRK1B",
+      "sequence_identity": 0.08978328173374613,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKCH",
+      "test_sequence_length": 683,
+      "nearest_train_target_id": "CAMK2B",
+      "sequence_identity": 0.08199121522693997,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERK5",
+      "test_sequence_length": 816,
+      "nearest_train_target_id": "MARK1",
+      "sequence_identity": 0.08333333333333333,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JNK3",
+      "test_sequence_length": 464,
+      "nearest_train_target_id": "MAPKAPK2",
+      "sequence_identity": 0.10775862068965517,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "p38-gamma",
+      "test_sequence_length": 367,
+      "nearest_train_target_id": "DAPK2",
+      "sequence_identity": 0.1,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ERN1",
+      "test_sequence_length": 977,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.0736949846468782,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DLK",
+      "test_sequence_length": 859,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.08614668218859138,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MST1R",
+      "test_sequence_length": 1400,
+      "nearest_train_target_id": "MET(Y1235D)",
+      "sequence_identity": 0.07642857142857143,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FLT4",
+      "test_sequence_length": 1363,
+      "nearest_train_target_id": "FLT1",
+      "sequence_identity": 0.07776962582538519,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FAK",
+      "test_sequence_length": 1074,
+      "nearest_train_target_id": "PKN2",
+      "sequence_identity": 0.06797020484171322,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MUSK",
+      "test_sequence_length": 869,
+      "nearest_train_target_id": "MLK3",
+      "sequence_identity": 0.07249712313003452,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PCTK1",
+      "test_sequence_length": 448,
+      "nearest_train_target_id": "STK33",
+      "sequence_identity": 0.09727626459143969,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PFPK5(Pfalciparum)",
+      "test_sequence_length": 288,
+      "nearest_train_target_id": "CDKL3",
+      "sequence_identity": 0.14864864864864866,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "DYRK1B",
+      "test_sequence_length": 629,
+      "nearest_train_target_id": "PLK3",
+      "sequence_identity": 0.08978328173374613,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "TRKB",
+      "test_sequence_length": 477,
+      "nearest_train_target_id": "TRKA",
+      "sequence_identity": 0.11518987341772152,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PRKCI",
+      "test_sequence_length": 596,
+      "nearest_train_target_id": "TAK1",
+      "sequence_identity": 0.09075907590759076,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PIK3CA(H1047L)",
+      "test_sequence_length": 1069,
+      "nearest_train_target_id": "PIK3CA(C420R)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "AKT1",
+      "test_sequence_length": 480,
+      "nearest_train_target_id": "AKT2",
+      "sequence_identity": 0.23700623700623702,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "MKNK2",
+      "test_sequence_length": 465,
+      "nearest_train_target_id": "MKNK1",
+      "sequence_identity": 0.09462365591397849,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "CSNK1D",
+      "test_sequence_length": 415,
+      "nearest_train_target_id": "CSNK1E",
+      "sequence_identity": 0.7259615384615384,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "BMX",
+      "test_sequence_length": 675,
+      "nearest_train_target_id": "ITK",
+      "sequence_identity": 0.13333333333333333,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "JAK1(JH2domain-pseudokinase)",
+      "test_sequence_length": 1154,
+      "nearest_train_target_id": "JAK1(JH1domain-catalytic)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "ROCK2",
+      "test_sequence_length": 703,
+      "nearest_train_target_id": "BRSK2",
+      "sequence_identity": 0.08423913043478261,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "PDPK1",
+      "test_sequence_length": 556,
+      "nearest_train_target_id": "PLK2",
+      "sequence_identity": 0.10510948905109489,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "IKK-alpha",
+      "test_sequence_length": 745,
+      "nearest_train_target_id": "IKK-beta",
+      "sequence_identity": 0.11772486772486772,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "RET(M918T)",
+      "test_sequence_length": 458,
+      "nearest_train_target_id": "RET(V804M)",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "FGFR3(G697C)",
+      "test_sequence_length": 480,
+      "nearest_train_target_id": "FGFR3",
+      "sequence_identity": 1.0,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "EPHB3",
+      "test_sequence_length": 998,
+      "nearest_train_target_id": "EPHA7",
+      "sequence_identity": 0.1933867735470942,
+      "is_exact_match": false
+    },
+    {
+      "test_target_id": "GSK3B",
+      "test_sequence_length": 420,
+      "nearest_train_target_id": "PHKG2",
+      "sequence_identity": 0.08571428571428572,
+      "is_exact_match": false
+    }
+  ]
+}

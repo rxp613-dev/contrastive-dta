@@ -1,0 +1,29 @@
+{
+  "experiment": "Sequential testing correction for KIBA",
+  "date": "2026-09-03",
+  "objective": "Address T6: KIBA n=5\u2192n=10 adaptive expansion",
+  "stage1": {
+    "n_seeds": 5,
+    "raw_p": 0.024,
+    "holm_p": 0.097,
+    "significant": false
+  },
+  "stage2": {
+    "n_seeds": 10,
+    "raw_p": 0.004117,
+    "holm_p": 0.0165,
+    "significant": true
+  },
+  "pocock_boundary": {
+    "K_stages": 2,
+    "alpha_overall": 0.05,
+    "boundary": 0.0294
+  },
+  "survival_check": {
+    "holm_p_vs_pocock": true,
+    "raw_p_vs_pocock": true,
+    "mann_whitney_vs_pocock": true,
+    "all_pass": true
+  },
+  "conclusion": "KIBA result survives sequential testing correction"
+}

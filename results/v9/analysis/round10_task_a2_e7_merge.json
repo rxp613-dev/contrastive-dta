@@ -1,0 +1,81 @@
+{
+  "task": "A2: GIN E7\u6b63\u786e\u5408\u5e76",
+  "timestamp": "2026-08-31 21:38:01",
+  "audit_conclusion": {
+    "batch_a": "10\u4e2a\u76ee\u5f55\uff08\u5df2\u5e9f\u5f03\uff0c\u03b2=0.05\uff09",
+    "batch_b": "\u672a\u627e\u5230\uff08\u8bc4\u5ba1\u62a5\u544a\u4e2d\u63d0\u5230\u768408-22\u4ef2\u88c1\u6279\u4e0d\u5b58\u5728\uff09",
+    "batch_c": "10\u4e2a\u76ee\u5f55\uff08\u6b63\u786e\uff0c\u03b2=0.0\uff09"
+  },
+  "merge_statistics": {
+    "alpha_001": {
+      "n": 5,
+      "mean": 0.2230848491191864,
+      "std": 0.008121570383525678,
+      "se": 0.0036320766923224907,
+      "ci_lower": 0.21596597880223434,
+      "ci_upper": 0.2302037194361385,
+      "directories": [
+        "E7_alpha001_seed123",
+        "E7_alpha001_seed2024",
+        "E7_alpha001_seed3407",
+        "E7_alpha001_seed42",
+        "E7_alpha001_seed7"
+      ]
+    },
+    "alpha_005": {
+      "n": 5,
+      "mean": 0.21798207759857177,
+      "std": 0.004284868814485814,
+      "se": 0.0019162515887718428,
+      "ci_lower": 0.21422622448457895,
+      "ci_upper": 0.2217379307125646,
+      "directories": [
+        "E7_alpha005_seed123",
+        "E7_alpha005_seed2024",
+        "E7_alpha005_seed3407",
+        "E7_alpha005_seed42",
+        "E7_alpha005_seed7"
+      ]
+    }
+  },
+  "comparison_with_baseline": {
+    "alpha_001": {
+      "e7_mean": 0.2230848491191864,
+      "e7_std": 0.008121570383525678,
+      "e7_n": 5,
+      "e0_mean": 0.2513,
+      "e0_std": 0.013,
+      "e0_n": 5,
+      "improvement_pct": 11.227676434864149,
+      "welch_t": -4.1159538798839135,
+      "welch_p": 0.004910515131315966,
+      "holm_p": 0.019642060525263863,
+      "cohens_d": 2.603157800928053
+    },
+    "alpha_005": {
+      "e7_mean": 0.21798207759857177,
+      "e7_std": 0.004284868814485814,
+      "e7_n": 5,
+      "e0_mean": 0.2513,
+      "e0_std": 0.013,
+      "e0_n": 5,
+      "improvement_pct": 13.258226184412356,
+      "welch_t": -5.442824849307713,
+      "welch_p": 0.003103417572688064,
+      "holm_p": 0.012413670290752256,
+      "cohens_d": 3.4423446858350215
+    }
+  },
+  "recommended_values": {
+    "alpha_001": {
+      "headline_mse": "0.2231\u00b10.0081",
+      "improvement": "+11.23%",
+      "holm_p": "0.0196"
+    },
+    "alpha_005": {
+      "headline_mse": "0.2180\u00b10.0043",
+      "improvement": "+13.26%",
+      "holm_p": "0.0124"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "published_baselines": {
+    "DeepDTA (1D/1D)": {
+      "MSE": 0.194,
+      "CI": 0.863
+    },
+    "WideDTA": {
+      "MSE": 0.179,
+      "CI": 0.875
+    },
+    "GraphDTA-GAT": {
+      "MSE": 0.179,
+      "CI": 0.866
+    },
+    "GraphDTA-GIN": {
+      "MSE": 0.147,
+      "CI": 0.882
+    },
+    "GraphDTA-GCN": {
+      "MSE": 0.139,
+      "CI": 0.889
+    },
+    "GraphDTA-GAT_GCN": {
+      "MSE": 0.139,
+      "CI": 0.891
+    },
+    "KronRLS": {
+      "MSE": 0.411,
+      "CI": 0.782
+    },
+    "SimBoost": {
+      "MSE": 0.222,
+      "CI": 0.836
+    }
+  },
+  "our_results": {
+    "E0 (GIN supervised)": {
+      "MSE": 0.522,
+      "CI": 0.711,
+      "std": 0.041
+    },
+    "Best CL (\u03b1=0.5)": {
+      "MSE": 0.2027,
+      "CI": 0.8402,
+      "std": 0.0121
+    }
+  },
+  "critical_ratios": {
+    "our_e0_vs_published_gin": 3.5510204081632657,
+    "our_best_vs_published_gin": 1.3789115646258503,
+    "our_best_vs_deepdta": 1.044845360824742
+  },
+  "reinterpretation": {
+    "reported_improvement": "+61.16%",
+    "actual_vs_published_baseline": "-37.9%",
+    "interpretation": "training stabilization, not representation learning"
+  }
+}

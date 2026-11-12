@@ -1,0 +1,102 @@
+{
+  "you2020graphcl": {
+    "status": "not_found",
+    "paper": {
+      "key": "you2020graphcl",
+      "title": "Graph Contrastive Learning with Augmentations",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "arxiv": "2010.13902"
+    }
+  },
+  "hu2020strategies": {
+    "status": "not_found",
+    "paper": {
+      "key": "hu2020strategies",
+      "title": "Strategies for Pre-training Graph Neural Networks",
+      "venue": "ICLR",
+      "year": 2020,
+      "arxiv": "1905.12265"
+    }
+  },
+  "xu2019powerful": {
+    "status": "not_found",
+    "paper": {
+      "key": "xu2019powerful",
+      "title": "How Powerful are Graph Neural Networks",
+      "venue": "ICLR",
+      "year": 2019,
+      "arxiv": "1810.00826"
+    }
+  },
+  "velickovic2018gat": {
+    "status": "not_found",
+    "paper": {
+      "key": "velickovic2018gat",
+      "title": "Graph Attention Networks",
+      "venue": "ICLR",
+      "year": 2018,
+      "arxiv": "1710.10903"
+    }
+  },
+  "kipf2017semi": {
+    "status": "not_found",
+    "paper": {
+      "key": "kipf2017semi",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "venue": "ICLR",
+      "year": 2017,
+      "arxiv": "1609.02907"
+    }
+  },
+  "stark2022contrastive": {
+    "status": "not_found",
+    "paper": {
+      "key": "stark2022contrastive",
+      "title": "3D Infomax improves GNNs for Molecular Property Prediction",
+      "venue": "ICML",
+      "year": 2022,
+      "arxiv": "2110.04126"
+    }
+  },
+  "zhang2021motif": {
+    "status": "not_found",
+    "paper": {
+      "key": "zhang2021motif",
+      "title": "Motif-based Graph Self-Supervised Learning for Molecular Property Prediction",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "arxiv": "2110.00987"
+    }
+  },
+  "zha2023rankncontrast": {
+    "status": "not_found",
+    "paper": {
+      "key": "zha2023rankncontrast",
+      "title": "Rank-N-Contrast: Learning Continuous Representations for Regression",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "arxiv": "2210.01189"
+    }
+  },
+  "zhao2021csgnn": {
+    "status": "not_found",
+    "paper": {
+      "key": "zhao2021csgnn",
+      "title": "CSGNN: Contrastive Self-Supervised Graph Neural Network for Molecular Interaction Prediction",
+      "venue": "IJCAI",
+      "year": 2021,
+      "arxiv": null
+    }
+  },
+  "oord2018representation": {
+    "status": "not_found",
+    "paper": {
+      "key": "oord2018representation",
+      "title": "Representation Learning with Contrastive Predictive Coding",
+      "venue": "arXiv",
+      "year": 2018,
+      "arxiv": "1807.03748"
+    }
+  }
+}

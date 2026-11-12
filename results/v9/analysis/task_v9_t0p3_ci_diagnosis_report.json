@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-22T07:21:23.517155",
+  "task": "T0.3: CI\u6307\u6807\u6838\u67e5",
+  "literature_baseline": {
+    "model": "GraphDTA-GIN",
+    "dataset": "KIBA",
+    "ci": 0.882,
+    "mse": 0.147,
+    "source": "GraphDTA Bioinformatics 2021, Table 3"
+  },
+  "old_e0_results": {},
+  "corrected_e0_results": {}
+}

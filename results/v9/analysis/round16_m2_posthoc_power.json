@@ -1,0 +1,56 @@
+{
+  "method": "Post-hoc power analysis using observed effect sizes",
+  "alpha": 0.05,
+  "test_type": "paired t-test (two-sided)",
+  "results": [
+    {
+      "comparison": "E7 vs E0 (GIN)",
+      "effect_size_cohens_d": -3.43930092734648,
+      "n_seeds": 5,
+      "power": 0.9997399538239725,
+      "interpretation": "Strong"
+    },
+    {
+      "comparison": "E5 vs E0 (Uniformity)",
+      "effect_size_cohens_d": -2.977957529403573,
+      "n_seeds": 5,
+      "power": 0.9974340525831672,
+      "interpretation": "Strong"
+    },
+    {
+      "comparison": "E1 vs E0 (InfoNCE)",
+      "effect_size_cohens_d": -3.279568113381592,
+      "n_seeds": 5,
+      "power": 0.9993998502181564,
+      "interpretation": "Strong"
+    },
+    {
+      "comparison": "GAT E7 vs E0",
+      "effect_size_cohens_d": -5.309307385082619,
+      "n_seeds": 5,
+      "power": 0.9999999995163609,
+      "interpretation": "Strong"
+    },
+    {
+      "comparison": "KIBA E7 vs E0",
+      "effect_size_cohens_d": -2.097401420879302,
+      "n_seeds": 10,
+      "power": 0.9999448150303591,
+      "interpretation": "Strong"
+    },
+    {
+      "comparison": "Cold-drug E7 vs E0",
+      "effect_size_cohens_d": -0.9506666666666671,
+      "n_seeds": 5,
+      "power": 0.3704028830222223,
+      "interpretation": "Weak"
+    },
+    {
+      "comparison": "Cold-target GAT E7 vs E0 (degradation)",
+      "effect_size_cohens_d": 3.01,
+      "n_seeds": 5,
+      "power": 0.9977837242849571,
+      "interpretation": "Strong"
+    }
+  ]
+}

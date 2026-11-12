@@ -1,0 +1,82 @@
+{
+  "experiment": "Wilcoxon sensitivity analysis for Davis (GIN)",
+  "date": "2026-09-03",
+  "objective": "Compare Wilcoxon vs paired t-test for n=5",
+  "n_t_significant": 7,
+  "n_w_significant": 0,
+  "total_configs": 7,
+  "results": {
+    "E7": {
+      "mean_mse": 0.21943847816309847,
+      "improvement_pct": 12.681629191713691,
+      "t_stat": 6.758413940091617,
+      "t_p": 0.0024997776790068667,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E2": {
+      "mean_mse": 0.2161614794516596,
+      "improvement_pct": 13.98560373172586,
+      "t_stat": 3.8606146521439264,
+      "t_p": 0.01813775552420859,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E5": {
+      "mean_mse": 0.22022744742659106,
+      "improvement_pct": 12.36768465799895,
+      "t_stat": 4.877032543942261,
+      "t_p": 0.008178087913019822,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E1": {
+      "mean_mse": 0.2219248193653566,
+      "improvement_pct": 11.692270967613482,
+      "t_stat": 7.0271862612297715,
+      "t_p": 0.002160508292696334,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E4": {
+      "mean_mse": 0.21225175515306752,
+      "improvement_pct": 15.54135074072986,
+      "t_stat": 4.523187188047125,
+      "t_p": 0.01063243300183574,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E6": {
+      "mean_mse": 0.2262393146769513,
+      "improvement_pct": 9.975458562505436,
+      "t_stat": 4.1589417459467946,
+      "t_p": 0.014157305612629192,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    },
+    "E3": {
+      "mean_mse": 0.22326670861805747,
+      "improvement_pct": 11.15830999444313,
+      "t_stat": 4.486908602616434,
+      "t_p": 0.010931709549323872,
+      "w_stat": 0.0,
+      "w_p": 0.0625,
+      "t_significant": true,
+      "w_significant": false
+    }
+  },
+  "conclusion": "Wilcoxon cannot achieve p<0.05 with n=5 (min p=0.0625)",
+  "recommendation": "Retain paired t-test as primary, Wilcoxon as supporting"
+}

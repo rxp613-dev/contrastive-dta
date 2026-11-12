@@ -1,0 +1,71 @@
+{
+  "script": "scripts/r23_3_davis_val_selection.py",
+  "date": "2026-10-09",
+  "batch": "E8_alpha* (β=0.0,γ=0.0,lr=5e-4,noise — 与主结果同协议同尺度)",
+  "alpha_set": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.3
+  ],
+  "test_selected_alpha": 0.05,
+  "n_seeds": 5,
+  "alpha_val_mean": 0.033999999999999996,
+  "alpha_val_std": 0.016733200530681513,
+  "alpha_val_distribution": {
+    "0.01": 1,
+    "0.03": 2,
+    "0.05": 2
+  },
+  "test_mse_at_val_alpha_mean": 0.21728322207927703,
+  "test_mse_at_val_alpha_std": 0.004803036703523646,
+  "test_mse_at_test_alpha_mean": 0.2168189436197281,
+  "test_mse_at_test_alpha_std": 0.0032934933912206745,
+  "inflation_pct_mean": -0.19037978837561137,
+  "inflation_pct_std": 1.775191310774279,
+  "per_seed": [
+    {
+      "seed": 42,
+      "alpha_val": 0.05,
+      "val_mse_at_val": 0.23990243673324585,
+      "test_at_val": 0.22039492428302765,
+      "test_at_test": 0.22039492428302765,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 3407,
+      "alpha_val": 0.03,
+      "val_mse_at_val": 0.2420056164264679,
+      "test_at_val": 0.21978262066841125,
+      "test_at_test": 0.2134859561920166,
+      "inflation_pct": -2.8649510399161673
+    },
+    {
+      "seed": 2024,
+      "alpha_val": 0.01,
+      "val_mse_at_val": 0.2389492392539978,
+      "test_at_val": 0.22020794451236725,
+      "test_at_test": 0.21973277628421783,
+      "inflation_pct": -0.21578160097794644
+    },
+    {
+      "seed": 7,
+      "alpha_val": 0.03,
+      "val_mse_at_val": 0.23627012968063354,
+      "test_at_val": 0.2090553343296051,
+      "test_at_test": 0.21350577473640442,
+      "inflation_pct": 2.128833699016057
+    },
+    {
+      "seed": 123,
+      "alpha_val": 0.05,
+      "val_mse_at_val": 0.23961980640888214,
+      "test_at_val": 0.21697528660297394,
+      "test_at_test": 0.21697528660297394,
+      "inflation_pct": 0.0
+    }
+  ]
+}

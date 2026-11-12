@@ -1,0 +1,22 @@
+{
+  "method": "simplified_training_curve_analysis",
+  "note": "Full linear probe requires model loading and embedding extraction, which needs complete training environment",
+  "e0_stats": {
+    "test_mse_mean": 0.2513084888458252,
+    "test_mse_std": 0.013014857954326756,
+    "convergence_rate_mean": 0.008942866144840326,
+    "convergence_rate_std": 0.0017237704551429662,
+    "n_seeds": 5
+  },
+  "e7_stats": {
+    "test_mse_mean": 0.21798207759857177,
+    "test_mse_std": 0.004284868814485814,
+    "convergence_rate_mean": 0.012040753301742573,
+    "convergence_rate_std": 0.00213422562799138,
+    "n_seeds": 5
+  },
+  "comparison": {
+    "mse_improvement_pct": 13.261156199024688,
+    "convergence_rate_diff": 0.003097887156902247
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-09-15 23:55:14",
+  "total_experiments": 30,
+  "success_count": 27,
+  "fail_count": 3,
+  "skip_count": 0,
+  "alphas": [
+    0.001,
+    0.005,
+    0.01,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "new_seeds": [
+    251,
+    1496,
+    5934,
+    7350,
+    9889
+  ],
+  "results": [
+    {
+      "alpha": 0.001,
+      "seed": 251,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha1_seed251"
+    },
+    {
+      "alpha": 0.001,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha1_seed1496"
+    },
+    {
+      "alpha": 0.001,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha1_seed5934"
+    },
+    {
+      "alpha": 0.001,
+      "seed": 7350,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha1_seed7350"
+    },
+    {
+      "alpha": 0.001,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha1_seed9889"
+    },
+    {
+      "alpha": 0.005,
+      "seed": 251,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha5_seed251"
+    },
+    {
+      "alpha": 0.005,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha5_seed1496"
+    },
+    {
+      "alpha": 0.005,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha5_seed5934"
+    },
+    {
+      "alpha": 0.005,
+      "seed": 7350,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha5_seed7350"
+    },
+    {
+      "alpha": 0.005,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha5_seed9889"
+    },
+    {
+      "alpha": 0.01,
+      "seed": 251,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha10_seed251"
+    },
+    {
+      "alpha": 0.01,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha10_seed1496"
+    },
+    {
+      "alpha": 0.01,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha10_seed5934"
+    },
+    {
+      "alpha": 0.01,
+      "seed": 7350,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha10_seed7350"
+    },
+    {
+      "alpha": 0.01,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha10_seed9889"
+    },
+    {
+      "alpha": 0.03,
+      "seed": 251,
+      "status": "failed",
+      "exp_id": "GIN_KIBA_alpha30_seed251"
+    },
+    {
+      "alpha": 0.03,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha30_seed1496"
+    },
+    {
+      "alpha": 0.03,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha30_seed5934"
+    },
+    {
+      "alpha": 0.03,
+      "seed": 7350,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha30_seed7350"
+    },
+    {
+      "alpha": 0.03,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha30_seed9889"
+    },
+    {
+      "alpha": 0.05,
+      "seed": 251,
+      "status": "failed",
+      "exp_id": "GIN_KIBA_alpha50_seed251"
+    },
+    {
+      "alpha": 0.05,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha50_seed1496"
+    },
+    {
+      "alpha": 0.05,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha50_seed5934"
+    },
+    {
+      "alpha": 0.05,
+      "seed": 7350,
+      "status": "failed",
+      "exp_id": "GIN_KIBA_alpha50_seed7350"
+    },
+    {
+      "alpha": 0.05,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha50_seed9889"
+    },
+    {
+      "alpha": 0.1,
+      "seed": 251,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha100_seed251"
+    },
+    {
+      "alpha": 0.1,
+      "seed": 1496,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha100_seed1496"
+    },
+    {
+      "alpha": 0.1,
+      "seed": 5934,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha100_seed5934"
+    },
+    {
+      "alpha": 0.1,
+      "seed": 7350,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha100_seed7350"
+    },
+    {
+      "alpha": 0.1,
+      "seed": 9889,
+      "status": "success",
+      "exp_id": "GIN_KIBA_alpha100_seed9889"
+    }
+  ]
+}

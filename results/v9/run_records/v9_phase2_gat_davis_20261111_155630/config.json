@@ -1,0 +1,30 @@
+{
+  "config_version": "Config C",
+  "dataset": "davis",
+  "architecture": "GAT",
+  "batch_size": 512,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "lr_patience": 30,
+  "early_stop_patience": 150,
+  "max_epochs": 1000,
+  "e7_extra": {
+    "use_contrastive": true,
+    "alpha": 0.05,
+    "beta": 0.0,
+    "gamma": 0.0,
+    "temperature": 0.1,
+    "augmentation": "noise"
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    456,
+    789
+  ],
+  "expected_gat_params": 521345,
+  "task": "V9 Phase 2 Task 2.5",
+  "goal": "GAT Davis E0 + E7 @1000ep, 5 matched seeds; encoders claim check",
+  "timestamp": "20261111_155630"
+}

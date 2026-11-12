@@ -1,0 +1,29 @@
+{
+  "config_version": "Config C",
+  "dataset": "kiba",
+  "architecture": "GIN",
+  "batch_size": 512,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "lr_patience": 30,
+  "early_stop_patience": 150,
+  "max_epochs": 1000,
+  "contrastive": {
+    "alpha": 0.5,
+    "beta": 0.0,
+    "gamma": 0.0,
+    "temperature": 0.1,
+    "augmentation": "noise"
+  },
+  "seeds": [
+    42,
+    7,
+    123,
+    456,
+    789
+  ],
+  "historical_reference": "v9_t1p4_e7_alpha05 (Config B, best_epoch 472-493)",
+  "task": "V9 Phase 2 Task 2.4",
+  "goal": "KIBA alpha=0.5 @1000ep, 5 seeds; dose-response third point",
+  "timestamp": "20261110_174202"
+}

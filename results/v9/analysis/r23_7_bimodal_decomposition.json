@@ -1,0 +1,80 @@
+{
+  "script": "scripts/r23_7_bimodal_decomposition.py",
+  "date": "2026-10-09",
+  "converged_epoch_threshold": 130,
+  "convergence_rates": {
+    "E0": {
+      "n": 10,
+      "converged": 0,
+      "converged_mse_mean": null,
+      "early_mse_mean": 0.5219750612974167
+    },
+    "α=0.001": {
+      "n": 10,
+      "converged": 2,
+      "converged_mse_mean": 0.29984425008296967,
+      "early_mse_mean": 0.5443769581615925
+    },
+    "α=0.005": {
+      "n": 10,
+      "converged": 3,
+      "converged_mse_mean": 0.29314061005910236,
+      "early_mse_mean": 0.5556761537279401
+    },
+    "α=0.01": {
+      "n": 10,
+      "converged": 3,
+      "converged_mse_mean": 0.27511727809906006,
+      "early_mse_mean": 0.5478335065501077
+    },
+    "α=0.03": {
+      "n": 10,
+      "converged": 5,
+      "converged_mse_mean": 0.26862486600875857,
+      "early_mse_mean": 0.5609392046928405
+    },
+    "α=0.05": {
+      "n": 10,
+      "converged": 5,
+      "converged_mse_mean": 0.27167702913284303,
+      "early_mse_mean": 0.5012503743171692
+    },
+    "α=0.1": {
+      "n": 10,
+      "converged": 8,
+      "converged_mse_mean": 0.24451205879449844,
+      "early_mse_mean": 0.5162872076034546
+    }
+  },
+  "cochran_armitage": {
+    "z": 3.006787063849169,
+    "p_one_sided": 0.001320123177654037
+  },
+  "conditional_effects": {
+    "α=0.1 vs α=0.05 (长训子集)": {
+      "n1": 8,
+      "n2": 5,
+      "m1": 0.24451205879449844,
+      "m2": 0.27167702913284303,
+      "improvement_pct": 9.998994182559917,
+      "welch_p": 0.43561127344603595,
+      "note": ""
+    },
+    "α=0.05 vs E0全体 (不对称对照)": {
+      "n1": 5,
+      "n2": 10,
+      "m1": 0.27167702913284303,
+      "m2": 0.5219750612974167,
+      "improvement_pct": 47.95210551677221,
+      "welch_p": 0.00020594019645796583,
+      "note": "E0无长训种子故对照为其全体; E0全体含早停崩溃种子(均值0.522), 改善幅度为上限估计"
+    }
+  },
+  "clean_lr1e4_baseline": {
+    "e0_mean": 0.41600403785705564,
+    "e0_std": 0.02597741158171373,
+    "alpha01_mean": 0.2988670885562897,
+    "improvement_pct": 28.157647195966817,
+    "welch_p": 0.01546684069788272
+  }
+}

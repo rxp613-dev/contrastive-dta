@@ -1,0 +1,20 @@
+{
+  "generated": "2026-11-12T03:28:27.816698",
+  "tables": [
+    "tab:main_results",
+    "tab:protocol_sensitivity",
+    "tab:davis_dose",
+    "tab:kiba_dose",
+    "tab:scaffold",
+    "tab:coldstart"
+  ],
+  "sources": [
+    "v9_decision_gate_a.json",
+    "v9_phase2p1_davis_stats.json",
+    "v9_phase2p2_scaffold_stats.json",
+    "v9_phase2p3_dose_response.json",
+    "v9_phase2p4_kiba_dose.json",
+    "v9_phase2p5_gat_stats.json",
+    "v9_phase0p3_statistical_tests.json"
+  ]
+}

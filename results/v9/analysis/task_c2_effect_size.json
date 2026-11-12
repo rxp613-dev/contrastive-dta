@@ -1,0 +1,88 @@
+{
+  "comparisons": [
+    {
+      "exp1": "E0",
+      "exp2": "E1",
+      "description": "\u57fa\u7ebf vs noise\u589e\u5f3a",
+      "n": 5,
+      "mean1": 0.2513084888458252,
+      "mean2": 0.22236839532852173,
+      "cohens_d": 2.0380719675555854,
+      "interpretation": "\u5927",
+      "direction": "E1 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E0",
+      "exp2": "E5",
+      "description": "\u57fa\u7ebf vs \u6700\u4f18\u589e\u5f3a",
+      "n": 5,
+      "mean1": 0.2513084888458252,
+      "mean2": 0.21896809637546538,
+      "cohens_d": 2.137005672564003,
+      "interpretation": "\u5927",
+      "direction": "E5 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E1",
+      "exp2": "E5",
+      "description": "noise vs noise+InfoNCE",
+      "n": 5,
+      "mean1": 0.22236839532852173,
+      "mean2": 0.21896809637546538,
+      "cohens_d": 0.4726011999731429,
+      "interpretation": "\u5c0f",
+      "direction": "E5 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E4",
+      "exp2": "E5",
+      "description": "InfoNCE vs noise+InfoNCE",
+      "n": 5,
+      "mean1": 0.22023095786571503,
+      "mean2": 0.21896809637546538,
+      "cohens_d": 0.1301632744728584,
+      "interpretation": "\u53ef\u5ffd\u7565",
+      "direction": "E5 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E2",
+      "exp2": "E5",
+      "description": "dropout vs noise+InfoNCE",
+      "n": 5,
+      "mean1": 0.2235719680786133,
+      "mean2": 0.21896809637546538,
+      "cohens_d": 0.42819572932358846,
+      "interpretation": "\u5c0f",
+      "direction": "E5 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E1",
+      "exp2": "E2",
+      "description": "noise vs dropout",
+      "n": 5,
+      "mean1": 0.22236839532852173,
+      "mean2": 0.2235719680786133,
+      "cohens_d": -0.12606136308596017,
+      "interpretation": "\u53ef\u5ffd\u7565",
+      "direction": "E1 \u66f4\u4f18"
+    },
+    {
+      "exp1": "E1",
+      "exp2": "E3",
+      "description": "noise vs noise+dropout",
+      "n": 5,
+      "mean1": 0.22236839532852173,
+      "mean2": 0.22489612996578218,
+      "cohens_d": -0.3397113388222918,
+      "interpretation": "\u5c0f",
+      "direction": "E1 \u66f4\u4f18"
+    }
+  ],
+  "summary": {
+    "n_comparisons": 7,
+    "n_large": 2,
+    "n_medium": 0,
+    "n_small": 3,
+    "n_negligible": 2
+  }
+}

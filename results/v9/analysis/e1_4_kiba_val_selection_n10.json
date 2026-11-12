@@ -1,0 +1,111 @@
+{
+  "script": "scripts/e1_4_kiba_val_selection_n10.py",
+  "date": "2026-10-09",
+  "n_seeds": 10,
+  "alpha_val_mean": 0.07400000000000001,
+  "alpha_val_std": 0.03533962208186286,
+  "alpha_val_distribution": {
+    "0.01": 1,
+    "0.03": 1,
+    "0.05": 2,
+    "0.1": 6
+  },
+  "test_mse_at_val_alpha_mean": 0.2757889315485954,
+  "test_mse_at_val_alpha_std": 0.1265458821798247,
+  "test_mse_at_test_alpha_mean": 0.2988670885562897,
+  "test_mse_at_test_alpha_std": 0.12294416580849953,
+  "inflation_pct_mean": 11.43850693368318,
+  "inflation_pct_std": 22.716578079869084,
+  "per_seed": [
+    {
+      "seed": 7,
+      "batch": "原",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.20265129208564758,
+      "test_at_val": 0.19417189061641693,
+      "test_at_test": 0.19417189061641693,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 42,
+      "batch": "原",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.19135050475597382,
+      "test_at_val": 0.17968584597110748,
+      "test_at_test": 0.17968584597110748,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 123,
+      "batch": "原",
+      "alpha_val": 0.05,
+      "val_mse_at_val": 0.5194037556648254,
+      "test_at_val": 0.4974612295627594,
+      "test_at_test": 0.5252466201782227,
+      "inflation_pct": 5.585438414946439
+    },
+    {
+      "seed": 251,
+      "batch": "新",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.19636966288089752,
+      "test_at_val": 0.19078445434570312,
+      "test_at_test": 0.19078445434570312,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 1496,
+      "batch": "新",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.2578454911708832,
+      "test_at_val": 0.24645432829856873,
+      "test_at_test": 0.24645432829856873,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 2024,
+      "batch": "原",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.5387423038482666,
+      "test_at_val": 0.5073277950286865,
+      "test_at_test": 0.5073277950286865,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 3407,
+      "batch": "原",
+      "alpha_val": 0.1,
+      "val_mse_at_val": 0.31456437706947327,
+      "test_at_val": 0.3042401969432831,
+      "test_at_test": 0.3042401969432831,
+      "inflation_pct": 0.0
+    },
+    {
+      "seed": 5934,
+      "batch": "新",
+      "alpha_val": 0.05,
+      "val_mse_at_val": 0.175974041223526,
+      "test_at_val": 0.16175928711891174,
+      "test_at_test": 0.2790389955043793,
+      "inflation_pct": 72.5026120443109
+    },
+    {
+      "seed": 7350,
+      "batch": "新",
+      "alpha_val": 0.01,
+      "val_mse_at_val": 0.22584030032157898,
+      "test_at_val": 0.21896864473819733,
+      "test_at_test": 0.2625691294670105,
+      "inflation_pct": 19.911747995217606
+    },
+    {
+      "seed": 9889,
+      "batch": "新",
+      "alpha_val": 0.03,
+      "val_mse_at_val": 0.26425105333328247,
+      "test_at_val": 0.25703564286231995,
+      "test_at_test": 0.29915162920951843,
+      "inflation_pct": 16.385270882356863
+    }
+  ]
+}

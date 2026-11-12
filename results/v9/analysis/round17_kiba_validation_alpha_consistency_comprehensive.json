@@ -1,0 +1,293 @@
+{
+  "all_experiments": [
+    {
+      "alpha": 0.1,
+      "seed": 7,
+      "dir_name": "KIBA_alpha010_lr0.0001_seed7",
+      "test_mse": 0.3833177089691162,
+      "best_val_mse": 0.40342074632644653,
+      "best_epoch": 147,
+      "final_val_mse": 0.4176081717014313,
+      "n_epochs": 197
+    },
+    {
+      "alpha": 0.5,
+      "seed": 2026,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed2026",
+      "test_mse": 0.38404935598373413,
+      "best_val_mse": 0.40181198716163635,
+      "best_epoch": 176,
+      "final_val_mse": 0.41661131381988525,
+      "n_epochs": 226
+    },
+    {
+      "alpha": 0.01,
+      "seed": 42,
+      "dir_name": "KIBA_alpha0010_lr0.0001_seed42",
+      "test_mse": 0.3592185974121094,
+      "best_val_mse": 0.37326934933662415,
+      "best_epoch": 134,
+      "final_val_mse": 0.3928609788417816,
+      "n_epochs": 184
+    },
+    {
+      "alpha": 0.5,
+      "seed": 3407,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed3407",
+      "test_mse": 0.34491923451423645,
+      "best_val_mse": 0.3588845729827881,
+      "best_epoch": 191,
+      "final_val_mse": 0.37166109681129456,
+      "n_epochs": 241
+    },
+    {
+      "alpha": 0.5,
+      "seed": 555,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed555",
+      "test_mse": 0.39095935225486755,
+      "best_val_mse": 0.41336116194725037,
+      "best_epoch": 137,
+      "final_val_mse": 0.4305306077003479,
+      "n_epochs": 187
+    },
+    {
+      "alpha": 0.5,
+      "seed": 999,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed999",
+      "test_mse": 0.31555843353271484,
+      "best_val_mse": 0.32549190521240234,
+      "best_epoch": 273,
+      "final_val_mse": 0.32724371552467346,
+      "n_epochs": 323
+    },
+    {
+      "alpha": 0.5,
+      "seed": 123,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed123",
+      "test_mse": 0.2936241328716278,
+      "best_val_mse": 0.3006516695022583,
+      "best_epoch": 225,
+      "final_val_mse": 0.30364441871643066,
+      "n_epochs": 275
+    },
+    {
+      "alpha": 0.01,
+      "seed": 123,
+      "dir_name": "KIBA_alpha0010_lr0.0001_seed123",
+      "test_mse": 0.31642597913742065,
+      "best_val_mse": 0.32659557461738586,
+      "best_epoch": 225,
+      "final_val_mse": 0.3330852687358856,
+      "n_epochs": 275
+    },
+    {
+      "alpha": 0.5,
+      "seed": 2024,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed2024",
+      "test_mse": 0.398712694644928,
+      "best_val_mse": 0.4172215759754181,
+      "best_epoch": 105,
+      "final_val_mse": 0.4262159466743469,
+      "n_epochs": 155
+    },
+    {
+      "alpha": 0.1,
+      "seed": 3407,
+      "dir_name": "KIBA_alpha010_lr0.0001_seed3407",
+      "test_mse": 0.440034955739975,
+      "best_val_mse": 0.4588164687156677,
+      "best_epoch": 52,
+      "final_val_mse": 0.6385464072227478,
+      "n_epochs": 102
+    },
+    {
+      "alpha": 0.01,
+      "seed": 3407,
+      "dir_name": "KIBA_alpha0010_lr0.0001_seed3407",
+      "test_mse": 0.45241880416870117,
+      "best_val_mse": 0.47667744755744934,
+      "best_epoch": 26,
+      "final_val_mse": 0.5837516784667969,
+      "n_epochs": 76
+    },
+    {
+      "alpha": 0.01,
+      "seed": 7,
+      "dir_name": "KIBA_alpha0010_lr0.0001_seed7",
+      "test_mse": 0.3752528429031372,
+      "best_val_mse": 0.3959945738315582,
+      "best_epoch": 127,
+      "final_val_mse": 0.40795859694480896,
+      "n_epochs": 177
+    },
+    {
+      "alpha": 0.5,
+      "seed": 42,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed42",
+      "test_mse": 0.38363754749298096,
+      "best_val_mse": 0.4036060869693756,
+      "best_epoch": 134,
+      "final_val_mse": 0.41691479086875916,
+      "n_epochs": 184
+    },
+    {
+      "alpha": 0.5,
+      "seed": 101,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed101",
+      "test_mse": 0.34656578302383423,
+      "best_val_mse": 0.3617827594280243,
+      "best_epoch": 171,
+      "final_val_mse": 0.3707141876220703,
+      "n_epochs": 221
+    },
+    {
+      "alpha": 0.5,
+      "seed": 7,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed7",
+      "test_mse": 0.3472244441509247,
+      "best_val_mse": 0.36767831444740295,
+      "best_epoch": 174,
+      "final_val_mse": 0.37741416692733765,
+      "n_epochs": 224
+    },
+    {
+      "alpha": 0.5,
+      "seed": 13,
+      "dir_name": "KIBA_alpha050_lr0.0001_seed13",
+      "test_mse": 0.3735978603363037,
+      "best_val_mse": 0.39347362518310547,
+      "best_epoch": 119,
+      "final_val_mse": 0.4065593481063843,
+      "n_epochs": 169
+    },
+    {
+      "alpha": 0.01,
+      "seed": 2024,
+      "dir_name": "KIBA_alpha0010_lr0.0001_seed2024",
+      "test_mse": 0.4019069969654083,
+      "best_val_mse": 0.42478862404823303,
+      "best_epoch": 80,
+      "final_val_mse": 0.4474118947982788,
+      "n_epochs": 130
+    },
+    {
+      "alpha": 0.1,
+      "seed": 42,
+      "dir_name": "KIBA_alpha010_lr0.0001_seed42",
+      "test_mse": 0.41479429602622986,
+      "best_val_mse": 0.4322861433029175,
+      "best_epoch": 92,
+      "final_val_mse": 0.4890936315059662,
+      "n_epochs": 142
+    },
+    {
+      "alpha": 0.1,
+      "seed": 123,
+      "dir_name": "KIBA_alpha010_lr0.0001_seed123",
+      "test_mse": 0.3448525071144104,
+      "best_val_mse": 0.3599676191806793,
+      "best_epoch": 191,
+      "final_val_mse": 0.36342501640319824,
+      "n_epochs": 241
+    },
+    {
+      "alpha": 0.1,
+      "seed": 2024,
+      "dir_name": "KIBA_alpha010_lr0.0001_seed2024",
+      "test_mse": 0.39866921305656433,
+      "best_val_mse": 0.4196019470691681,
+      "best_epoch": 73,
+      "final_val_mse": 0.4330814778804779,
+      "n_epochs": 123
+    }
+  ],
+  "test_set_optimal_alpha": 0.5,
+  "test_set_optimal_mse": 0.35788488388061523,
+  "validation_set_optimal_alpha": 0.5,
+  "validation_set_optimal_mse": 0.3743963658809662,
+  "per_seed_comparison": [
+    {
+      "seed": 7,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.3472244441509247,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.36767831444740295,
+      "match": true
+    },
+    {
+      "seed": 13,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.3735978603363037,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.39347362518310547,
+      "match": true
+    },
+    {
+      "seed": 42,
+      "test_optimal_alpha": 0.01,
+      "test_optimal_mse": 0.3592185974121094,
+      "val_optimal_alpha": 0.01,
+      "val_optimal_mse": 0.37326934933662415,
+      "match": true
+    },
+    {
+      "seed": 101,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.34656578302383423,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.3617827594280243,
+      "match": true
+    },
+    {
+      "seed": 123,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.2936241328716278,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.3006516695022583,
+      "match": true
+    },
+    {
+      "seed": 555,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.39095935225486755,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.41336116194725037,
+      "match": true
+    },
+    {
+      "seed": 999,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.31555843353271484,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.32549190521240234,
+      "match": true
+    },
+    {
+      "seed": 2024,
+      "test_optimal_alpha": 0.1,
+      "test_optimal_mse": 0.39866921305656433,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.4172215759754181,
+      "match": false
+    },
+    {
+      "seed": 2026,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.38404935598373413,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.40181198716163635,
+      "match": true
+    },
+    {
+      "seed": 3407,
+      "test_optimal_alpha": 0.5,
+      "test_optimal_mse": 0.34491923451423645,
+      "val_optimal_alpha": 0.5,
+      "val_optimal_mse": 0.3588845729827881,
+      "match": true
+    }
+  ],
+  "n_seeds_agree": 9,
+  "n_seeds_total": 10,
+  "consistency": "good"
+}

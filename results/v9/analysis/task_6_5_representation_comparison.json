@@ -1,0 +1,80 @@
+{
+  "GIN-E0": {
+    "pca": {
+      "drug_explained_variance": [
+        0.29468780755996704,
+        0.1393546462059021
+      ],
+      "protein_explained_variance": [
+        0.3659754991531372,
+        0.30792543292045593
+      ],
+      "fusion_explained_variance": [
+        0.28668642044067383,
+        0.13561201095581055
+      ]
+    },
+    "similarity": {
+      "drug_similarity": {
+        "mean": 0.7874774932861328,
+        "std": 0.08831349015235901,
+        "min": 0.43646007776260376,
+        "max": 1.0000005960464478
+      },
+      "protein_similarity": {
+        "mean": 0.6033703088760376,
+        "std": 0.2113555520772934,
+        "min": 0.029002204537391663,
+        "max": 1.0000003576278687
+      },
+      "fusion_similarity": {
+        "mean": 0.7833525538444519,
+        "std": 0.08766623586416245,
+        "min": 0.41702455282211304,
+        "max": 1.0000005960464478
+      },
+      "drug_affinity_correlation": 0.10669513046741486,
+      "protein_affinity_correlation": 0.07652147114276886,
+      "fusion_affinity_correlation": 0.11269837617874146
+    }
+  },
+  "GAT-E0": {
+    "pca": {
+      "drug_explained_variance": [
+        0.2280178666114807,
+        0.19976003468036652
+      ],
+      "protein_explained_variance": [
+        0.17145989835262299,
+        0.12655650079250336
+      ],
+      "fusion_explained_variance": [
+        0.10875573009252548,
+        0.09455955028533936
+      ]
+    },
+    "similarity": {
+      "drug_similarity": {
+        "mean": 0.02116226591169834,
+        "std": 0.36224958300590515,
+        "min": -0.7547521591186523,
+        "max": 1.0000004768371582
+      },
+      "protein_similarity": {
+        "mean": 0.9323583841323853,
+        "std": 0.02523408643901348,
+        "min": 0.8238104581832886,
+        "max": 1.0000005960464478
+      },
+      "fusion_similarity": {
+        "mean": 0.8782262206077576,
+        "std": 0.0377495251595974,
+        "min": 0.6685841083526611,
+        "max": 1.0000004768371582
+      },
+      "drug_affinity_correlation": 0.11663278192281723,
+      "protein_affinity_correlation": 0.11788325011730194,
+      "fusion_affinity_correlation": 0.25812050700187683
+    }
+  }
+}

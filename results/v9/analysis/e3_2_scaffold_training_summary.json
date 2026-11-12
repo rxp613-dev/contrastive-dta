@@ -1,0 +1,88 @@
+{
+  "script": "scripts/e3_2_scaffold_training.py",
+  "timestamp": "2026-10-09 05:41:16",
+  "protocol": {
+    "dataset": "davis",
+    "split_type": "scaffold",
+    "architecture": "GIN",
+    "learning_rate": "0.0005",
+    "weight_decay": "0.0001",
+    "batch_size": "512",
+    "max_epochs": "500",
+    "early_stop_patience": "50",
+    "temperature": "0.1",
+    "training_strategy": "joint"
+  },
+  "seeds": [
+    42,
+    3407,
+    2024,
+    7,
+    123
+  ],
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "results": [
+    {
+      "exp_id": "e3_scaffold_E0_seed42",
+      "status": "success",
+      "detail": "OK mse=1.2910 ci=0.6742 ep=22",
+      "elapsed_min": 5.8
+    },
+    {
+      "exp_id": "e3_scaffold_E0_seed3407",
+      "status": "success",
+      "detail": "OK mse=1.2150 ci=0.6777 ep=11",
+      "elapsed_min": 4.8
+    },
+    {
+      "exp_id": "e3_scaffold_E0_seed2024",
+      "status": "success",
+      "detail": "OK mse=2.0300 ci=0.6629 ep=1",
+      "elapsed_min": 4.2
+    },
+    {
+      "exp_id": "e3_scaffold_E0_seed7",
+      "status": "success",
+      "detail": "OK mse=1.0807 ci=0.7118 ep=23",
+      "elapsed_min": 5.7
+    },
+    {
+      "exp_id": "e3_scaffold_E0_seed123",
+      "status": "success",
+      "detail": "OK mse=1.9116 ci=0.5976 ep=3",
+      "elapsed_min": 4.3
+    },
+    {
+      "exp_id": "e3_scaffold_E7a05_seed42",
+      "status": "success",
+      "detail": "OK mse=1.6026 ci=0.6437 ep=16",
+      "elapsed_min": 5.5
+    },
+    {
+      "exp_id": "e3_scaffold_E7a05_seed3407",
+      "status": "success",
+      "detail": "OK mse=2.6739 ci=0.5954 ep=1",
+      "elapsed_min": 4.3
+    },
+    {
+      "exp_id": "e3_scaffold_E7a05_seed2024",
+      "status": "success",
+      "detail": "OK mse=2.1769 ci=0.6516 ep=1",
+      "elapsed_min": 4.3
+    },
+    {
+      "exp_id": "e3_scaffold_E7a05_seed7",
+      "status": "success",
+      "detail": "OK mse=1.7893 ci=0.5632 ep=8",
+      "elapsed_min": 5.0
+    },
+    {
+      "exp_id": "e3_scaffold_E7a05_seed123",
+      "status": "success",
+      "detail": "OK mse=2.1625 ci=0.6517 ep=1",
+      "elapsed_min": 4.4
+    }
+  ]
+}

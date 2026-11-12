@@ -1,0 +1,40 @@
+{
+  "gin": [
+    {
+      "experiment": "E0",
+      "mse_mean": 0.251308,
+      "mse_std": 0.013015,
+      "ci_mean": 0.551611,
+      "ci_std": 0.004714,
+      "num_seeds": 5
+    },
+    {
+      "experiment": "E7_alpha001",
+      "mse_mean": 0.223085,
+      "mse_std": 0.008122,
+      "ci_mean": 0.77981,
+      "ci_std": 0.002856,
+      "num_seeds": 5
+    }
+  ],
+  "gat": [
+    {
+      "experiment": "GAT_E7_alpha0_v2",
+      "alpha": 0.0,
+      "mse_mean": 0.3276477813720703,
+      "mse_std": 0.010938881131306715,
+      "ci_mean": 0.7599685529812105,
+      "ci_std": 0.003321193619425165,
+      "num_seeds": 5
+    },
+    {
+      "experiment": "GAT_E7_alpha50_v2",
+      "alpha": 0.05,
+      "mse_mean": 0.26589649319648745,
+      "mse_std": 0.012334448392966262,
+      "ci_mean": 0.7728910161824201,
+      "ci_std": 0.002711492306914725,
+      "num_seeds": 5
+    }
+  ]
+}

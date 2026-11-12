@@ -1,0 +1,41 @@
+{
+  "script": "scripts/r23_2_consistency_sweep.py",
+  "hard_violations": {
+    "邮箱残留": [],
+    "基金占位/错误": [],
+    "旧软件栈": [],
+    "绝对化种子声明": [],
+    "KIBA lr=1e-4直接断言": []
+  },
+  "soft_counts": {
+    "Zenodo占位符": {
+      "count": 3,
+      "locations": [
+        "main_paper.tex:37",
+        "main_paper.tex:862",
+        "main_paper.tex:898"
+      ]
+    },
+    "修订史代号": {
+      "count": 16,
+      "locations": [
+        "main_paper.tex:266",
+        "main_paper.tex:284",
+        "main_paper.tex:291",
+        "main_paper.tex:468",
+        "main_paper.tex:484",
+        "main_paper.tex:561",
+        "main_paper.tex:564",
+        "main_paper.tex:569",
+        "main_paper.tex:587",
+        "main_paper.tex:748",
+        "main_paper.tex:769",
+        "main_paper.tex:790",
+        "appendix_alpha_scan.tex:69",
+        "appendix_alpha_scan.tex:79",
+        "appendix_batch_a.tex:2",
+        "appendix_batch_a.tex:52"
+      ]
+    }
+  }
+}

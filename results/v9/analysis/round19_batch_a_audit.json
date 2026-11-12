@@ -1,0 +1,129 @@
+{
+  "experiment": "Batch A comprehensive audit",
+  "date": "2026-09-03 20:50:06",
+  "objective": "Address I3: transparent reporting of Batch A results",
+  "total_batch_a_experiments": 10,
+  "batch_a_results": [
+    {
+      "directory": "E7_alpha001_old_seed123",
+      "test_mse": 0.2294686734676361,
+      "test_ci": 0.5574138109115733,
+      "alpha": null,
+      "beta": null,
+      "seed": 123,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha001_old_seed2024",
+      "test_mse": 0.20973560214042664,
+      "test_ci": 0.5696187731717168,
+      "alpha": null,
+      "beta": null,
+      "seed": 2024,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha001_old_seed3407",
+      "test_mse": 0.2031330019235611,
+      "test_ci": 0.5677281514530971,
+      "alpha": null,
+      "beta": null,
+      "seed": 3407,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha001_old_seed42",
+      "test_mse": 0.21186581254005432,
+      "test_ci": 0.5624449327101703,
+      "alpha": null,
+      "beta": null,
+      "seed": 42,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha001_old_seed7",
+      "test_mse": 0.21912577748298645,
+      "test_ci": 0.5593263631199306,
+      "alpha": null,
+      "beta": null,
+      "seed": 7,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha005_old_seed123",
+      "test_mse": 0.21600346267223358,
+      "test_ci": 0.5612699175309707,
+      "alpha": null,
+      "beta": null,
+      "seed": 123,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha005_old_seed2024",
+      "test_mse": 0.22659870982170105,
+      "test_ci": 0.5562153848640723,
+      "alpha": null,
+      "beta": null,
+      "seed": 2024,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha005_old_seed3407",
+      "test_mse": 0.2259274125099182,
+      "test_ci": 0.5600507981063242,
+      "alpha": null,
+      "beta": null,
+      "seed": 3407,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha005_old_seed42",
+      "test_mse": 0.22275492548942566,
+      "test_ci": 0.5603268213727063,
+      "alpha": null,
+      "beta": null,
+      "seed": 42,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    },
+    {
+      "directory": "E7_alpha005_old_seed7",
+      "test_mse": 0.2187894582748413,
+      "test_ci": 0.5584844758081113,
+      "alpha": null,
+      "beta": null,
+      "seed": 7,
+      "augmentation": null,
+      "deprecated": true,
+      "deprecated_reason": "Batch A: incorrect \u03b2=0.05 parameter"
+    }
+  ],
+  "alpha_groups_summary": {
+    "None": {
+      "n": 10,
+      "mse_mean": 0.21834028363227845,
+      "mse_std": 0.008317294417881487,
+      "ci_mean": 0.5612879429048674,
+      "ci_std": 0.004309153281736928
+    }
+  },
+  "conclusion": "Batch A used incorrect \u03b2=0.05 (should be 0.0 for E7), excluded from main analysis",
+  "recommendation": "Add appendix table showing Batch A results for full transparency"
+}

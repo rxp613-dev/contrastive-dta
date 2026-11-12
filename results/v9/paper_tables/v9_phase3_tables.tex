@@ -1,0 +1,112 @@
+% ============================================================================
+% V9 Phase 3 auto-generated tables
+% Generated: 2026-11-12T03:28:27.816153
+% Goal: replace all Config B tables in main_ccadd.tex with Config C real results
+% Method: values transcribed by v9_phase3_generate_tables.py from V9 analysis JSONs only
+% ============================================================================
+
+\begin{table*}[!t]
+\caption{Main results under the convergent protocol (Config C: 1{,}000 epochs, LR patience 30, early-stop patience 150; all other hyperparameters frozen). E7: InfoNCE CL with $\alpha=0.05$, $\tau=0.1$, noise augmentation, $\beta=\gamma=0$. Values are mean$\pm$sample std; gain is E7 relative to E0 (positive = CL better); $p$ is the paired two-sided t-test over matched seeds; $d_z$ is the paired standardized mean difference.}
+\label{tab:main_results}
+\centering
+\begin{tabular}{llccccccc}
+\toprule
+Dataset & Encoder ($n$) & E0 MSE & E7 MSE & MSE gain & paired $p$ & $d_z$ & E0 CI & E7 CI \\
+\midrule
+Davis & GIN (10) & 0.2032$\pm$0.0078 & 0.2000$\pm$0.0062 & +1.54\% & 0.4067 & -0.28 & 0.8951 & 0.8945 \\
+Davis & GAT (5) & 0.2617$\pm$0.0060 & 0.2351$\pm$0.0061 & +10.19\%$^{***}$ & 0.0005 & -4.69 & 0.8815 & 0.8838 \\
+KIBA & GIN (10) & 0.1381$\pm$0.0116 & 0.1495$\pm$0.0080 & -8.28\%$^{**}$ & 0.0011 & +1.50 & 0.8825 & 0.8738 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize $^{*}p<0.05$, $^{**}p<0.01$, $^{***}p<0.001$ (uncorrected paired p; family-wise claims are assessed in the dose--response tables and in Decision Gate A). Sources: \texttt{v9\_phase2p1\_davis\_stats.json}, \texttt{v9\_phase2p5\_gat\_stats.json}, \texttt{v9\_decision\_gate\_a.json}.
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Protocol sensitivity (2$\times$2 design): training protocol (Config B vs.\ Config C) crossed with condition (E0 vs.\ E7). Same model, same data, same optimizer hyperparameters; only the training budget and patience change. KIBA rows use the same five matched seeds; Davis rows use ten seeds. Positive gain = CL better; $p$ = paired t-test.}
+\label{tab:protocol_sensitivity}
+\centering
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Protocol & E0 MSE & E7 MSE & MSE gain & paired $p$ \\
+\midrule
+KIBA & B (500ep/p150) & 0.1497$\pm$0.0157 & 0.1476$\pm$0.0049 & +1.38\% & 0.7612 \\
+KIBA & C (1000ep/p150) & 0.1366$\pm$0.0068 & 0.1473$\pm$0.0030 & -7.89\% & 0.0610 \\
+\midrule
+Davis & B (500ep/p150) & 0.2036$\pm$0.0044 & 0.1989$\pm$0.0069 & +2.33\% & 0.1289 \\
+Davis & C (1000ep/p150) & 0.2032$\pm$0.0078 & 0.2000$\pm$0.0062 & +1.54\% & 0.4067 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize On KIBA the E7 mean is essentially protocol-invariant ($\sim$0.147--0.148); it is the E0 baseline that improves from 0.1497 to 0.1366 when trained to convergence, flipping the comparison sign. On Davis the E0 mean is nearly unchanged across protocols; protocol sensitivity is itself dataset-dependent and is strongest on KIBA. Sources: \texttt{v9\_phase0p3\_statistical\_tests.json}, \texttt{v9\_phase2p4\_kiba\_dose.json}, \texttt{v9\_phase2p1\_davis\_stats.json}.
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Davis dose--response under Config C (GIN, $n=5$ matched seeds). Gain is relative to $\alpha=0$ (positive = CL better); $p$ is the paired t-test. Bonferroni threshold $0.05/6=0.0083$; no dose reaches it.}
+\label{tab:davis_dose}
+\centering
+\begin{tabular}{ccccc}
+\toprule
+$\alpha$ & MSE & gain & paired $p$ & Bonf sig. \\
+\midrule
+0 & 0.2021$\pm$0.0109 & — & — & — \\
+0.01 & 0.1996$\pm$0.0049 & +1.21\% & 0.4601 & No \\
+0.02 & 0.1954$\pm$0.0043 & +3.28\% & 0.3681 & No \\
+0.05 & 0.1993$\pm$0.0031 & +1.36\% & 0.6353 & No \\
+0.1 & 0.2027$\pm$0.0042 & -0.32\% & 0.8993 & No \\
+0.2 & 0.2074$\pm$0.0068 & -2.62\% & 0.4293 & No \\
+0.5 & 0.2072$\pm$0.0039 & -2.55\% & 0.2492 & No \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize Friedman $\chi^2$ (7 levels, repeated measures): 12.429, $p=0.0531$ (borderline; not claimed significant). Spearman trend: $\rho=+0.64$, $p=0.1194$. Source: \texttt{v9\_phase2p3\_dose\_response.json}.
+\end{table*}
+
+\begin{table*}[!t]
+\caption{KIBA dose--response under Config C (GIN, $n=5$ matched seeds). Three paired comparisons with Bonferroni threshold $0.05/3=0.0167$. Mean difference $>0$ = higher $\alpha$ worse (MSE).}
+\label{tab:kiba_dose}
+\centering
+\begin{tabular}{lccccc}
+\toprule
+Comparison & mean diff & 95\% CI & $p$ & $d_z$ & Bonf sig. \\
+\midrule
+0.05 vs 0 & +0.0108 & [-0.0008,+0.0223] & 0.0610 & +1.16 & No \\
+0.5 vs 0 & +0.0233 & [+0.0172,+0.0294] & 0.0005 & +4.73 & Yes \\
+0.5 vs 0.05 & +0.0126 & [+0.0046,+0.0205] & 0.0116 & +1.97 & Yes \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize Friedman $\chi^2$ (3 levels): 8.400, $p=0.0150$. Monotonic worsening in 4/5 seeds. Spearman on 3 dose levels: exact two-sided permutation $p=0.333$ (asymptotic p invalid with 3 points); monotonicity evidence rests on Friedman and paired tests. Source: \texttt{v9\_phase2p4\_kiba\_dose.json}.
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Bemis--Murcko scaffold split under Config C ($n=5$ matched seeds). E0 vs.\ E7 MSE and CI; paired tests. Ceiling hits (best epoch $\geq 980$) are flagged as non-converged runs.}
+\label{tab:scaffold}
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Condition & MSE & gain & paired $p$ & CI \\
+\midrule
+E0 & 1.5730$\pm$0.2709 & — & — & 0.6525 \\
+E7 & 1.8229$\pm$0.6507 & -15.88\% & 0.3005 & 0.6404 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize Ceiling-hit runs: e7\_seed42; these runs did not converge at the 1{,}000-epoch cap. Source: \texttt{v9\_phase2p2\_scaffold\_stats.json}.
+\end{table*}
+
+\begin{table*}[!t]
+\caption{Cold-start audit (Davis, Config B legacy batch, $n=5$ matched seeds): CL vs.\ E0. Combined with the warm-validation selection analysis (validation--test ranking disconnect of up to 18$\times$), the cold-start comparison is confounded by a failed selection mechanism.}
+\label{tab:coldstart}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Condition & MSE & gain & paired $p$ \\
+\midrule
+E0 & 1.0703 & — & — \\
+E7 & 1.0712 & -0.08\% & 0.9943 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize No CL effect under cold splits ($p=0.99$); because warm-validation-based selection is unreliable there, this null is reported together with the selection-mechanism finding rather than as evidence for or against CL. Source: \texttt{v9\_phase0p3\_statistical\_tests.json}.
+\end{table*}

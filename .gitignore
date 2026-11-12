@@ -1,0 +1,24 @@
+# Added 2026-11-12 for V9 sync (Task 3.4.2)
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+# Model weights / raw data
+*.pt
+*.pth
+*.npy
+data/raw/
+data/processed/
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,382 @@
+% ============================================================================
+% V9 Task 3.4.1: per-batch provenance fragment for S3
+% Generated: 2026-11-12T08:31:19
+% Source: scripts/v9_phase3p4_provenance.py (pure transcription)
+% ============================================================================
+
+\section{V9 Batch Provenance (Config-B / Config-C Reassessment)}
+
+This section extends the batch map above with every batch produced during the V9 convergent-protocol reassessment. ``Run dirs'' counts directories matched by the declared patterns; ``seed records'' counts per-seed result files. All counts and statuses below were extracted directly from the result directories; no value was recomputed.
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{V9 batch-family provenance overview.}
+\label{tab:v9_family_overview}
+\begin{tabular}{p{2.6cm}p{4.6cm}p{2.0cm}p{3.4cm}cc}
+\toprule
+Family & Content & Protocol & Inclusion / use & Run dirs & Seed recs \\
+\midrule
+\texttt{v9-e2e3-diagnosis} & V9 E2/E3 corrected-E0 development runs (one config-only attempt; one 2-seed KIBA E0 @500ep run) & development (500ep) & development (no paper number). Development diagnostics only (seed 42: 0.1362; seed 7: 0.1623) & 2 & 2 \\
+\texttt{t1p1} & T1.1 KIBA E0, Config B (10 seeds; one batch directory) & B (500ep) & authoritative (Config B comparator). Table 2 KIBA-B E0; Sec.3.1 ceiling audit & 1 & 10 \\
+\texttt{t1p2} & T1.2 epoch-budget probe, KIBA E0 (2 seeds) & B->C probe (1000ep) & audit evidence. Sec.3.1 probe (seed 42: 0.1728@500 to 0.1525@1000, epoch 995) & 1 & 2 \\
+\texttt{t1p3} & T1.3 KIBA E7 alpha=0.05, Config B (5 seeds) & B (500ep) & authoritative (Config B comparator). Table 2 KIBA-B E7 & 5 & 5 \\
+\texttt{t1p3-launch} & T1.3 launcher records & B (500ep) & batch launcher records. Batch-level config/progress provenance & 3 & 0 \\
+\texttt{t1p4} & T1.4 KIBA E7 alpha=0.5, Config B (5 seeds) & B (500ep) & superseded. Superseded by P2.4 (same dose under Config C) & 5 & 5 \\
+\texttt{t1p5} & T1.5 Davis E0/E7, Config B (10 seeds each) & B (500ep) & authoritative (Config B comparator). Table 2 Davis-B rows & 20 & 20 \\
+\texttt{t1p5-launch} & T1.5 launcher records & B (500ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\texttt{t1p6} & T1.6 Davis cold-both E0/E7, legacy audit (5 seeds each) & B-era (500ep) & legacy (reported jointly with selection caveat). Table 6; Sec.3.3 (not interpretable as CL effect) & 10 & 10 \\
+\texttt{t1p6-launch} & T1.6 launcher records & B-era (500ep) & batch launcher records. Batch-level config/progress provenance & 2 & 0 \\
+\texttt{p1} & Phase 1 KIBA E0/E7, Config C (10 seeds each) & C (1000ep) & authoritative (Config C). Tables 1-2; Figures 2 and 6 & 20 & 20 \\
+\texttt{p1-launch} & Phase 1 launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 7 & 0 \\
+\texttt{p2} & Phase 2 Davis E0/E7, Config C (10 seeds each) & C (1000ep) & authoritative (Config C). Tables 1-2 & 20 & 20 \\
+\texttt{p2-launch} & Phase 2 Davis launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\texttt{p2p2} & Phase 2 Davis scaffold E0/E7, Config C (5 seeds each) & C (1000ep) & authoritative (with warm-selection caveat). Table 5; Sec.3.3 & 10 & 10 \\
+\texttt{p2p2-launch} & Phase 2 scaffold launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\texttt{p2p3} & Phase 2 Davis dose scan, Config C (6 doses x 5 seeds) & C (1000ep) & authoritative (Config C). Table 3 & 30 & 30 \\
+\texttt{p2p3-launch} & Phase 2 Davis dose launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\texttt{p2p4} & Phase 2 KIBA alpha=0.5, Config C (5 seeds) & C (1000ep) & authoritative (Config C). Table 4 & 5 & 5 \\
+\texttt{p2p4-launch} & Phase 2 KIBA alpha=0.5 launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\texttt{p2p5} & Phase 2 GAT Davis E0/E7, Config C (5 seeds each) & C (1000ep) & authoritative (Config C). Table 1; Figures 4 and 6 & 10 & 10 \\
+\texttt{p2p5-launch} & Phase 2 GAT launcher records & C (1000ep) & batch launcher records. Batch-level config/progress provenance & 1 & 0 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize All V9 directories are assigned to exactly one family (full-set reconciliation passed).
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{v9-e2e3-diagnosis}. \textit{V9 E2/E3 corrected-E0 development runs (one config-only attempt; one 2-seed KIBA E0 @500ep run)}}
+\label{tab:v9_runs_v9_e2e3_diagnosis}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}e3\_\allowbreak{}corrected\_\allowbreak{}e0\_\allowbreak{}20261021\_\allowbreak{}185458} & 7 & 475 & 0.1705 & 0.1623 & 0.8535 &  \\
+\texttt{v9\_\allowbreak{}e3\_\allowbreak{}corrected\_\allowbreak{}e0\_\allowbreak{}20261021\_\allowbreak{}185458} & 42 & 491 & 0.1476 & 0.1362 & 0.8730 &  \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p1}. \textit{T1.1 KIBA E0, Config B (10 seeds; one batch directory)}}
+\label{tab:v9_runs_t1p1}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 7 & 500 & 0.1474 & 0.1358 & 0.8718 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 42 & 491 & 0.1851 & 0.1728 & 0.8492 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 101 & 470 & 0.1677 & 0.1607 & 0.8530 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 123 & 497 & 0.1596 & 0.1508 & 0.8596 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 202 & 479 & 0.1909 & 0.1813 & 0.8451 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 303 & 497 & 0.1463 & 0.1322 & 0.8742 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 404 & 495 & 0.1413 & 0.1319 & 0.8774 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 456 & 493 & 0.1651 & 0.1546 & 0.8610 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 505 & 499 & 0.1845 & 0.1728 & 0.8484 &  \\
+\texttt{v9\_\allowbreak{}t1p1\_\allowbreak{}e0\_\allowbreak{}10seeds\_\allowbreak{}20261022\_\allowbreak{}072628} & 789 & 488 & 0.1457 & 0.1344 & 0.8747 &  \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p2}. \textit{T1.2 epoch-budget probe, KIBA E0 (2 seeds)}}
+\label{tab:v9_runs_t1p2}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p2\_\allowbreak{}max\_\allowbreak{}epochs\_\allowbreak{}1000\_\allowbreak{}20261023\_\allowbreak{}063949} & 7 & 658 & 0.1453 & 0.1278 & 0.8799 &  \\
+\texttt{v9\_\allowbreak{}t1p2\_\allowbreak{}max\_\allowbreak{}epochs\_\allowbreak{}1000\_\allowbreak{}20261023\_\allowbreak{}063949} & 42 & 995 & 0.1642 & 0.1525 & 0.8623 &  \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p3}. \textit{T1.3 KIBA E7 alpha=0.05, Config B (5 seeds)}}
+\label{tab:v9_runs_t1p3}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}seed123} & 123 & 497 & 0.1659 & 0.1547 & 0.8666 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}seed42} & 42 & 481 & 0.1616 & 0.1495 & 0.8739 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}seed456} & 456 & 441 & 0.1562 & 0.1452 & 0.8772 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}seed7} & 7 & 476 & 0.1515 & 0.1471 & 0.8779 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}seed789} & 789 & 495 & 0.1586 & 0.1416 & 0.8792 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p4}. \textit{T1.4 KIBA E7 alpha=0.5, Config B (5 seeds)}}
+\label{tab:v9_runs_t1p4}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p4\_\allowbreak{}e7\_\allowbreak{}alpha05\_\allowbreak{}seed123} & 123 & 493 & 0.1805 & 0.1619 & 0.8670 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p4\_\allowbreak{}e7\_\allowbreak{}alpha05\_\allowbreak{}seed42} & 42 & 481 & 0.1699 & 0.1643 & 0.8638 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p4\_\allowbreak{}e7\_\allowbreak{}alpha05\_\allowbreak{}seed456} & 456 & 478 & 0.1737 & 0.1648 & 0.8692 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p4\_\allowbreak{}e7\_\allowbreak{}alpha05\_\allowbreak{}seed7} & 7 & 484 & 0.1725 & 0.1602 & 0.8691 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p4\_\allowbreak{}e7\_\allowbreak{}alpha05\_\allowbreak{}seed789} & 789 & 472 & 0.1694 & 0.1582 & 0.8692 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p5}. \textit{T1.5 Davis E0/E7, Config B (10 seeds each)}}
+\label{tab:v9_runs_t1p5}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed101} & 101 & 484 & 0.2271 & 0.2066 & 0.8921 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 439 & 0.2382 & 0.2128 & 0.8915 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed202} & 202 & 471 & 0.2155 & 0.1996 & 0.8931 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed303} & 303 & 490 & 0.2183 & 0.2037 & 0.8957 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed404} & 404 & 483 & 0.2178 & 0.1995 & 0.9004 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 489 & 0.2269 & 0.2024 & 0.8963 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed456} & 456 & 489 & 0.2264 & 0.2067 & 0.8936 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed505} & 505 & 491 & 0.2294 & 0.2046 & 0.8985 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 483 & 0.2168 & 0.1981 & 0.8959 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed789} & 789 & 416 & 0.2246 & 0.2020 & 0.8935 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed101} & 101 & 491 & 0.2265 & 0.2019 & 0.8990 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 486 & 0.2119 & 0.1907 & 0.8981 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed202} & 202 & 484 & 0.2275 & 0.1995 & 0.8947 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed303} & 303 & 490 & 0.2163 & 0.1942 & 0.8933 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed404} & 404 & 344 & 0.2324 & 0.2092 & 0.8925 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 443 & 0.2188 & 0.1888 & 0.8987 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed456} & 456 & 490 & 0.2245 & 0.2030 & 0.8919 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed505} & 505 & 346 & 0.2276 & 0.2021 & 0.8976 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 466 & 0.2197 & 0.1925 & 0.8977 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed789} & 789 & 392 & 0.2245 & 0.2066 & 0.8913 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{t1p6}. \textit{T1.6 Davis cold-both E0/E7, legacy audit (5 seeds each)}}
+\label{tab:v9_runs_t1p6}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 494 & 0.0940 & 0.9581 & 0.6132 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 479 & 0.0718 & 1.0637 & 0.5993 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e0\_\allowbreak{}seed456} & 456 & 489 & 0.0543 & 0.9262 & 0.6021 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 395 & 0.0922 & 1.2886 & 0.5901 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e0\_\allowbreak{}seed789} & 789 & 500 & 0.0934 & 1.1151 & 0.5751 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 442 & 0.0424 & 1.2442 & 0.6013 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 499 & 0.0338 & 0.9145 & 0.6029 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e7\_\allowbreak{}seed456} & 456 & 444 & 0.0344 & 1.0831 & 0.5620 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 498 & 0.0265 & 0.9297 & 0.6168 & 498,177 \\
+\texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}e7\_\allowbreak{}seed789} & 789 & 419 & 0.0349 & 1.1847 & 0.5411 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p1}. \textit{Phase 1 KIBA E0/E7, Config C (10 seeds each)}}
+\label{tab:v9_runs_p1}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed101} & 101 & 747 & 0.1421 & 0.1290 & 0.8903 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 739 & 0.1458 & 0.1373 & 0.8810 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed202} & 202 & 973 & 0.1570 & 0.1432 & 0.8765 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed303} & 303 & 578 & 0.1444 & 0.1306 & 0.8876 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed404} & 404 & 780 & 0.1408 & 0.1296 & 0.8917 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 791 & 0.1505 & 0.1383 & 0.8828 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed456} & 456 & 695 & 0.1585 & 0.1464 & 0.8749 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed505} & 505 & 742 & 0.1779 & 0.1657 & 0.8642 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 727 & 0.1436 & 0.1280 & 0.8912 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}seed789} & 789 & 525 & 0.1473 & 0.1328 & 0.8844 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed101} & 101 & 749 & 0.1566 & 0.1455 & 0.8755 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 519 & 0.1571 & 0.1488 & 0.8712 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed202} & 202 & 583 & 0.1712 & 0.1605 & 0.8653 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed303} & 303 & 448 & 0.1556 & 0.1427 & 0.8765 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed404} & 404 & 519 & 0.1591 & 0.1431 & 0.8767 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 450 & 0.1580 & 0.1475 & 0.8751 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed456} & 456 & 511 & 0.1625 & 0.1436 & 0.8782 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed505} & 505 & 789 & 0.1778 & 0.1667 & 0.8608 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 528 & 0.1623 & 0.1513 & 0.8789 & 498,177 \\
+\texttt{v9\_\allowbreak{}p1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}seed789} & 789 & 550 & 0.1548 & 0.1455 & 0.8799 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p2}. \textit{Phase 2 Davis E0/E7, Config C (10 seeds each)}}
+\label{tab:v9_runs_p2}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed101} & 101 & 544 & 0.2267 & 0.2026 & 0.8942 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 760 & 0.2205 & 0.1943 & 0.8969 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed202} & 202 & 611 & 0.2338 & 0.2016 & 0.8951 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed303} & 303 & 550 & 0.2205 & 0.2005 & 0.8962 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed404} & 404 & 474 & 0.2309 & 0.2102 & 0.8930 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 495 & 0.2391 & 0.2202 & 0.8898 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed456} & 456 & 654 & 0.2173 & 0.1962 & 0.8988 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed505} & 505 & 433 & 0.2358 & 0.2063 & 0.8953 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 727 & 0.2204 & 0.1951 & 0.8986 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}seed789} & 789 & 605 & 0.2192 & 0.2045 & 0.8931 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed101} & 101 & 318 & 0.2352 & 0.2087 & 0.8890 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 426 & 0.2256 & 0.1998 & 0.8936 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed202} & 202 & 429 & 0.2279 & 0.2024 & 0.8924 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed303} & 303 & 488 & 0.2122 & 0.1944 & 0.8939 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed404} & 404 & 308 & 0.2317 & 0.2066 & 0.8919 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 371 & 0.2083 & 0.1907 & 0.9013 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed456} & 456 & 392 & 0.2241 & 0.2062 & 0.8938 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed505} & 505 & 492 & 0.2193 & 0.1934 & 0.9008 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 474 & 0.2170 & 0.1960 & 0.8959 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}davis\_\allowbreak{}e7\_\allowbreak{}seed789} & 789 & 455 & 0.2157 & 0.2019 & 0.8923 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p2p2}. \textit{Phase 2 Davis scaffold E0/E7, Config C (5 seeds each)}}
+\label{tab:v9_runs_p2p2}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 20 & 1.3280 & 1.4954 & 0.6337 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e0\_\allowbreak{}seed2024} & 2024 & 1 & 1.2707 & 2.0036 & 0.6644 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e0\_\allowbreak{}seed3407} & 3407 & 11 & 1.3383 & 1.6291 & 0.6507 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 21 & 1.4985 & 1.2809 & 0.6665 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 16 & 1.2887 & 1.4561 & 0.6472 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 1 & 1.6138 & 2.0914 & 0.6499 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e7\_\allowbreak{}seed2024} & 2024 & 1 & 1.2818 & 2.3659 & 0.6455 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e7\_\allowbreak{}seed3407} & 3407 & 1 & 1.2400 & 2.3987 & 0.6027 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 993 & 0.8671 & 1.0011 & 0.6406 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2\_\allowbreak{}scaffold\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 14 & 1.3638 & 1.2573 & 0.6631 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p2p3}. \textit{Phase 2 Davis dose scan, Config C (6 doses x 5 seeds)}}
+\label{tab:v9_runs_p2p3}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a001\_\allowbreak{}seed123} & 123 & 365 & 0.2225 & 0.1980 & 0.9009 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a001\_\allowbreak{}seed42} & 42 & 370 & 0.2197 & 0.2064 & 0.8987 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a001\_\allowbreak{}seed456} & 456 & 488 & 0.2222 & 0.1968 & 0.8982 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a001\_\allowbreak{}seed7} & 7 & 574 & 0.2194 & 0.1942 & 0.8995 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a001\_\allowbreak{}seed789} & 789 & 503 & 0.2152 & 0.2027 & 0.8954 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a002\_\allowbreak{}seed123} & 123 & 323 & 0.2280 & 0.1988 & 0.8991 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a002\_\allowbreak{}seed42} & 42 & 623 & 0.2124 & 0.1892 & 0.8980 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a002\_\allowbreak{}seed456} & 456 & 524 & 0.2172 & 0.1999 & 0.8968 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a002\_\allowbreak{}seed7} & 7 & 540 & 0.2136 & 0.1934 & 0.8998 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a002\_\allowbreak{}seed789} & 789 & 512 & 0.2155 & 0.1958 & 0.8996 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a005\_\allowbreak{}seed123} & 123 & 483 & 0.2160 & 0.1985 & 0.8959 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a005\_\allowbreak{}seed42} & 42 & 625 & 0.2188 & 0.1994 & 0.9017 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a005\_\allowbreak{}seed456} & 456 & 443 & 0.2253 & 0.2041 & 0.8915 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a005\_\allowbreak{}seed7} & 7 & 477 & 0.2190 & 0.1993 & 0.8952 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a005\_\allowbreak{}seed789} & 789 & 421 & 0.2085 & 0.1954 & 0.8954 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a010\_\allowbreak{}seed123} & 123 & 355 & 0.2207 & 0.2048 & 0.8907 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a010\_\allowbreak{}seed42} & 42 & 426 & 0.2237 & 0.2038 & 0.8967 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a010\_\allowbreak{}seed456} & 456 & 617 & 0.2169 & 0.1952 & 0.8967 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a010\_\allowbreak{}seed7} & 7 & 464 & 0.2217 & 0.2046 & 0.8934 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a010\_\allowbreak{}seed789} & 789 & 479 & 0.2305 & 0.2051 & 0.8912 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a020\_\allowbreak{}seed123} & 123 & 359 & 0.2295 & 0.2072 & 0.8890 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a020\_\allowbreak{}seed42} & 42 & 371 & 0.2280 & 0.2090 & 0.8922 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a020\_\allowbreak{}seed456} & 456 & 357 & 0.2364 & 0.2028 & 0.8948 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a020\_\allowbreak{}seed7} & 7 & 363 & 0.2377 & 0.2177 & 0.8844 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a020\_\allowbreak{}seed789} & 789 & 614 & 0.2230 & 0.2000 & 0.8928 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a050\_\allowbreak{}seed123} & 123 & 493 & 0.2349 & 0.2073 & 0.8951 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a050\_\allowbreak{}seed42} & 42 & 346 & 0.2248 & 0.2126 & 0.8850 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a050\_\allowbreak{}seed456} & 456 & 332 & 0.2270 & 0.2084 & 0.8879 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a050\_\allowbreak{}seed7} & 7 & 430 & 0.2278 & 0.2021 & 0.8879 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p3\_\allowbreak{}davis\_\allowbreak{}a050\_\allowbreak{}seed789} & 789 & 443 & 0.2344 & 0.2057 & 0.8930 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p2p4}. \textit{Phase 2 KIBA alpha=0.5, Config C (5 seeds)}}
+\label{tab:v9_runs_p2p4}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p2p4\_\allowbreak{}kiba\_\allowbreak{}a050\_\allowbreak{}seed123} & 123 & 568 & 0.1678 & 0.1597 & 0.8703 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p4\_\allowbreak{}kiba\_\allowbreak{}a050\_\allowbreak{}seed42} & 42 & 526 & 0.1713 & 0.1642 & 0.8666 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p4\_\allowbreak{}kiba\_\allowbreak{}a050\_\allowbreak{}seed456} & 456 & 502 & 0.1721 & 0.1616 & 0.8658 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p4\_\allowbreak{}kiba\_\allowbreak{}a050\_\allowbreak{}seed7} & 7 & 663 & 0.1689 & 0.1535 & 0.8738 & 498,177 \\
+\texttt{v9\_\allowbreak{}p2p4\_\allowbreak{}kiba\_\allowbreak{}a050\_\allowbreak{}seed789} & 789 & 508 & 0.1741 & 0.1605 & 0.8695 & 498,177 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Per-run records: \texttt{p2p5}. \textit{Phase 2 GAT Davis E0/E7, Config C (5 seeds each)}}
+\label{tab:v9_runs_p2p5}
+\begin{tabular}{p{4.8cm}cccccc}
+\toprule
+Run directory & Seed & Best epoch & Best val MSE & Test MSE & Test CI & Params \\
+\midrule
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e0\_\allowbreak{}seed123} & 123 & 737 & 0.2821 & 0.2646 & 0.8799 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e0\_\allowbreak{}seed42} & 42 & 578 & 0.2709 & 0.2515 & 0.8835 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e0\_\allowbreak{}seed456} & 456 & 712 & 0.2817 & 0.2670 & 0.8826 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e0\_\allowbreak{}seed7} & 7 & 567 & 0.2783 & 0.2613 & 0.8798 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e0\_\allowbreak{}seed789} & 789 & 645 & 0.2779 & 0.2642 & 0.8814 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e7\_\allowbreak{}seed123} & 123 & 625 & 0.2540 & 0.2364 & 0.8845 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e7\_\allowbreak{}seed42} & 42 & 662 & 0.2453 & 0.2292 & 0.8852 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e7\_\allowbreak{}seed456} & 456 & 505 & 0.2538 & 0.2338 & 0.8836 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e7\_\allowbreak{}seed7} & 7 & 464 & 0.2455 & 0.2312 & 0.8843 & 521,345 \\
+\texttt{v9\_\allowbreak{}p2p5\_\allowbreak{}gat\_\allowbreak{}e7\_\allowbreak{}seed789} & 789 & 411 & 0.2560 & 0.2448 & 0.8812 & 521,345 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering\scriptsize
+\caption{Batch-launcher records (config/progress bookkeeping directories; these do not supply paper numbers).}
+\label{tab:v9_launchers}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{2.4cm}p{5.0cm}p{4.2cm}p{3.2cm}p{2.0cm}}
+\toprule
+Family & Launcher dir & Task & Timestamp / seeds & Success \\
+\midrule
+\texttt{v9-e2e3-diagnosis} & \texttt{v9\_\allowbreak{}e3\_\allowbreak{}corrected\_\allowbreak{}e0\_\allowbreak{}20261021\_\allowbreak{}185300} &  &   &  \\
+\texttt{t1p3-launch} & \texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}20261023\_\allowbreak{}065021} & V9 T1.3: KIBA E7 ($\alpha$=0.05) new-protocol 5 seeds validation & 20261023\_065021 5 seeds & 5/5 ok \\
+\texttt{t1p3-launch} & \texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}20261023\_\allowbreak{}065127} &  &   &  \\
+\texttt{t1p3-launch} & \texttt{v9\_\allowbreak{}t1p3\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}alpha005\_\allowbreak{}20261024\_\allowbreak{}064406} & V9 T1.3: KIBA E7 ($\alpha$=0.05) new-protocol 5 seeds validation & 20261024\_064406 5 seeds & 5/5 ok \\
+\texttt{t1p5-launch} & \texttt{v9\_\allowbreak{}t1p5\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}e7\_\allowbreak{}20261024\_\allowbreak{}221831} & V9 T1.5: Davis new-protocol E0+E7 validation & 20261024\_221831 10 seeds & 20/20 ok \\
+\texttt{t1p6-launch} & \texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}cold\_\allowbreak{}start\_\allowbreak{}20261025\_\allowbreak{}162646} & V9 T1.6: Davis cold-start E0+E7 new-protocol validation & 20261025\_162646 5 seeds & 0/10 ok \\
+\texttt{t1p6-launch} & \texttt{v9\_\allowbreak{}t1p6\_\allowbreak{}cold\_\allowbreak{}start\_\allowbreak{}20261025\_\allowbreak{}164129} & V9 T1.6: Davis cold-start E0+E7 new-protocol validation & 20261025\_164129 5 seeds & 10/10 ok \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}101012} & V9 Phase 1 Task 1.1: KIBA E0 @1000ep, Config C & 20261104\_101012 10 seeds & 0/10 ok \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}101536} & V9 Phase 1 Task 1.1: KIBA E0 @1000ep, Config C & 20261104\_101536 10 seeds & 0/10 ok \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}101722} & V9 Phase 1 Task 1.1: KIBA E0 @1000ep, Config C & 20261104\_101722 10 seeds & 0/10 ok \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}112214} &  &   &  \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}135211} &  &   &  \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e0\_\allowbreak{}1000ep\_\allowbreak{}20261104\_\allowbreak{}135500} & V9 Phase 1 Task 1.1: KIBA E0 @1000ep, Config C & 20261104\_135500 10 seeds & 10/10 ok \\
+\texttt{p1-launch} & \texttt{v9\_\allowbreak{}phase1\_\allowbreak{}kiba\_\allowbreak{}e7\_\allowbreak{}1000ep\_\allowbreak{}20261106\_\allowbreak{}160822} & V9 Phase 1 Task 1.2: KIBA E7 ($\alpha$=0.05) @1000ep, Config C & 20261106\_160822 10 seeds & 10/10 ok \\
+\texttt{p2-launch} & \texttt{v9\_\allowbreak{}phase2\_\allowbreak{}davis\_\allowbreak{}e0\_\allowbreak{}e7\_\allowbreak{}1000ep\_\allowbreak{}20261108\_\allowbreak{}170456} & V9 Phase 2 Task 2.1 & 20261108\_170456  &  \\
+\texttt{p2p2-launch} & \texttt{v9\_\allowbreak{}phase2\_\allowbreak{}scaffold\_\allowbreak{}20261109\_\allowbreak{}115104} & V9 Phase 2 Task 2.2 & 20261109\_115104  &  \\
+\texttt{p2p3-launch} & \texttt{v9\_\allowbreak{}phase2\_\allowbreak{}davis\_\allowbreak{}e1\_\allowbreak{}e6\_\allowbreak{}20261109\_\allowbreak{}151609} & V9 Phase 2 Task 2.3 & 20261109\_151609  &  \\
+\texttt{p2p4-launch} & \texttt{v9\_\allowbreak{}phase2\_\allowbreak{}kiba\_\allowbreak{}alpha05\_\allowbreak{}20261110\_\allowbreak{}174202} & V9 Phase 2 Task 2.4 & 20261110\_174202  &  \\
+\texttt{p2p5-launch} & \texttt{v9\_\allowbreak{}phase2\_\allowbreak{}gat\_\allowbreak{}davis\_\allowbreak{}20261111\_\allowbreak{}155630} & V9 Phase 2 Task 2.5 & 20261111\_155630  &  \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

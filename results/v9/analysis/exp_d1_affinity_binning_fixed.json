@@ -1,0 +1,30 @@
+{
+  "binning_method": "tertile",
+  "quantiles": {
+    "q33": 5.0,
+    "q66": 5.0
+  },
+  "bins": {
+    "low": {
+      "threshold": "<= 5.000 (\u4f4d\u7f6e\u5207\u5206)",
+      "sample_count": 1002,
+      "e0_mse": 0.08053622394800186,
+      "e7_mse": 0.06368736922740936,
+      "improvement_pct": 20.920839309692383
+    },
+    "mid": {
+      "threshold": "5.000 ~ 5.000 (\u4f4d\u7f6e\u5207\u5206)",
+      "sample_count": 1002,
+      "e0_mse": 0.07317204773426056,
+      "e7_mse": 0.05516563355922699,
+      "improvement_pct": 24.608322143554688
+    },
+    "high": {
+      "threshold": "> 5.000 (\u4f4d\u7f6e\u5207\u5206)",
+      "sample_count": 1002,
+      "e0_mse": 0.6076582670211792,
+      "e7_mse": 0.5167447328567505,
+      "improvement_pct": 14.96129322052002
+    }
+  }
+}

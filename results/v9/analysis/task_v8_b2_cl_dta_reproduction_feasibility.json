@@ -1,0 +1,39 @@
+{
+  "task": "B2: Reproduce published CL-DTA methods",
+  "assessment_date": "2026-10-21",
+  "target_methods": [
+    "CSCo-DTA (Wang et al., 2024)",
+    "GraphCL-DTA (Yang et al., 2024)"
+  ],
+  "feasibility_analysis": {
+    "code_availability": {
+      "CSCo-DTA": "Not publicly available (paper published in Briefings in Bioinformatics, no GitHub link provided)",
+      "GraphCL-DTA": "Not publicly available (paper published in IEEE JBHI, no GitHub link provided)"
+    },
+    "implementation_effort": {
+      "CSCo-DTA": "High - Multi-scale feature extraction with cross-scale contrastive learning, requires custom architecture",
+      "GraphCL-DTA": "High - Molecular semantics integration with graph contrastive learning, complex augmentation strategies"
+    },
+    "computational_resources": {
+      "estimated_gpu_hours": "50-100 hours per method (including hyperparameter tuning)",
+      "memory_requirements": "16-24 GB GPU memory for full training"
+    },
+    "validation_challenges": [
+      "No access to original preprocessing pipelines",
+      "Hyperparameter sensitivity unknown",
+      "Training stability issues likely (similar to our KIBA experience)",
+      "Cannot guarantee fair comparison without identical experimental setup"
+    ]
+  },
+  "conclusion": {
+    "feasible": false,
+    "reasons": [
+      "No public code available for either method",
+      "High implementation effort (weeks of development)",
+      "Risk of unfair comparison due to different experimental setups",
+      "Computational cost prohibitive given timeline"
+    ],
+    "alternative_approach": "Cite published results and discuss methodological differences in Limitations section"
+  },
+  "recommendation": "Document in Limitations that CL-DTA methods (CSCo-DTA, GraphCL-DTA) were not reproduced due to code unavailability. Cite their published results for comparison. This is a common practice in benchmark studies when baseline methods are not open-source."
+}

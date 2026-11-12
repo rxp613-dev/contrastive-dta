@@ -1,0 +1,97 @@
+{
+  "experiment": "Selection-aware Bonferroni correction derivation",
+  "date": "2026-09-03",
+  "objective": "Address T1: test-set alpha selection bias",
+  "davis": {
+    "E7": {
+      "raw_p": 0.0027967217082886567,
+      "holm_p": 0.0196,
+      "bonf_k7": 0.0195770519580206,
+      "bonf_k9": 0.02517049537459791,
+      "sig_k7": true,
+      "sig_k9": true,
+      "desc": "noise + InfoNCE (\u03b1=0.05)"
+    },
+    "E2": {
+      "raw_p": 0.005328898820200829,
+      "holm_p": 0.032,
+      "bonf_k7": 0.0373022917414058,
+      "bonf_k9": 0.04796008938180746,
+      "sig_k7": true,
+      "sig_k9": true,
+      "desc": "random_mask + InfoNCE"
+    },
+    "E5": {
+      "raw_p": 0.008785242419362115,
+      "holm_p": 0.0439,
+      "bonf_k7": 0.061496696935534806,
+      "bonf_k9": 0.07906718177425903,
+      "sig_k7": false,
+      "sig_k9": false,
+      "desc": "noise + InfoNCE only"
+    },
+    "E1": {
+      "raw_p": 0.010360291731113962,
+      "holm_p": 0.0439,
+      "bonf_k7": 0.07252204211779772,
+      "bonf_k9": 0.09324262558002566,
+      "sig_k7": false,
+      "sig_k9": false,
+      "desc": "noise + InfoNCE + Uniformity"
+    },
+    "E4": {
+      "raw_p": 0.010789633170780901,
+      "holm_p": 0.0439,
+      "bonf_k7": 0.07552743219546632,
+      "bonf_k9": 0.09710669853702811,
+      "sig_k7": false,
+      "sig_k9": false,
+      "desc": "sub_mask + two-stage"
+    },
+    "E6": {
+      "raw_p": 0.018800262950479037,
+      "holm_p": 0.0439,
+      "bonf_k7": 0.13160184065335326,
+      "bonf_k9": 0.16920236655431134,
+      "sig_k7": false,
+      "sig_k9": false,
+      "desc": "noise + InfoNCE + U + CM"
+    },
+    "E3": {
+      "raw_p": 0.023852658258392823,
+      "holm_p": 0.0439,
+      "bonf_k7": 0.16696860780874975,
+      "bonf_k9": 0.21467392432553542,
+      "sig_k7": false,
+      "sig_k9": false,
+      "desc": "sub_mask + InfoNCE"
+    }
+  },
+  "kiba": {
+    "raw_p_n10": 0.0005544296909072081,
+    "holm_p_n10": 0.0165,
+    "bonf_k3": 0.0016632890727216244,
+    "bonf_k4": 0.0022177187636288325,
+    "raw_p_n5": 0.004117179037673696,
+    "sig_bonf_k3": true,
+    "sig_bonf_k4": true
+  },
+  "gat_coldstart": {
+    "cold_drug": {
+      "raw_p": 0.0662,
+      "bonf_both": 1.0
+    },
+    "cold_target": {
+      "raw_p": 0.00022501208369648363,
+      "bonf_both": 0.004050217506536705
+    },
+    "cold_both": {
+      "raw_p": 0.2188,
+      "bonf_both": 1.0
+    }
+  },
+  "reg_control": {
+    "all_survive": true
+  },
+  "all_headline_results_survive": true
+}

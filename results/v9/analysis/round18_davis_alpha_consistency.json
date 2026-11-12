@@ -1,0 +1,44 @@
+{
+  "per_seed_results": [
+    {
+      "seed": 123,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.25763559341430664
+    },
+    {
+      "seed": 2024,
+      "optimal_alpha": 0.1,
+      "optimal_mse": 0.2519993185997009
+    },
+    {
+      "seed": 3407,
+      "optimal_alpha": 0.1,
+      "optimal_mse": 0.2596096992492676
+    },
+    {
+      "seed": 42,
+      "optimal_alpha": 0.1,
+      "optimal_mse": 0.2621843218803406
+    },
+    {
+      "seed": 7,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.25390616059303284
+    }
+  ],
+  "alpha_values_tested": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "test_set_optimal_alpha": 0.05,
+  "matching_seeds": 2,
+  "total_seeds": 5,
+  "consistency_rate": 40.0,
+  "mean_optimal_alpha": 0.07999999999999999,
+  "std_optimal_alpha": 0.027386127875258306,
+  "alpha_distribution": {
+    "0.05": 2,
+    "0.1": 3
+  }
+}

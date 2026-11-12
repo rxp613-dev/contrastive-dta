@@ -1,0 +1,22 @@
+{
+  "task": "A5: Mark batch A as deprecated",
+  "timestamp": "2026-08-31T21:44:08.321745",
+  "batch_a_count": 10,
+  "directories": [
+    "E7_alpha005_old_seed123",
+    "E7_alpha005_old_seed7",
+    "E7_alpha001_old_seed123",
+    "E7_alpha001_old_seed42",
+    "E7_alpha001_old_seed7",
+    "E7_alpha005_old_seed3407",
+    "E7_alpha005_old_seed42",
+    "E7_alpha001_old_seed3407",
+    "E7_alpha001_old_seed2024",
+    "E7_alpha005_old_seed2024"
+  ],
+  "actions_taken": [
+    "Created DEPRECATED.txt marker file in each directory",
+    "Updated results.json with deprecated=True flag",
+    "Added deprecation metadata (reason, date, audit reference)"
+  ]
+}

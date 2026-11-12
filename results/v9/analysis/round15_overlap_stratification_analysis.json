@@ -1,0 +1,3098 @@
+{
+  "drug_similarity": {
+    "statistics": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "std": 0.0
+    },
+    "bin_distribution": {
+      "0.0-0.3": 0,
+      "0.3-0.5": 0,
+      "0.5-0.7": 0,
+      "0.7-0.9": 0,
+      "0.9-1.0": 68
+    },
+    "per_drug": [
+      {
+        "drug_id": 11364421,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11364421,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11427553,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11427553,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11485656,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11485656,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10138260,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10138260,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 24779724,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 24779724,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9915743,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9915743,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 25127112,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 25127112,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9929127,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9929127,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 5291,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 5291,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 447077,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 447077,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 126565,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 126565,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9884685,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9884685,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11712649,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11712649,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 3025986,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 3025986,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 208908,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 208908,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 16725726,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 16725726,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 176167,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 176167,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 25243800,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 25243800,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11667893,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11667893,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 51004351,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 51004351,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 44150621,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 44150621,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 156422,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 156422,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 3062316,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 3062316,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 16007391,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 16007391,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9933475,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9933475,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 16722836,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 16722836,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 156414,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 156414,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 151194,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 151194,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 3038525,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 3038525,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 5329102,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 5329102,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 153999,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 153999,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 176870,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 176870,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 42642645,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 42642645,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9926054,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9926054,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11626560,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11626560,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 123631,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 123631,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11984591,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11984591,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 644241,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 644241,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 24180719,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 24180719,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11338033,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11338033,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 5328940,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 5328940,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11717001,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11717001,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11409972,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11409972,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10461815,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10461815,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 216239,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 216239,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 6918454,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 6918454,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11314340,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11314340,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 5494449,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 5494449,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10113978,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10113978,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 4908365,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 4908365,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10184653,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10184653,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 16038120,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 16038120,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 3038522,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 3038522,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11234052,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11234052,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10074640,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10074640,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 24889392,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 24889392,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 17755052,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 17755052,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11656518,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11656518,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10127622,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10127622,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 176155,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 176155,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9809715,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9809715,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 5287969,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 5287969,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 10427712,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 10427712,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 44259,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 44259,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 3081361,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 3081361,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 6450551,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 6450551,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 9926791,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 9926791,
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "drug_id": 11617559,
+        "max_tanimoto": 1.0,
+        "most_similar_train": 11617559,
+        "similarity_bin": "0.9-1.0"
+      }
+    ]
+  },
+  "target_similarity": {
+    "statistics": {
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "std": 0.0
+    },
+    "bin_distribution": {
+      "0.0-0.3": 0,
+      "0.3-0.5": 0,
+      "0.5-0.7": 0,
+      "0.7-0.9": 0,
+      "0.9-1.0": 441
+    },
+    "per_target": [
+      {
+        "target_id": "FGFR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGFR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(V559D-T670I)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TAK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TAK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MLK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MLK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "p38-alpha",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "p38-alpha",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IRAK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IRAK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MINK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MINK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AURKA",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AURKA",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(E542K)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TIE1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TIE1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AKT3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AKT3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LTK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LTK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK2(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK2(KinDom.1-N-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MET",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MET(Y1235D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BTK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BTK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LRRK2(G2019S)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LRRK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GRK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GRK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK8",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK8",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(F317L)p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MKK7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MKK7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ADCK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ADCK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "VEGFR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "VEGFR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK1(KinDom.2-C-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK1(KinDom.1-N-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CHEK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CHEK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK9",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK9",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MARK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MARK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JAK1(JH1domain-catalytic)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JAK1(JH1domain-catalytic)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FYN",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FYN",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP3K15",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP3K15",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIOK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIOK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK4CB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK4CB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SIK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SIK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DCAMKL2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DCAMKL2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ROS1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ROS1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERBB4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERBB4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TESK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TESK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IKK-epsilon",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IKK-epsilon",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK1G",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK1G",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3C2G",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3C2G",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DDR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DDR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PCTK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PCTK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TSSK1B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TSSK1B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BRK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BRK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "STK35",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "STK35",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MELK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MELK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L858R)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHB2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHB2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GCN2(KinDom2S808G)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GCN2(KinDom2S808G)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L747E749del)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MLK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MLK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NIM1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NIM1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BRAF",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BRAF(V600E)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RAF1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RAF1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L747T751del)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NDR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NDR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DRAK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DRAK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IGF1R",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IGF1R",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAST1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAST1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(M1043I)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIM1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIM1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK9",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK9",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP4K3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP4K3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MTOR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MTOR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "QSK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "QSK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(D835Y)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FES",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FES",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "INSRR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "INSRR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BMPR1B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BMPR1B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AMPK-alpha1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AMPK-alpha1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP4K2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP4K2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK1(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK1(KinDom.1-N-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1G1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1G1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDC2L1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDC2L1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDC2L2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDC2L2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ACVRL1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ACVRL1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "STK39",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "STK39",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MST4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MST4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FGFR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGFR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DAPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DAPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JAK2(JH1domain-catalytic)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JAK2(JH1domain-catalytic)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MARK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MARK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(F317L)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKX",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKX",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RPS6KA4(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RPS6KA4(KinDom.1-N-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(H1047Y)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ROCK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ROCK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IRAK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IRAK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GRK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GRK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDKL3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDKL3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP3K3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP3K3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIOK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIOK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(A829P)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP4K5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP4K5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ANKK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ANKK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CLK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CLK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(H396P)p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LZK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LZK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TAOK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TAOK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDKL2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDKL2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MARK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MARK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(G719S)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SIK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SIK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LYN",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LYN",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "p38-beta",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "p38-beta",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LIMK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LIMK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PFTK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PFTK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKAC-alpha",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKAC-alpha",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK3(KinDom.2-C-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK3(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PHKG1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PHKG1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TLK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TLK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDC2L5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDC2L5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RPS6KA5(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RPS6KA5(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ZAP70",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ZAP70",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LIMK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LIMK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NLK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NLK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(M351T)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DCAMKL1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DCAMKL1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TRKA",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TRKA",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BIKE",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BIKE",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAPKAPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAPKAPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ASK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ASK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKAC-beta",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKAC-beta",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MLCK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MLCK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SBK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SBK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(Q252H)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HCK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HCK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK4(KinDom.2-C-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK4(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3C2B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3C2B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RET",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RET(V804M)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(Q252H)p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SRPK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SRPK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKMYT1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKMYT1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TBK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TBK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HUNK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HUNK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MYLK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MYLK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JNK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JNK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PHKG2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PHKG2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "WEE2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "WEE2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1A1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1A1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CTK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CTK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FER",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FER",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BMPR1A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BMPR1A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDKL5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDKL5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP3K1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP3K1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HIPK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HIPK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CLK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CLK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TGFBR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TGFBR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CASK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CASK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK2A2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK2A2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JNK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JNK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GSK3A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GSK3A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HIPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HIPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TAOK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TAOK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK2D",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK2D",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TRKC",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TRKC",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(C420R)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(E545K)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MST2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MST2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FGFR3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGFR3(G697C)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(ITD)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1A1L",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1A1L",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRP4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRP4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ASK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ASK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SYK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SYK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MARK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MARK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FRK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FRK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YSK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YSK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "STK16",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "STK16",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DYRK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DYRK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TNNI3K",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TNNI3K",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ALK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ALK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK11",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK11",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(F317I)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP3K4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP3K4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(T790M)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L747S752del)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKD1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKD1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(D816V)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MYLK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MYLK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AKT2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AKT2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ARK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ARK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKCE",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKCE",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "STK33",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "STK33",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MYO3A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MYO3A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DMPK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DMPK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKG2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKG2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BLK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BLK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(R834Q)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ACVR2A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ACVR2A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LATS2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LATS2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TYK2(JH1domain-catalytic)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TYK2(JH2domain-pseudokinase)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DDR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DDR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIPK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIPK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PDGFRB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PDGFRB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TAOK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TAOK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1E",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1E",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CD",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CD",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PLK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PLK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ICK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ICK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(N841I)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MST1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MST1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA8",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA8",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SLK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SLK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK3(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK3(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK11",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK11",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PYK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PYK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "p38-delta",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "p38-delta",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "S6K1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "S6K1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHB4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHB4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L858RT790M)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1G3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1G3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ULK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ULK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ADCK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ADCK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(L576P)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHB6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHB6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FGFR4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGFR4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MRCKB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MRCKB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JAK3(JH1domain-catalytic)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JAK3(JH1domain-catalytic)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "STK36",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "STK36",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(E746A750del)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MKNK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MKNK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GAK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GAK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIM2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIM2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(V559D-V654A)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FGR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAPKAPK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAPKAPK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(V559D)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SRPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SRPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CLK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CLK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKD3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKD3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TGFBR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TGFBR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BRAF(V600E)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BRAF(V600E)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK4-cyclinD3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK4-cyclinD3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SGK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SGK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK2A1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK2A1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MET(Y1235D)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MET(Y1235D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EIF2AK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EIF2AK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SRC",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SRC",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ACVR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ACVR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BMPR2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BMPR2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RPS6KA5(KinDom.2-C-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RPS6KA5(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TYRO3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TYRO3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ACVR1B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ACVR1B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SgK110",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SgK110",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RPS6KA4(KinDom.2-C-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RPS6KA4(KinDom.1-N-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK1D",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK1D",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MLK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MLK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DCAMKL3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DCAMKL3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MET(M1250T)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MET(Y1235D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ZAK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ZAK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MERTK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MERTK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(T315I)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CG",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CG",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMKK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMKK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ACVR2B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ACVR2B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LATS1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LATS1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "VRK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "VRK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(Q546K)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKNB(Mtuberculosis)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKNB(Mtuberculosis)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YANK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YANK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PFTAIRE2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PFTAIRE2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SRPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SRPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKCD",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKCD",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKG1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKG1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TEC",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TEC",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKN2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKN2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(S752I759del)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIOK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIOK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIP5K1C",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIP5K1C",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IKK-beta",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IKK-beta",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AXL",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AXL",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(L861Q)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHA2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHA2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(D835H)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TYK2(JH2domain-pseudokinase)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TYK2(JH2domain-pseudokinase)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RET(V804L)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RET(V804M)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CLK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CLK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PCTK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PCTK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERBB2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERBB2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP3K2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP3K2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LKB1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LKB1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NDR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NDR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TNK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TNK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIM3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIM3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DMPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DMPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(E545A)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SRMS",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SRMS",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "NEK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "NEK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(I800L)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(F317I)p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LCK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LCK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK2B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK2B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MAP4K4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MAP4K4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKD2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKD2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BRSK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BRSK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YANK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YANK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TTK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TTK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHB1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHB1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PAK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PAK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIP5K1A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIP5K1A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YANK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YANK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LRRK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LRRK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSF1R",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSF1R",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AAK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AAK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK2A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK2A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DRAK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DRAK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "KIT(D816H)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "KIT(V559D)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MEK6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MEK6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "OSR1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "OSR1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PKN1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PKN1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ITK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ITK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SNRK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SNRK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ULK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ULK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TIE2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TIE2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TLK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TLK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TXK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TXK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PLK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PLK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RIPK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RIPK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TNIK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TNIK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PLK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PLK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PDGFRA",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PDGFRA",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(E255K)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK4-cyclinD1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK4-cyclinD3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT3(K663Q)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT3(D835Y)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MRCKA",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MRCKA",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MYO3B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MYO3B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(Y253F)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMK2G",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMK2G",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YSK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YSK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIP5K2B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIP5K2B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CAMKK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CAMKK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PFCDPK1(Pfalciparum)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PFCDPK1(Pfalciparum)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MST3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MST3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GRK7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GRK7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(T315I)p",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "INSR",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "INSR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "YES",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "YES",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "WEE1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "WEE1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AURKB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AURKB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "LOK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "LOK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ULK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ULK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RET(V804M)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RET(V804M)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AURKC",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AURKC",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ABL1(H396P)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ABL1(M351T)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DAPK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DAPK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1G2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1G2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CIT",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CIT",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EGFR(G719C)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EGFR",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIP5K2C",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIP5K2C",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TNK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TNK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDKL1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDKL1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DAPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DAPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DYRK1A",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DYRK1A",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKCQ",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKCQ",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "SNARK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "SNARK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MYLK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MYLK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK7",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK7",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BRSK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BRSK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RSK4(KinDom.1-N-terminal)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RSK4(KinDom.2-C-terminal)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HIPK4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HIPK4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CHEK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CHEK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AMPK-alpha2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AMPK-alpha2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "HIPK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "HIPK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERBB3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERBB3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CDK8",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CDK8",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TRPM6",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TRPM6",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PLK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PLK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKCH",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKCH",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERK5",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERK5",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JNK3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JNK3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "p38-gamma",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "p38-gamma",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ERN1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ERN1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DLK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DLK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MST1R",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MST1R",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FLT4",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FLT4",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FAK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FAK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MUSK",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MUSK",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PCTK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PCTK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PFPK5(Pfalciparum)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PFPK5(Pfalciparum)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "DYRK1B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "DYRK1B",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "TRKB",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "TRKB",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PRKCI",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PRKCI",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PIK3CA(H1047L)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PIK3CA(C420R)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "AKT1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "AKT1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "MKNK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "MKNK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "CSNK1D",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "CSNK1D",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "BMX",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "BMX",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "JAK1(JH2domain-pseudokinase)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "JAK1(JH1domain-catalytic)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "ROCK2",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "ROCK2",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "PDPK1",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "PDPK1",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "IKK-alpha",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "IKK-alpha",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "RET(M918T)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "RET(V804M)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "FGFR3(G697C)",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "FGFR3(G697C)",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "EPHB3",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "EPHB3",
+        "similarity_bin": "0.9-1.0"
+      },
+      {
+        "target_id": "GSK3B",
+        "max_seq_identity": 1.0,
+        "most_similar_train": "GSK3B",
+        "similarity_bin": "0.9-1.0"
+      }
+    ]
+  },
+  "overlap_summary": {
+    "drug_overlap_count": 68,
+    "drug_overlap_pct": 100.0,
+    "target_overlap_count": 441,
+    "target_overlap_pct": 100.0
+  }
+}

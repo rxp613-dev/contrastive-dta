@@ -1,0 +1,39 @@
+{
+  "audit_date": "2026-08-29",
+  "audit_type": "GAT parameter count verification",
+  "expected_params": 521345,
+  "summary": {
+    "total_gat_directories": 112,
+    "valid_gat_experiments": 70,
+    "invalid_experiments": 42
+  },
+  "invalid_experiments_detail": {
+    "description": "These directories are named 'GAT_*' but actually contain GIN models (498,177 params)",
+    "affected_experiments": [
+      "GAT_E7_alpha003_seed* (5 seeds)",
+      "GAT_E7_alpha0_seed* (5 seeds)",
+      "GAT_E7_alpha10_seed* (5 seeds)",
+      "GAT_E7_alpha30_seed* (5 seeds)",
+      "GAT_E7_alpha50_seed* (5 seeds)",
+      "GAT_E7_lr1e-4_seed* (5 seeds)",
+      "GAT_E7_lr2e-4_seed* (5 seeds)",
+      "GAT_E7_lr5e-4_seed* (5 seeds)",
+      "GAT_InfoNCE_seed456, GAT_InfoNCE_seed789 (2 seeds, no params recorded)"
+    ],
+    "total_invalid_seeds": 42
+  },
+  "valid_gat_experiments_by_type": {
+    "E0": 5,
+    "E7_alpha001": 10,
+    "E7_alpha003_v2": 5,
+    "E7_alpha010_v2": 5,
+    "E7_alpha030_v2": 5,
+    "E7_alpha050_v2": 5,
+    "E7_alpha0_v2": 5,
+    "E7_alpha100_v2": 5,
+    "E7_alpha300_v2": 5,
+    "E7_lr1e-4_v2": 5,
+    "GAT_InfoNCE_v2": 5
+  },
+  "conclusion": "Only experiments with total_params=521345 should be included in GAT statistics. All statistical scripts correctly filter by this criterion."
+}

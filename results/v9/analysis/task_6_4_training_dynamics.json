@@ -1,0 +1,386 @@
+{
+  "E0 (\u57fa\u7ebf)": {
+    "num_seeds": 5,
+    "best_epoch_mean": 241.0,
+    "best_epoch_std": 26.94438717061496,
+    "convergence_epoch_mean": 128.4,
+    "convergence_epoch_std": 23.337523433303716,
+    "volatility_mean": 0.33803788736654694,
+    "volatility_std": 0.01726163221675823,
+    "seed_details": {
+      "seed123": {
+        "convergence": {
+          "best_epoch": 264,
+          "best_val_mse": 0.2514633536338806,
+          "convergence_epoch": 160,
+          "descent_speed": 0.07262985110282898,
+          "total_epochs": 314
+        },
+        "stability": {
+          "mean": 0.3213751017098214,
+          "std": 0.11376272491708057,
+          "min": 0.2514633536338806,
+          "max": 1.3542290925979614,
+          "volatility": 0.3539873634012884,
+          "improvement_rate": 0.5175718849840255
+        }
+      },
+      "seed2024": {
+        "convergence": {
+          "best_epoch": 229,
+          "best_val_mse": 0.2922411262989044,
+          "convergence_epoch": 105,
+          "descent_speed": 0.07502194046974182,
+          "total_epochs": 279
+        },
+        "stability": {
+          "mean": 0.34192689291892514,
+          "std": 0.10898622975501002,
+          "min": 0.2922411262989044,
+          "max": 1.2603756189346313,
+          "volatility": 0.3187413216451855,
+          "improvement_rate": 0.5179856115107914
+        }
+      },
+      "seed3407": {
+        "convergence": {
+          "best_epoch": 229,
+          "best_val_mse": 0.26110318303108215,
+          "convergence_epoch": 149,
+          "descent_speed": 0.05386304259300232,
+          "total_epochs": 279
+        },
+        "stability": {
+          "mean": 0.32994143317677216,
+          "std": 0.11204763990432136,
+          "min": 0.26110318303108215,
+          "max": 1.1789522171020508,
+          "volatility": 0.3395985730724816,
+          "improvement_rate": 0.5251798561151079
+        }
+      },
+      "seed42": {
+        "convergence": {
+          "best_epoch": 279,
+          "best_val_mse": 0.2717932164669037,
+          "convergence_epoch": 127,
+          "descent_speed": 0.08614559173583984,
+          "total_epochs": 329
+        },
+        "stability": {
+          "mean": 0.3219512242676639,
+          "std": 0.11579169455506018,
+          "min": 0.2717932164669037,
+          "max": 1.4591788053512573,
+          "volatility": 0.35965601565407695,
+          "improvement_rate": 0.5274390243902439
+        }
+      },
+      "seed7": {
+        "convergence": {
+          "best_epoch": 204,
+          "best_val_mse": 0.2721865177154541,
+          "convergence_epoch": 101,
+          "descent_speed": 0.08036792278289795,
+          "total_epochs": 254
+        },
+        "stability": {
+          "mean": 0.3258698351505234,
+          "std": 0.1036937899001457,
+          "min": 0.2721865177154541,
+          "max": 1.3316417932510376,
+          "volatility": 0.3182061630597021,
+          "improvement_rate": 0.4980237154150198
+        }
+      }
+    }
+  },
+  "E7 (\u5bf9\u6bd4\u5b66\u4e60)": {
+    "num_seeds": 5,
+    "best_epoch_mean": 218.8,
+    "best_epoch_std": 28.3365488371467,
+    "convergence_epoch_mean": 124.8,
+    "convergence_epoch_std": 16.06735821471595,
+    "volatility_mean": 0.39404264899697855,
+    "volatility_std": 0.035313357824438896,
+    "seed_details": {
+      "seed123": {
+        "convergence": {
+          "best_epoch": 172,
+          "best_val_mse": 0.24985969066619873,
+          "convergence_epoch": 98,
+          "descent_speed": 0.07703996896743774,
+          "total_epochs": 222
+        },
+        "stability": {
+          "mean": 0.3155895796445039,
+          "std": 0.11927498400666162,
+          "min": 0.24985969066619873,
+          "max": 1.3492729663848877,
+          "volatility": 0.37794335332940654,
+          "improvement_rate": 0.5158371040723982
+        }
+      },
+      "seed3407": {
+        "convergence": {
+          "best_epoch": 203,
+          "best_val_mse": 0.23400923609733582,
+          "convergence_epoch": 143,
+          "descent_speed": 0.05822117924690247,
+          "total_epochs": 253
+        },
+        "stability": {
+          "mean": 0.3119896378795149,
+          "std": 0.11707714670023486,
+          "min": 0.23400923609733582,
+          "max": 1.1632537841796875,
+          "volatility": 0.3752597281626644,
+          "improvement_rate": 0.49603174603174605
+        }
+      },
+      "seed42": {
+        "convergence": {
+          "best_epoch": 252,
+          "best_val_mse": 0.23996314406394958,
+          "convergence_epoch": 131,
+          "descent_speed": 0.13070605397224427,
+          "total_epochs": 302
+        },
+        "stability": {
+          "mean": 0.30302547471018026,
+          "std": 0.1353566806738067,
+          "min": 0.23996314406394958,
+          "max": 1.9175162315368652,
+          "volatility": 0.44668416344620726,
+          "improvement_rate": 0.5049833887043189
+        }
+      },
+      "seed2024": {
+        "convergence": {
+          "best_epoch": 229,
+          "best_val_mse": 0.23961769044399261,
+          "convergence_epoch": 136,
+          "descent_speed": 0.09755177497863769,
+          "total_epochs": 279
+        },
+        "stability": {
+          "mean": 0.31129256788120474,
+          "std": 0.13132403663907724,
+          "min": 0.23961769044399261,
+          "max": 1.6798415184020996,
+          "volatility": 0.42186691938367454,
+          "improvement_rate": 0.4784172661870504
+        }
+      },
+      "seed7": {
+        "convergence": {
+          "best_epoch": 238,
+          "best_val_mse": 0.24320349097251892,
+          "convergence_epoch": 116,
+          "descent_speed": 0.06727245450019836,
+          "total_epochs": 288
+        },
+        "stability": {
+          "mean": 0.30220025156935054,
+          "std": 0.10530442183796508,
+          "min": 0.24320349097251892,
+          "max": 1.2282298803329468,
+          "volatility": 0.34845908066294,
+          "improvement_rate": 0.5017421602787456
+        }
+      }
+    }
+  },
+  "GAT-E0": {
+    "num_seeds": 5,
+    "best_epoch_mean": 191.4,
+    "best_epoch_std": 50.9650860884194,
+    "convergence_epoch_mean": 105.6,
+    "convergence_epoch_std": 23.37177785278647,
+    "volatility_mean": 0.20918094382098001,
+    "volatility_std": 0.015543012839359431,
+    "seed_details": {
+      "seed2024": {
+        "convergence": {
+          "best_epoch": 243,
+          "best_val_mse": 0.323140412569046,
+          "convergence_epoch": 149,
+          "descent_speed": 0.03253358006477356,
+          "total_epochs": 293
+        },
+        "stability": {
+          "mean": 0.3813490700803112,
+          "std": 0.08095453431157883,
+          "min": 0.323140412569046,
+          "max": 0.8421745300292969,
+          "volatility": 0.21228459871301114,
+          "improvement_rate": 0.5273972602739726
+        }
+      },
+      "seed42": {
+        "convergence": {
+          "best_epoch": 261,
+          "best_val_mse": 0.3426123857498169,
+          "convergence_epoch": 111,
+          "descent_speed": 0.02822864055633545,
+          "total_epochs": 311
+        },
+        "stability": {
+          "mean": 0.39318958164411344,
+          "std": 0.09108391535002221,
+          "min": 0.3426123857498169,
+          "max": 0.9290647506713867,
+          "volatility": 0.23165393897050082,
+          "improvement_rate": 0.532258064516129
+        }
+      },
+      "seed7": {
+        "convergence": {
+          "best_epoch": 153,
+          "best_val_mse": 0.3505738377571106,
+          "convergence_epoch": 93,
+          "descent_speed": -0.003929007053375244,
+          "total_epochs": 203
+        },
+        "stability": {
+          "mean": 0.408552497331732,
+          "std": 0.07928799098400273,
+          "min": 0.3505738377571106,
+          "max": 0.7397067546844482,
+          "volatility": 0.1940705086906453,
+          "improvement_rate": 0.5198019801980198
+        }
+      },
+      "seed123": {
+        "convergence": {
+          "best_epoch": 167,
+          "best_val_mse": 0.37211912870407104,
+          "convergence_epoch": 86,
+          "descent_speed": 0.01861899495124817,
+          "total_epochs": 217
+        },
+        "stability": {
+          "mean": 0.4288629830432927,
+          "std": 0.09360727376260801,
+          "min": 0.37211912870407104,
+          "max": 1.2706496715545654,
+          "volatility": 0.21826848542243754,
+          "improvement_rate": 0.5462962962962963
+        }
+      },
+      "seed3407": {
+        "convergence": {
+          "best_epoch": 133,
+          "best_val_mse": 0.365165650844574,
+          "convergence_epoch": 89,
+          "descent_speed": 0.01703774929046631,
+          "total_epochs": 183
+        },
+        "stability": {
+          "mean": 0.42770125419715715,
+          "std": 0.0811037858416414,
+          "min": 0.365165650844574,
+          "max": 0.8091079592704773,
+          "volatility": 0.18962718730830525,
+          "improvement_rate": 0.554945054945055
+        }
+      }
+    }
+  },
+  "GAT-InfoNCE": {
+    "num_seeds": 5,
+    "best_epoch_mean": 150.0,
+    "best_epoch_std": 54.71014531145023,
+    "convergence_epoch_mean": 85.8,
+    "convergence_epoch_std": 24.522642598219303,
+    "volatility_mean": 0.14812477090892667,
+    "volatility_std": 0.011023703585248033,
+    "seed_details": {
+      "seed123": {
+        "convergence": {
+          "best_epoch": 137,
+          "best_val_mse": 0.39385607838630676,
+          "convergence_epoch": 72,
+          "descent_speed": 0.01635027527809143,
+          "total_epochs": 187
+        },
+        "stability": {
+          "mean": 0.4548371630237702,
+          "std": 0.06746789309888641,
+          "min": 0.39385607838630676,
+          "max": 0.7136246562004089,
+          "volatility": 0.14833417008047006,
+          "improvement_rate": 0.5698924731182796
+        }
+      },
+      "seed42": {
+        "convergence": {
+          "best_epoch": 96,
+          "best_val_mse": 0.3867708444595337,
+          "convergence_epoch": 61,
+          "descent_speed": 0.027072322368621827,
+          "total_epochs": 146
+        },
+        "stability": {
+          "mean": 0.4487094481105674,
+          "std": 0.06723901016092636,
+          "min": 0.3867708444595337,
+          "max": 0.8034005165100098,
+          "volatility": 0.14984977571579428,
+          "improvement_rate": 0.5103448275862069
+        }
+      },
+      "seed3407": {
+        "convergence": {
+          "best_epoch": 169,
+          "best_val_mse": 0.3411248028278351,
+          "convergence_epoch": 117,
+          "descent_speed": 0.017097532749176025,
+          "total_epochs": 219
+        },
+        "stability": {
+          "mean": 0.39693919109971554,
+          "std": 0.06406497353801463,
+          "min": 0.3411248028278351,
+          "max": 0.6938782930374146,
+          "volatility": 0.16139745072922465,
+          "improvement_rate": 0.536697247706422
+        }
+      },
+      "seed7": {
+        "convergence": {
+          "best_epoch": 102,
+          "best_val_mse": 0.3926253020763397,
+          "convergence_epoch": 65,
+          "descent_speed": 0.01491457223892212,
+          "total_epochs": 152
+        },
+        "stability": {
+          "mean": 0.4444897304240026,
+          "std": 0.05690146428554468,
+          "min": 0.3926253020763397,
+          "max": 0.679502546787262,
+          "volatility": 0.1280152507264136,
+          "improvement_rate": 0.5165562913907285
+        }
+      },
+      "seed2024": {
+        "convergence": {
+          "best_epoch": 246,
+          "best_val_mse": 0.3544347286224365,
+          "convergence_epoch": 114,
+          "descent_speed": 0.018720066547393797,
+          "total_epochs": 296
+        },
+        "stability": {
+          "mean": 0.3994498608281484,
+          "std": 0.061126696656001525,
+          "min": 0.3544347286224365,
+          "max": 0.7167684435844421,
+          "volatility": 0.15302720729273078,
+          "improvement_rate": 0.5186440677966102
+        }
+      }
+    }
+  }
+}

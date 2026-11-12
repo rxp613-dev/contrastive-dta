@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-08-28 13:15:11",
+  "total_experiments": 15,
+  "completed": 15,
+  "failed": 0,
+  "summary": [
+    {
+      "experiment_id": "GAT_E7_lr1e-4_v2",
+      "learning_rate": 0.0001,
+      "num_seeds": 5,
+      "test_mse_mean": 0.311474072933197,
+      "test_mse_std": 0.021138501885719092,
+      "test_ci_mean": 0.7627795254364828,
+      "test_ci_std": 0.005362755973908827
+    },
+    {
+      "experiment_id": "GAT_E7_lr2e-4_v2",
+      "learning_rate": 0.0002,
+      "num_seeds": 5,
+      "test_mse_mean": 0.2921236276626587,
+      "test_mse_std": 0.006194100042363332,
+      "test_ci_mean": 0.7681164412863118,
+      "test_ci_std": 0.0014643226974572318
+    },
+    {
+      "experiment_id": "GAT_E7_lr5e-4_v2",
+      "learning_rate": 0.0005,
+      "num_seeds": 5,
+      "test_mse_mean": 0.26898173689842225,
+      "test_mse_std": 0.011488990203300707,
+      "test_ci_mean": 0.7723852316718945,
+      "test_ci_std": 0.002781094442942039
+    }
+  ]
+}

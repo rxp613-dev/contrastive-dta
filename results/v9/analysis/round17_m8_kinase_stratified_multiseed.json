@@ -1,0 +1,240 @@
+{
+  "e0_by_seed": [
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.2315974022360097,
+        "ci": 0.7991352972015825,
+        "seed": 7
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.25666895420961133,
+        "ci": 0.7674009485079513,
+        "seed": 7
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.22921775806875375,
+        "ci": 0.7980871553549787,
+        "seed": 42
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.26162703177873803,
+        "ci": 0.7680049873931948,
+        "seed": 42
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.21432093672311056,
+        "ci": 0.803654632324827,
+        "seed": 123
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.24969241900373154,
+        "ci": 0.7679541054861077,
+        "seed": 123
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.268415950414929,
+        "ci": 0.7895171118384344,
+        "seed": 2024
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.27290358167716494,
+        "ci": 0.7662739261604341,
+        "seed": 2024
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.19375119813110345,
+        "ci": 0.8068298752278666,
+        "seed": 3407
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.25368769935309954,
+        "ci": 0.7688994273367786,
+        "seed": 3407
+      }
+    ]
+  ],
+  "e7_by_seed": [
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.19875331959395756,
+        "ci": 0.8066603160433218,
+        "seed": 7
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.2274420599729241,
+        "ci": 0.7754654063554463,
+        "seed": 7
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.20799002758703108,
+        "ci": 0.7997596437430369,
+        "seed": 42
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.22509765663181508,
+        "ci": 0.7694618728711793,
+        "seed": 42
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.18266084946427194,
+        "ci": 0.8077697897091791,
+        "seed": 123
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.2194772333549031,
+        "ci": 0.7733054661050272,
+        "seed": 123
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.1942032684750295,
+        "ci": 0.8016804689850366,
+        "seed": 2024
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.22796841488330719,
+        "ci": 0.7721743726805887,
+        "seed": 2024
+      }
+    ],
+    [
+      {
+        "target_class": "kinase",
+        "n_samples": 727,
+        "mse": 0.18584165289733773,
+        "ci": 0.8114426821139644,
+        "seed": 3407
+      },
+      {
+        "target_class": "non-kinase",
+        "n_samples": 2279,
+        "mse": 0.22835213944043875,
+        "ci": 0.7710099469086746,
+        "seed": 3407
+      }
+    ]
+  ],
+  "e0_aggregated": [
+    {
+      "target_class": "kinase",
+      "n_samples": 727,
+      "mse_mean": 0.2274606491147813,
+      "mse_std": 0.027415853033440376,
+      "ci_mean": 0.7994448143895379,
+      "ci_std": 0.006571910063311988
+    },
+    {
+      "target_class": "non-kinase",
+      "n_samples": 2279,
+      "mse_mean": 0.25891593720446904,
+      "mse_std": 0.008950711190935884,
+      "ci_mean": 0.7677066789768933,
+      "ci_std": 0.0009642494738679898
+    }
+  ],
+  "e7_aggregated": [
+    {
+      "target_class": "kinase",
+      "n_samples": 727,
+      "mse_mean": 0.19388982360352555,
+      "mse_std": 0.010166495281669737,
+      "ci_mean": 0.8054625801189077,
+      "ci_std": 0.00472618385289698
+    },
+    {
+      "target_class": "non-kinase",
+      "n_samples": 2279,
+      "mse_mean": 0.22566750085667767,
+      "mse_std": 0.0036842463247097144,
+      "ci_mean": 0.7722834129841832,
+      "ci_std": 0.00227839683983927
+    }
+  ],
+  "improvement": [
+    {
+      "target_class": "kinase",
+      "n_samples": 727,
+      "e0_mse_mean": 0.2274606491147813,
+      "e0_mse_std": 0.027415853033440376,
+      "e7_mse_mean": 0.19388982360352555,
+      "e7_mse_std": 0.010166495281669737,
+      "mse_improvement": 14.758959689029652,
+      "e0_ci_mean": 0.7994448143895379,
+      "e0_ci_std": 0.006571910063311988,
+      "e7_ci_mean": 0.8054625801189077,
+      "e7_ci_std": 0.00472618385289698,
+      "ci_improvement": 0.0060177657293698505
+    },
+    {
+      "target_class": "non-kinase",
+      "n_samples": 2279,
+      "e0_mse_mean": 0.25891593720446904,
+      "e0_mse_std": 0.008950711190935884,
+      "e7_mse_mean": 0.22566750085667767,
+      "e7_mse_std": 0.0036842463247097144,
+      "mse_improvement": 12.841402003591105,
+      "e0_ci_mean": 0.7677066789768933,
+      "e0_ci_std": 0.0009642494738679898,
+      "e7_ci_mean": 0.7722834129841832,
+      "e7_ci_std": 0.00227839683983927,
+      "ci_improvement": 0.004576734007289973
+    }
+  ],
+  "n_seeds": 5,
+  "seeds": [
+    7,
+    42,
+    123,
+    2024,
+    3407
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "battaglia2018relational": {
+    "label": "Battaglia et al.(2018)",
+    "claimed_title": "Relational inductive biases, deep learning, and graph networks",
+    "claimed_doi": null,
+    "similarity": 0.333,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Graph Neural Networks for Relational Inductive Bias in Vision-based Deep Reinforcement Learning of Robot Control",
+    "actual_authors": [
+      "Oliva",
+      "Banik",
+      "Josifovski",
+      "Knoll"
+    ],
+    "actual_container": "2022 International Joint Conference on Neural Networks (IJCNN)",
+    "actual_year": 2022,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/ijcnn55064.2022.9892101"
+  },
+  "bepler2019learning": {
+    "label": "Bepler and Berger(2019)",
+    "claimed_title": "Learning protein sequence embeddings using information from structure",
+    "claimed_doi": null,
+    "similarity": 0.24,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "LMPhosSite: A Deep Learning-Based Approach for General Protein Phosphorylation Site Prediction Using Embeddings from the Local Window Sequence and Pretrained Protein Language Model",
+    "actual_authors": [],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1021/acs.jproteome.2c00667.s001"
+  },
+  "caron2021emerging": {
+    "label": "Caron et al.(2021)",
+    "claimed_title": "Emerging properties in self-supervised vision transformers",
+    "claimed_doi": "10.1109/ICCV48922.2021.00951",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Emerging Properties in Self-Supervised Vision Transformers",
+    "actual_authors": [
+      "Caron",
+      "Touvron",
+      "Misra",
+      "Jegou",
+      "Mairal",
+      "Bojanowski",
+      "Joulin"
+    ],
+    "actual_container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "actual_year": 2021,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": "9630-9640",
+    "actual_doi": "10.1109/ICCV48922.2021.00951"
+  },
+  "chen2020simclr": {
+    "label": "Chen et al.(2020)",
+    "claimed_title": "A simple framework for contrastive learning of visual representations",
+    "claimed_doi": "10.48550/arXiv.2002.05709",
+    "status": "DOI_NOT_FOUND"
+  },
+  "chen2020improved": {
+    "label": "Chen and He(2020)",
+    "claimed_title": "Improved baselines with momentum contrastive learning",
+    "claimed_doi": "10.48550/arXiv.2003.04297",
+    "status": "DOI_NOT_FOUND"
+  },
+  "chen2023cross": {
+    "label": "Chen et al.(2023)",
+    "claimed_title": "Cross-modal contrastive learning for drug-target binding affinity prediction",
+    "claimed_doi": "10.1093/bib/bbad045",
+    "similarity": 0.043,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "scGAD: a new task and end-to-end framework for generalized cell type annotation and discovery",
+    "actual_authors": [
+      "Zhai",
+      "Chen",
+      "Deng"
+    ],
+    "actual_container": "Briefings in Bioinformatics",
+    "actual_year": 2023,
+    "actual_volume": "24",
+    "actual_issue": "2",
+    "actual_page": null,
+    "actual_doi": "10.1093/bib/bbad045"
+  },
+  "cohen1988statistical": {
+    "label": "Cohen(1988)",
+    "claimed_title": "Statistical power analysis for the behavioral sciences",
+    "claimed_doi": "10.4324/9780203771587",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Statistical Power Analysis for the Behavioral Sciences",
+    "actual_authors": [
+      "Cohen"
+    ],
+    "actual_container": "",
+    "actual_year": 2013,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.4324/9780203771587"
+  },
+  "davis2011predicting": {
+    "label": "Davis et al.(2011)",
+    "claimed_title": "Predicting new molecular targets for known drugs",
+    "claimed_doi": "10.1038/nature08523",
+    "similarity": 0.0,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Erratum: Genotypic sex determination enabled adaptive radiations of extinct marine reptiles",
+    "actual_authors": [
+      "Organ",
+      "Janes",
+      "Meade",
+      "Pagel"
+    ],
+    "actual_container": "Nature",
+    "actual_year": 2009,
+    "actual_volume": "461",
+    "actual_issue": "7265",
+    "actual_page": "828-828",
+    "actual_doi": "10.1038/nature08523"
+  },
+  "elnaggar2021prottrans": {
+    "label": "Elnaggar et al.(2021)",
+    "claimed_title": "ProtTrans: toward understanding the language of life through self-supervised learning",
+    "claimed_doi": null,
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+    "actual_authors": [
+      "Elnaggar",
+      "Heinzinger",
+      "Dallago",
+      "Rehawi",
+      "Wang",
+      "Jones",
+      "Gibbs",
+      "Feher",
+      "Angerer",
+      "Steinegger",
+      "Bhowmik",
+      "Rost"
+    ],
+    "actual_container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "actual_year": 2022,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/tpami.2021.3095381"
+  },
+  "gilmer2017neural": {
+    "label": "Gilmer et al.(2017)",
+    "claimed_title": "Neural message passing for quantum chemistry",
+    "claimed_doi": null,
+    "similarity": 0.25,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Communication via Message-Passing",
+    "actual_authors": [],
+    "actual_container": "Parallel Computing in Quantum Chemistry",
+    "actual_year": 2008,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1201/9781420051650.ch3"
+  },
+  "glasel2023micro": {
+    "label": "Glasel et al.(2023)",
+    "claimed_title": "MICRO: molecular interaction contrastive learning",
+    "claimed_doi": null,
+    "similarity": 0.267,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Molecular-driven Multi-view Hypergraph Contrastive Learning for Drug-Drug Interaction Prediction_supp1-3672913.pdf",
+    "actual_authors": [
+      "Ning"
+    ],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/tcbbio.2026.3672913/mm1"
+  },
+  "hamilton2017inductive": {
+    "label": "Hamilton et al.(2017)",
+    "claimed_title": "Inductive representation learning on large graphs",
+    "claimed_doi": null,
+    "similarity": 0.4,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Unsupervised Inductive Node Representation Learning for Dynamic Graphs",
+    "actual_authors": [
+      "Zhou",
+      "Abbas"
+    ],
+    "actual_container": "IEEE Access",
+    "actual_year": 2025,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/access.2025.3553377"
+  },
+  "he2020momentum": {
+    "label": "He et al.(2020)",
+    "claimed_title": "Momentum contrast for unsupervised visual representation learning",
+    "claimed_doi": "10.1109/CVPR42600.2020.00975",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+    "actual_authors": [
+      "He",
+      "Fan",
+      "Wu",
+      "Xie",
+      "Girshick"
+    ],
+    "actual_container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "actual_year": 2020,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": "9726-9735",
+    "actual_doi": "10.1109/CVPR42600.2020.00975"
+  },
+  "hicks2019evaluating": {
+    "label": "Hicks et al.(2019)",
+    "claimed_title": "Evaluating drug-target interaction prediction methods",
+    "claimed_doi": "10.1093/bioinformatics/btz318",
+    "similarity": 0.118,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "MOLI: multi-omics late integration with deep neural networks for drug response prediction",
+    "actual_authors": [
+      "Sharifi-Noghabi",
+      "Zolotareva",
+      "Collins",
+      "Ester"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2019,
+    "actual_volume": "35",
+    "actual_issue": "14",
+    "actual_page": "i501-i509",
+    "actual_doi": "10.1093/bioinformatics/btz318"
+  },
+  "holm1979simple": {
+    "label": "Holm(1979)",
+    "claimed_title": "A simple sequentially rejective multiple test procedure",
+    "claimed_doi": "10.2307/4615733",
+    "status": "DOI_NOT_FOUND"
+  },
+  "jiang2021dgraphdta": {
+    "label": "Jiang et al.(2021)",
+    "claimed_title": "DGraphDTA: predicting drug-target binding affinity with relational graph convolutional networks",
+    "claimed_doi": "10.1093/bib/bbab271",
+    "similarity": 0.091,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Artificial intelligence and machine learning methods in predicting anti-cancer drug combination effects",
+    "actual_authors": [
+      "Fan",
+      "Cheng",
+      "Li"
+    ],
+    "actual_container": "Briefings in Bioinformatics",
+    "actual_year": 2021,
+    "actual_volume": "22",
+    "actual_issue": "6",
+    "actual_page": null,
+    "actual_doi": "10.1093/bib/bbab271"
+  },
+  "kipf2017semi": {
+    "label": "Kipf and Welling(2017)",
+    "claimed_title": "Semi-supervised classification with graph convolutional networks",
+    "claimed_doi": null,
+    "similarity": 0.667,
+    "status": "VERIFIED",
+    "actual_title": "Hybrid Graph Convolutional Networks for Semi-Supervised Classification",
+    "actual_authors": [],
+    "actual_container": "Proceedings of 2019 the 9th International Workshop on Computer Science and Engineering",
+    "actual_year": 2019,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.18178/wcse.2019.06.016"
+  },
+  "li2023self": {
+    "label": "Li et al.(2023)",
+    "claimed_title": "Self-supervised drug-target affinity prediction with contrastive learning",
+    "claimed_doi": "10.1109/TCBB.2023.3256789",
+    "status": "DOI_NOT_FOUND"
+  },
+  "lin2021ketodt": {
+    "label": "Lin et al.(2021)",
+    "claimed_title": "KETODT: knowledge-enhanced drug-target interaction prediction",
+    "claimed_doi": "10.1093/bioinformatics/btaa1026",
+    "similarity": 0.0,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Complete populations of virtual patients for<i>in silico</i>clinical trials",
+    "actual_authors": [
+      "Sinisi",
+      "Alimguzhin",
+      "Mancini",
+      "Tronci",
+      "Leeners"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2021,
+    "actual_volume": "36",
+    "actual_issue": "22-23",
+    "actual_page": "5465-5472",
+    "actual_doi": "10.1093/bioinformatics/btaa1026"
+  },
+  "liu2021self": {
+    "label": "Liu et al.(2021)",
+    "claimed_title": "Self-supervised graph representation learning for molecular property prediction",
+    "claimed_doi": null,
+    "similarity": 0.778,
+    "status": "VERIFIED",
+    "actual_title": "Self-Supervised Learning for Molecular Property Prediction",
+    "actual_authors": [
+      "Dillard"
+    ],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.26434/chemrxiv-2021-vr43g"
+  },
+  "lin2023evolutionary": {
+    "label": "Lin et al.(2023)",
+    "claimed_title": "Evolutionary-scale prediction of atomic level protein structure with a language model",
+    "claimed_doi": "10.1126/science.ade2574",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+    "actual_authors": [
+      "Lin",
+      "Akin",
+      "Rao",
+      "Hie",
+      "Zhu",
+      "Lu",
+      "Smetanin",
+      "Verkuil",
+      "Kabeli",
+      "Shmueli",
+      "dos Santos Costa",
+      "Fazel-Zarandi",
+      "Sercu",
+      "Candido",
+      "Rives"
+    ],
+    "actual_container": "Science",
+    "actual_year": 2023,
+    "actual_volume": "379",
+    "actual_issue": "6637",
+    "actual_page": "1123-1130",
+    "actual_doi": "10.1126/science.ade2574"
+  },
+  "abbasi2020deepcda": {
+    "label": "Abbasi et al.(2020)",
+    "claimed_title": "DeepCDA: deep learning-based compound-drug affinity prediction using drug-target interaction networks",
+    "claimed_doi": "10.1093/bioinformatics/btaa093",
+    "similarity": 0.0,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Methplotlib: analysis of modified nucleotides from nanopore sequencing",
+    "actual_authors": [
+      "De Coster",
+      "Stovner",
+      "Strazisar"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2020,
+    "actual_volume": "36",
+    "actual_issue": "10",
+    "actual_page": "3236-3238",
+    "actual_doi": "10.1093/bioinformatics/btaa093"
+  },
+  "li2020monn": {
+    "label": "Li et al.(2020)",
+    "claimed_title": "MONN: a multi-objective multi-neural network for drug-target interaction prediction",
+    "claimed_doi": "10.1016/j.cels.2020.08.004",
+    "similarity": 0.045,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "A High-Throughput Genome-Integrated Assay Reveals Spatial Dependencies Governing Tcf7l2 Binding",
+    "actual_authors": [
+      "Szczesnik",
+      "Chu",
+      "Ho",
+      "Sherwood"
+    ],
+    "actual_container": "Cell Systems",
+    "actual_year": 2020,
+    "actual_volume": "11",
+    "actual_issue": "3",
+    "actual_page": "315-327.e5",
+    "actual_doi": "10.1016/j.cels.2020.08.004"
+  },
+  "nguyen2021graphdta": {
+    "label": "Nguyen et al.(2021)",
+    "claimed_title": "GraphDTA: predicting drug–target binding affinity with graph neural networks",
+    "claimed_doi": "10.1093/bioinformatics/btaa987",
+    "similarity": 0.0,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Ultra-fast scalable estimation of single-cell differentiation potency from scRNA-Seq data",
+    "actual_authors": [
+      "Teschendorff",
+      "Maity",
+      "Hu",
+      "Weiyan",
+      "Lechner"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2021,
+    "actual_volume": "37",
+    "actual_issue": "11",
+    "actual_page": "1528-1534",
+    "actual_doi": "10.1093/bioinformatics/btaa987"
+  },
+  "ozturk2018deepdta": {
+    "label": "Öztürk et al.(2018)",
+    "claimed_title": "DeepDTA: deep drug–target binding affinity prediction",
+    "claimed_doi": "10.1093/bioinformatics/bty593",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "DeepDTA: deep drug–target binding affinity prediction",
+    "actual_authors": [
+      "Öztürk",
+      "Özgür",
+      "Ozkirimli"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2018,
+    "actual_volume": "34",
+    "actual_issue": "17",
+    "actual_page": "i821-i829",
+    "actual_doi": "10.1093/bioinformatics/bty593"
+  },
+  "ozturk2019widedta": {
+    "label": "Öztürk et al.(2019)",
+    "claimed_title": "WideDTA: prediction of drug-target binding affinity",
+    "claimed_doi": null,
+    "similarity": 0.333,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "MambaTransDTA: A Hybrid Mamba-Transformer Architecture for Accurate Drug-Target Binding Affinity Prediction",
+    "actual_authors": [],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1021/acs.jcim.5c02361.s001"
+  },
+  "rao2021evaluating": {
+    "label": "Rao et al.(2021)",
+    "claimed_title": "Evaluating protein transfer learning with TAPE",
+    "claimed_doi": null,
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Evaluating Protein Transfer Learning with TAPE",
+    "actual_authors": [
+      "Rao",
+      "Bhattacharya",
+      "Thomas",
+      "Duan",
+      "Chen",
+      "Canny",
+      "Abbeel",
+      "Song"
+    ],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1101/676825"
+  },
+  "rives2021biological": {
+    "label": "Rives et al.(2021)",
+    "claimed_title": "Biological structure and function emerge from scaling unsupervised learning to 250 million proteins",
+    "claimed_doi": null,
+    "similarity": 0.632,
+    "status": "VERIFIED",
+    "actual_title": "Faculty Opinions recommendation of Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences.",
+    "actual_authors": [
+      "Thompson"
+    ],
+    "actual_container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+    "actual_year": 2022,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.3410/f.739876259.793593441"
+  },
+  "stark2022contrastive": {
+    "label": "Stark et al.(2022)",
+    "claimed_title": "Contrastive molecular representation learning with geometric augmentations",
+    "claimed_doi": null,
+    "similarity": 0.5,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Molecular Graph Contrastive Learning with Parameterized Explainable Augmentations",
+    "actual_authors": [
+      "Wang",
+      "Min",
+      "Shao",
+      "Wu"
+    ],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1101/2021.12.03.471150"
+  },
+  "tang2014kiba": {
+    "label": "Tang et al.(2014)",
+    "claimed_title": "KIBA: kinetic inhibitor binding affinity database",
+    "claimed_doi": "10.1093/bioinformatics/btu070",
+    "similarity": 0.0,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "MRHMMs: Multivariate Regression Hidden Markov Models and the variantS",
+    "actual_authors": [
+      "Lee",
+      "Ghosh",
+      "Hardison",
+      "Zhang"
+    ],
+    "actual_container": "Bioinformatics",
+    "actual_year": 2014,
+    "actual_volume": "30",
+    "actual_issue": "12",
+    "actual_page": "1755-1756",
+    "actual_doi": "10.1093/bioinformatics/btu070"
+  },
+  "velickovic2018gat": {
+    "label": "Veličković et al.(2018)",
+    "claimed_title": "Graph attention networks",
+    "claimed_doi": "10.17863/CAM.48429",
+    "status": "DOI_NOT_FOUND"
+  },
+  "vig2021bertology": {
+    "label": "Vig and Chuang(2021)",
+    "claimed_title": "BERTology: there and back again",
+    "claimed_doi": null,
+    "similarity": 0.133,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Figure 1: The architecture of Chinese-BERTology-wwm-GCN includes Chinese-BERTology-wwm and GCN modules.",
+    "actual_authors": [],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.7717/peerj-cs.1544/fig-1"
+  },
+  "wang2022molclr": {
+    "label": "Wang et al.(2022)",
+    "claimed_title": "Molecular contrastive learning of representations via graph neural networks",
+    "claimed_doi": "10.1038/s42256-022-00447-x",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Molecular contrastive learning of representations via graph neural networks",
+    "actual_authors": [
+      "Wang",
+      "Wang",
+      "Cao",
+      "Barati Farimani"
+    ],
+    "actual_container": "Nature Machine Intelligence",
+    "actual_year": 2022,
+    "actual_volume": "4",
+    "actual_issue": "3",
+    "actual_page": "279-287",
+    "actual_doi": "10.1038/s42256-022-00447-x"
+  },
+  "zhang2021motif": {
+    "label": "Zhang et al.(2021)",
+    "claimed_title": "Motif-based graph self-supervised learning for molecular property prediction",
+    "claimed_doi": null,
+    "similarity": 0.35,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "Molecular Property Prediction Based on Multi-Level Graph Self-Supervised Pretraining and Multi-Grain Finetuning_supp1-3577899.pdf",
+    "actual_authors": [
+      "Xiong"
+    ],
+    "actual_container": "",
+    "actual_year": null,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/tcbbio.2025.3577899/mm1"
+  },
+  "wang2024csco": {
+    "label": "Wang et al.(2024)",
+    "claimed_title": "Predicting drug--target binding affinity with cross-scale graph contrastive learning",
+    "claimed_doi": "10.1093/bib/bbad516",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Predicting drug–target binding affinity with cross-scale graph contrastive learning",
+    "actual_authors": [
+      "Wang",
+      "Xiao",
+      "Shang",
+      "Peng"
+    ],
+    "actual_container": "Briefings in Bioinformatics",
+    "actual_year": 2023,
+    "actual_volume": "25",
+    "actual_issue": "1",
+    "actual_page": null,
+    "actual_doi": "10.1093/bib/bbad516"
+  },
+  "tian2024drug": {
+    "label": "Tian et al.(2024)",
+    "claimed_title": "Drug-target interaction prediction with collaborative contrastive learning and adaptive self-paced sampling strategy",
+    "claimed_doi": "10.1186/s12915-024-02012-x",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Drug-target interaction prediction with collaborative contrastive learning and adaptive self-paced sampling strategy",
+    "actual_authors": [
+      "Tian",
+      "Yu",
+      "Ni",
+      "Zou"
+    ],
+    "actual_container": "BMC Biology",
+    "actual_year": 2024,
+    "actual_volume": "22",
+    "actual_issue": "1",
+    "actual_page": null,
+    "actual_doi": "10.1186/s12915-024-02012-x"
+  },
+  "xu2019powerful": {
+    "label": "Xu et al.(2019)",
+    "claimed_title": "How powerful are graph neural networks? ICLR",
+    "claimed_doi": null,
+    "similarity": 0.545,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "How Powerful Are K-Hop Message Passing Graph Neural Networks",
+    "actual_authors": [
+      "Feng",
+      "Chen",
+      "Li",
+      "Sarkar",
+      "Zhang"
+    ],
+    "actual_container": "Advances in Neural Information Processing Systems 35",
+    "actual_year": 2022,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.52202/068431-0345"
+  },
+  "yang2024graphcl": {
+    "label": "Yang et al.(2024)",
+    "claimed_title": "GraphCL-DTA: a graph contrastive learning with molecular semantics for drug-target binding affinity prediction",
+    "claimed_doi": "10.1109/JBHI.2024.3350666",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "GraphCL-DTA: A Graph Contrastive Learning With Molecular Semantics for Drug-Target Binding Affinity Prediction",
+    "actual_authors": [
+      "Yang",
+      "Yang",
+      "Chu"
+    ],
+    "actual_container": "IEEE Journal of Biomedical and Health Informatics",
+    "actual_year": 2024,
+    "actual_volume": "28",
+    "actual_issue": "8",
+    "actual_page": "4544-4552",
+    "actual_doi": "10.1109/JBHI.2024.3350666"
+  },
+  "you2020graphcl": {
+    "label": "You et al.(2020)",
+    "claimed_title": "Graph contrastive learning with augmentations",
+    "claimed_doi": "10.48550/arXiv.2010.13902",
+    "status": "DOI_NOT_FOUND"
+  },
+  "sun2020infograph": {
+    "label": "Sun et al.(2020)",
+    "claimed_title": "InfoGraph: unsupervised and semi-supervised graph-level representation learning via mutual information maximization",
+    "claimed_doi": null,
+    "similarity": 0.471,
+    "status": "TITLE_MISMATCH",
+    "actual_title": "MUSCLE: Strengthening Semi-Supervised Learning Via Concurrent Unsupervised Learning Using Mutual Information Maximization",
+    "actual_authors": [
+      "Xie",
+      "Hussein",
+      "Galstyan",
+      "Abd-Almageed"
+    ],
+    "actual_container": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+    "actual_year": 2021,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.1109/wacv48630.2021.00263"
+  },
+  "zheng2025mlc": {
+    "label": "Zheng et al.(2025)",
+    "claimed_title": "MLC-DTA: drug-target affinity prediction based on multi-level contrastive learning and equivariant graph neural networks",
+    "claimed_doi": "10.1016/j.neucom.2025.130052",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "MLC-DTA: Drug-target affinity prediction based on multi-level contrastive learning and equivariant graph neural networks",
+    "actual_authors": [
+      "Zheng",
+      "Sun",
+      "Fan"
+    ],
+    "actual_container": "Neurocomputing",
+    "actual_year": 2025,
+    "actual_volume": "637",
+    "actual_issue": null,
+    "actual_page": "130052",
+    "actual_doi": "10.1016/j.neucom.2025.130052"
+  },
+  "zhao2021csgnn": {
+    "label": "Zhao et al.(2021)",
+    "claimed_title": "CSGNN: Contrastive self-supervised graph neural network for molecular interaction prediction",
+    "claimed_doi": null,
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "CSGNN: Contrastive Self-Supervised Graph Neural Network for Molecular Interaction Prediction",
+    "actual_authors": [
+      "Zhao",
+      "Liu",
+      "Huang",
+      "Liu",
+      "Zhang"
+    ],
+    "actual_container": "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence",
+    "actual_year": 2021,
+    "actual_volume": null,
+    "actual_issue": null,
+    "actual_page": null,
+    "actual_doi": "10.24963/ijcai.2021/517"
+  },
+  "hedges1981estimation": {
+    "label": "Hedges(1981)",
+    "claimed_title": "Distribution theory for Glass's estimator of effect size and related estimators",
+    "claimed_doi": "10.3102/10769986006002107",
+    "similarity": 1.0,
+    "status": "VERIFIED",
+    "actual_title": "Distribution Theory for Glass's Estimator of Effect size and Related Estimators",
+    "actual_authors": [
+      "Hedges"
+    ],
+    "actual_container": "Journal of Educational Statistics",
+    "actual_year": 1981,
+    "actual_volume": "6",
+    "actual_issue": "2",
+    "actual_page": "107-128",
+    "actual_doi": "10.3102/10769986006002107"
+  }
+}

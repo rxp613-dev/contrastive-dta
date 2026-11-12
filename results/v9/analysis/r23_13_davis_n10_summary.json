@@ -1,0 +1,76 @@
+{
+  "script": "scripts/r23_13_davis_n10.py",
+  "timestamp": "2026-10-10 03:00:47",
+  "new_seeds": [
+    251,
+    1496,
+    5934,
+    7350,
+    9889
+  ],
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "results": [
+    {
+      "exp_id": "E0_seed251",
+      "status": "success",
+      "detail": "OK mse=0.2618 ci=0.8803 ep=222",
+      "elapsed_min": 30.1
+    },
+    {
+      "exp_id": "E0_seed1496",
+      "status": "success",
+      "detail": "OK mse=0.2550 ci=0.8839 ep=209",
+      "elapsed_min": 29.7
+    },
+    {
+      "exp_id": "E0_seed5934",
+      "status": "success",
+      "detail": "OK mse=0.2431 ci=0.8850 ep=282",
+      "elapsed_min": 36.8
+    },
+    {
+      "exp_id": "E0_seed7350",
+      "status": "success",
+      "detail": "OK mse=0.2444 ci=0.8858 ep=187",
+      "elapsed_min": 26.9
+    },
+    {
+      "exp_id": "E0_seed9889",
+      "status": "success",
+      "detail": "OK mse=0.2453 ci=0.8860 ep=225",
+      "elapsed_min": 30.3
+    },
+    {
+      "exp_id": "E7_alpha005_seed251",
+      "status": "success",
+      "detail": "OK mse=0.2238 ci=0.8898 ep=179",
+      "elapsed_min": 26.2
+    },
+    {
+      "exp_id": "E7_alpha005_seed1496",
+      "status": "success",
+      "detail": "OK mse=0.2154 ci=0.8917 ep=143",
+      "elapsed_min": 22.2
+    },
+    {
+      "exp_id": "E7_alpha005_seed5934",
+      "status": "success",
+      "detail": "OK mse=0.2207 ci=0.8898 ep=193",
+      "elapsed_min": 28.0
+    },
+    {
+      "exp_id": "E7_alpha005_seed7350",
+      "status": "success",
+      "detail": "OK mse=0.2134 ci=0.8940 ep=215",
+      "elapsed_min": 29.7
+    },
+    {
+      "exp_id": "E7_alpha005_seed9889",
+      "status": "success",
+      "detail": "OK mse=0.2165 ci=0.8908 ep=199",
+      "elapsed_min": 28.3
+    }
+  ]
+}

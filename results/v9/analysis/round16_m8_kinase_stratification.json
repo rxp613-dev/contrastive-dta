@@ -1,0 +1,27 @@
+{
+  "dataset_composition": {
+    "kinase_samples": 727,
+    "non_kinase_samples": 2279,
+    "kinase_proportion": 0.24184963406520293
+  },
+  "stratified_performance": {
+    "kinase": {
+      "n_samples": 727,
+      "e0_mse": 0.22921775806875375,
+      "e0_ci": 0.7980871553549787,
+      "e7_mse": 0.20799002758703108,
+      "e7_ci": 0.7997596437430369,
+      "mse_improvement": 9.260944989853455,
+      "ci_improvement": 0.0016724883880582242
+    },
+    "non-kinase": {
+      "n_samples": 2279,
+      "e0_mse": 0.26162703177873803,
+      "e0_ci": 0.7680049873931948,
+      "e7_mse": 0.22509765663181508,
+      "e7_ci": 0.7694618728711793,
+      "mse_improvement": 13.962385652036291,
+      "ci_improvement": 0.0014568854779845042
+    }
+  }
+}

@@ -1,0 +1,58 @@
+% Replace Cohen's d with Hedges' g in tables and text
+% Format: g = X.XX [95% CI: X.XX, X.XX]
+
+% E7 vs E0 (Davis):
+% Old: d = 3.44
+% New: g = 2.75 [95% CI: 1.53, 8.07]
+
+% E1 vs E0:
+% Old: d = 2.94
+% New: g = 2.35 [95% CI: 1.28, 6.95]
+
+% E2 vs E0:
+% Old: d = 2.76
+% New: g = 2.21 [95% CI: 1.18, 6.55]
+
+% E3 vs E0:
+% Old: d = 2.63
+% New: g = 2.10 [95% CI: 1.11, 6.26]
+
+% E4 vs E0:
+% Old: d = 3.09
+% New: g = 2.47 [95% CI: 1.35, 7.28]
+
+% E5 vs E0:
+% Old: d = 3.21
+% New: g = 2.57 [95% CI: 1.42, 7.55]
+
+% E6 vs E0:
+% Old: d = 2.55
+% New: g = 2.04 [95% CI: 1.07, 6.08]
+
+% GAT cold-drug:
+% Old: d = -1.42
+% New: g = -1.14 [95% CI: -3.62, -0.41]
+
+% GAT cold-target:
+% Old: d = -7.78
+% New: g = -6.22 [95% CI: -17.96, -3.68]
+
+% GAT cold-both:
+% Old: d = -0.88
+% New: g = -0.70 [95% CI: -2.52, -0.00]
+
+% KIBA α=0.50:
+% Old: d = 1.90
+% New: g = 1.74 [95% CI: 1.02, 3.38]
+
+% GIN cold-drug:
+% Old: d = 0.96
+% New: g = 0.77 [95% CI: 0.07, 2.68]
+
+% GIN cold-both:
+% Old: d = 0.42
+% New: g = 0.34 [95% CI: -0.45, 1.67]
+
+% GIN cold-target:
+% Old: d = 0.44
+% New: g = 0.35 [95% CI: -0.43, 1.70]

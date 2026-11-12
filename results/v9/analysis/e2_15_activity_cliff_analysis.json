@@ -1,0 +1,59 @@
+{
+  "activity_cliffs": {
+    "n_pairs": 17,
+    "n_molecules": 28,
+    "sim_threshold": 0.85,
+    "act_threshold": 2.0,
+    "high_sim_pairs_total": 584,
+    "performance": {
+      "spearman_rho": -0.17809719537167543,
+      "spearman_p": 0.36455785757700954,
+      "mae": 1.7709409809112553
+    }
+  },
+  "non_cliff": {
+    "n_pairs": 567,
+    "n_molecules": 1799,
+    "performance": {
+      "spearman_rho": 0.3562142840787421,
+      "spearman_p": 5.9201112458229625e-55,
+      "mae": 1.8117803986195793
+    }
+  },
+  "cliff_pairs": {
+    "n_pairs": 17,
+    "mean_act_diff": 2.585294117647059,
+    "mean_pred_diff": 0.19075776268454145,
+    "mean_error": 2.394536354962518,
+    "act_pred_correlation": -0.08588957055214724,
+    "direction_accuracy": 0.47058823529411764
+  },
+  "sali": {
+    "n_samples_per_molecule": 200,
+    "mean_max_sali": 13.717693615415856,
+    "mean_mean_sali": 1.8468540785050838,
+    "sali_error_correlation": 0.0005411998251017687,
+    "quartile_performance": {
+      "Q1": {
+        "n": 457,
+        "mean_error": 1.8774284138043025,
+        "rho": 0.12710959131194746
+      },
+      "Q2": {
+        "n": 457,
+        "mean_error": 1.7220413332799331,
+        "rho": 0.31382772127354586
+      },
+      "Q3": {
+        "n": 456,
+        "mean_error": 1.7611599905658186,
+        "rho": 0.4789544163442094
+      },
+      "Q4": {
+        "n": 457,
+        "mean_error": 1.8838788938000637,
+        "rho": 0.2955121572149018
+      }
+    }
+  }
+}

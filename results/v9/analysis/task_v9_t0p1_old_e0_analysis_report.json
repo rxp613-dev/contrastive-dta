@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-10-22T07:18:09.793681",
+  "task": "T0.1: \u65e710\u79cd\u5b50E0\u9010epoch\u66f2\u7ebf\u5206\u6790",
+  "total_seeds": 10,
+  "escape_threshold": {
+    "epochs": 100,
+    "val_mse": 0.3
+  },
+  "summary": {
+    "escaped": 0,
+    "stuck": 10,
+    "escape_rate_percent": 0.0
+  },
+  "per_seed_results": [
+    {
+      "seed": 0,
+      "total_epochs": 57,
+      "best_val_mse": 0.5712774395942688,
+      "best_epoch": 7,
+      "final_val_ci": 0.7503879441959298,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 59,
+      "best_val_mse": 0.5923182368278503,
+      "best_epoch": 9,
+      "final_val_ci": 0.7472135455114621,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 64,
+      "best_val_mse": 0.5209179520606995,
+      "best_epoch": 14,
+      "final_val_ci": 0.7581755800441226,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 56,
+      "best_val_mse": 0.5713779926300049,
+      "best_epoch": 6,
+      "final_val_ci": 0.7571847553489385,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 62,
+      "best_val_mse": 0.6036323308944702,
+      "best_epoch": 12,
+      "final_val_ci": 0.7495786840780216,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 62,
+      "best_val_mse": 0.5753234624862671,
+      "best_epoch": 12,
+      "final_val_ci": 0.7400447818963702,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 64,
+      "best_val_mse": 0.5537869334220886,
+      "best_epoch": 14,
+      "final_val_ci": 0.7571152514317837,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 70,
+      "best_val_mse": 0.4878678619861603,
+      "best_epoch": 20,
+      "final_val_ci": 0.7535432078035207,
+      "final_lr": 1.5625e-05,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 114,
+      "best_val_mse": 0.4605640172958374,
+      "best_epoch": 64,
+      "final_val_ci": 0.7794151469577615,
+      "final_lr": 3.90625e-06,
+      "escaped": false
+    },
+    {
+      "seed": 0,
+      "total_epochs": 62,
+      "best_val_mse": 0.5273643136024475,
+      "best_epoch": 12,
+      "final_val_ci": 0.7528040543386109,
+      "final_lr": 3.125e-05,
+      "escaped": false
+    }
+  ]
+}

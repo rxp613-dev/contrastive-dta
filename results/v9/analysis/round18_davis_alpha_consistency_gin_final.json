@@ -1,0 +1,69 @@
+{
+  "experiment": "GIN Davis \u03b1 consistency verification (E8 directories)",
+  "data_source": "GIN architecture from E8 directories",
+  "alpha_values_tested": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "per_seed_results": [
+    {
+      "seed": 42,
+      "optimal_alpha": 0.1,
+      "optimal_mse": 0.22007615864276886,
+      "all_mses": {
+        "0.01": 0.2320985496044159,
+        "0.05": 0.22039492428302765,
+        "0.1": 0.22007615864276886
+      }
+    },
+    {
+      "seed": 3407,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.2134859561920166,
+      "all_mses": {
+        "0.01": 0.2216225266456604,
+        "0.05": 0.2134859561920166,
+        "0.1": 0.21588362753391266
+      }
+    },
+    {
+      "seed": 2024,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.21973277628421783,
+      "all_mses": {
+        "0.01": 0.22020794451236725,
+        "0.05": 0.21973277628421783,
+        "0.1": 0.22469304502010345
+      }
+    },
+    {
+      "seed": 7,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.21350577473640442,
+      "all_mses": {
+        "0.01": 0.23086939752101898,
+        "0.05": 0.21350577473640442,
+        "0.1": 0.22657538950443268
+      }
+    },
+    {
+      "seed": 123,
+      "optimal_alpha": 0.05,
+      "optimal_mse": 0.21697528660297394,
+      "all_mses": {
+        "0.01": 0.22062133252620697,
+        "0.05": 0.21697528660297394,
+        "0.1": 0.21776515245437622
+      }
+    }
+  ],
+  "test_set_optimal_alpha": 0.05,
+  "matching_seeds": 4,
+  "total_seeds": 5,
+  "consistency_rate": 80.0,
+  "alpha_distribution": {
+    "0.1": 1,
+    "0.05": 4
+  }
+}
