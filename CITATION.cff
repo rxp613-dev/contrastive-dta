@@ -22,16 +22,19 @@ authors:
   - family-names: "Zhang"
     given-names: "Yan"
     affiliation: "YaoPharma Co., Ltd., Chongqing, China"
-version: 1.0.0
-date-released: 2026-09-10
-url: "https://github.com/contrastive-dta/contrastive-dta"
-doi: "[Zenodo DOI to be added]"
+version: 1.1.0
+date-released: 2026-11-15
+url: "https://github.com/rxp613-dev/contrastive-dta"
+doi: "10.5281/zenodo.23308152"
 abstract: |
   Complete reproducibility package for our systematic empirical benchmark of contrastive
-  learning (CL) for drug-target affinity (DTA) prediction. Includes 300+ training runs
-  across 5 dimensions, 115-directory audit with config-level verification, Holm-corrected
-  statistical analysis, an authoritative n=10 KIBA scan (monotonic dose-response,
-  +42.74% at α=0.1, Holm p=0.001), and α-dependent cold-target vulnerability analysis.
+  learning (CL) for drug-target affinity (DTA) prediction. This v1.1.0 release includes
+  the V9 convergent-protocol (Config C) reassessment: the original apparent gains
+  (+26% to +62%) were shown to reflect CL stabilizing a prematurely stopped baseline
+  rather than genuine improvement; under the convergent protocol, CL does not produce
+  net gain and may even harm cold-target generalization. Includes 300+ training runs,
+  115-directory audit with config-level verification, Holm-corrected statistical analysis,
+  and comprehensive supplementary materials (S1–S8).
 keywords:
   - "drug-target affinity"
   - "contrastive learning"
@@ -41,4 +44,4 @@ keywords:
   - "GIN"
   - "GAT"
 license: "MIT"
-repository-code: "https://github.com/contrastive-dta/contrastive-dta"
+repository-code: "https://github.com/rxp613-dev/contrastive-dta"
